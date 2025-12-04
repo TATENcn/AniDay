@@ -1,0 +1,7 @@
+{
+  "name": "server",
+  "main": "src/main.ts",
+  "dependencies": {
+    "elysia": "^1.4.18"
+  }
+}
