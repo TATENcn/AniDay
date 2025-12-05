@@ -2,6 +2,10 @@
   "name": "server",
   "main": "src/main.ts",
   "dependencies": {
-    "elysia": "^1.4.18"
+    "elysia": "^1.4.18",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.3"
   }
 }
