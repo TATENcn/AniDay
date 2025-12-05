@@ -1,9 +1,9 @@
-import { z } from "zod";
+import { t } from "elysia";
 
-const schema = z.object({
-  SERVER_PORT: z.coerce.number(),
-  SERVER_HOST: z.string(),
+const schema = t.Object({
+  SERVER_PORT: t.Numeric(),
+  SERVER_HOST: t.String(),
 });
 
-export type Schema = z.infer<typeof schema>;
+export type Schema = typeof schema.static;
 export default schema.parse(process.env);
