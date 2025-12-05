@@ -9,7 +9,7 @@
     }
   },
   "scripts": {
-    "run:server": "bun run server/src/main.ts"
+    "run:server": "bun run server/src/index.ts"
   },
   "packageManager": "bun@1.3.2",
   "devDependencies": {

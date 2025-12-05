@@ -1,6 +1,6 @@
 {
   "name": "server",
-  "main": "src/main.ts",
+  "main": "src/index.ts",
   "dependencies": {
     "@elysiajs/openapi": "^1.4.11",
     "elysia": "^1.4.18"
