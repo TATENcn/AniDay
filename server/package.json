@@ -2,8 +2,8 @@
   "name": "server",
   "main": "src/main.ts",
   "dependencies": {
-    "elysia": "^1.4.18",
-    "zod": "^4.1.13"
+    "@elysiajs/openapi": "^1.4.11",
+    "elysia": "^1.4.18"
   },
   "devDependencies": {
     "@types/bun": "^1.3.3"
