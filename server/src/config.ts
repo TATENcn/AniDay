@@ -1,4 +1,5 @@
 import { t } from "elysia";
+import { compile } from "elysia/type-system/utils";
 
 const schema = t.Object({
   SERVER_PORT: t.Numeric(),
@@ -6,4 +7,4 @@ const schema = t.Object({
 });
 
 export type Schema = typeof schema.static;
-export default schema.parse(process.env);
+export default compile(schema).Decode(process.env);
