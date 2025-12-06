@@ -1,10 +1,9 @@
-import z from "zod";
+interface IConfig {
+  serverHost: string;
+  serverPort: number;
+}
 
-const environmentSchema = z.object({
-  SERVER_HOST: z.url(),
-  SERVER_PORT: z.coerce.number().int().positive(),
-});
-
-const config = environmentSchema.parse(process.env);
-
-export default config;
+export default {
+  serverHost: "http://localhost",
+  serverPort: 3000,
+} satisfies IConfig;
