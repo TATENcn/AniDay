@@ -2,7 +2,8 @@
   "name": "workspace",
   "workspaces": {
     "packages": [
-      "server"
+      "server",
+      "website"
     ],
     "catalog": {
       "@biomejs/biome": "^2.3.8"

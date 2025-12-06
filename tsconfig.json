@@ -14,5 +14,8 @@
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true
   },
-  "references": [{ "path": "./server/tsconfig.json" }]
+  "references": [
+    { "path": "./server/tsconfig.json" },
+    { "path": "./website/tsconfig.json" }
+  ]
 }

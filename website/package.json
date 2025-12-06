@@ -1,0 +1,15 @@
+{
+  "name": "website",
+  "dependencies": {
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "server": "workspace:*",
+    "vite": "^7.2.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "@types/react-dom": "^19.2.3",
+    "@types/react": "^19.2.7",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
