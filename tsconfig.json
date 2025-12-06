@@ -1,13 +1,18 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
+    "lib": ["ESNext"],
     "target": "ESNext",
+    "module": "esnext",
+    "moduleDetection": "force",
+    "allowJs": true,
     "moduleResolution": "bundler",
-    "strict": true,
-    "verbatimModuleSyntax": true,
-    "skipLibCheck": true,
     "allowImportingTsExtensions": false,
-    "allowJs": false
+    "verbatimModuleSyntax": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true
   },
   "references": [{ "path": "./server/tsconfig.json" }]
 }
