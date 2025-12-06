@@ -1,8 +1,15 @@
+# dependencies
 node_modules
 
+# dotenv environment variable files
 .env
-.env.develop
-.env.test
-.env.production
-.env.dev
-.env.prod
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# IntelliJ based IDEs
+.idea
+
+# Finder (MacOS) folder config
+.DS_Store
