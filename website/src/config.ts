@@ -1,9 +1,9 @@
 interface IConfig {
-  serverHost: string;
-  serverPort: number;
+	serverHost: string;
+	serverPort: number;
 }
 
 export default {
-  serverHost: "http://localhost",
-  serverPort: 3000,
+	serverHost: "http://localhost",
+	serverPort: 3000,
 } satisfies IConfig;

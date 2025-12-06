@@ -1,16 +1,16 @@
 {
-  "extends": "../tsconfig.json",
-  "compilerOptions": {
-    "lib": ["ESNext", "DOM"],
-    "jsx": "react-jsx",
-    "composite": true,
+	"extends": "../tsconfig.json",
+	"compilerOptions": {
+		"lib": ["ESNext", "DOM"],
+		"jsx": "react-jsx",
+		"composite": true,
 
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
-  },
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*"]
+		}
+	},
 
-  "exclude": ["dist", "node_modules"],
-  "references": [{ "path": "../server/tsconfig.json" }]
+	"exclude": ["dist", "node_modules"],
+	"references": [{ "path": "../server/tsconfig.json" }]
 }

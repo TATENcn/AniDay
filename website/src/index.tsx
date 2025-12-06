@@ -11,7 +11,7 @@ const queryClient = new QueryClient();
 
 const root = createRoot(element);
 root.render(
-  <QueryClientProvider client={queryClient}>
-    <RouterProvider router={router} />
-  </QueryClientProvider>
+	<QueryClientProvider client={queryClient}>
+		<RouterProvider router={router} />
+	</QueryClientProvider>,
 );
