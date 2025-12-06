@@ -2,11 +2,13 @@
   "name": "website",
   "type": "module",
   "dependencies": {
+    "@elysiajs/eden": "^1.4.5",
     "@tanstack/react-query": "^5.90.12",
     "@tanstack/react-router": "^1.139.14",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
-    "server": "workspace:*"
+    "server": "workspace:*",
+    "zod": "^4.1.13"
   },
   "devDependencies": {
     "vite": "^7.2.6",
