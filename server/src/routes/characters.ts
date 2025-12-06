@@ -40,3 +40,4 @@ const route = new Elysia()
   );
 
 export { route };
+export type ICharacterResponse = typeof characterResponseSchema.static;

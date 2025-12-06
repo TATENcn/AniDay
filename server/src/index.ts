@@ -14,3 +14,4 @@ const app = new Elysia()
 
 export { app };
 export type App = typeof app;
+export type { ICharacterResponse } from "./routes/characters";
