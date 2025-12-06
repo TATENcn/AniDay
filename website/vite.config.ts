@@ -6,7 +6,7 @@ import { tanstackRouter } from "@tanstack/router-plugin/vite";
 
 export default defineConfig({
   plugins: [
-    tanstackRouter({ generatedRouteTree: false }),
+    tanstackRouter({ enableRouteGeneration: false }),
     viteReact(),
     tsconfigPaths(),
     devtools(),

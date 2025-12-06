@@ -10,11 +10,16 @@ import {
 } from "@tanstack/react-router";
 import { TanStackRouterDevtoolsPanel } from "@tanstack/react-router-devtools";
 import IndexPage from "./pages";
+import { ReactQueryDevtoolsPanel } from "@tanstack/react-query-devtools";
 
 const devtoolsPlugins: TanStackDevtoolsReactPlugin[] = [
   {
     name: "Tanstack Router",
     render: <TanStackRouterDevtoolsPanel />,
+  },
+  {
+    name: "Tanstack Query",
+    render: <ReactQueryDevtoolsPanel />,
   },
 ];
 
