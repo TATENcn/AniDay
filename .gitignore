@@ -13,3 +13,7 @@ node_modules
 
 # Finder (MacOS) folder config
 .DS_Store
+
+# Output
+dist-server
+dist-website
