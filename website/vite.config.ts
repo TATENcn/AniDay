@@ -7,4 +7,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
 	plugins: [tanstackRouter({ enableRouteGeneration: false }), viteReact(), tailwindcss(), tsconfigPaths(), devtools()],
+	build: {
+		outDir: "../dist-website",
+	},
 });
