@@ -1,9 +1,7 @@
-interface IConfig {
-	serverHost: string;
-	serverPort: number;
-}
+import z from "zod";
 
-export default {
-	serverHost: "http://localhost",
-	serverPort: 3000,
-} satisfies IConfig;
+const configSchema = z.object({
+	VITE_API_BASE_URL: z.string(),
+});
+
+export default configSchema.parse(import.meta.env);
