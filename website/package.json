@@ -1,6 +1,10 @@
 {
 	"name": "website",
 	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build"
+	},
 	"dependencies": {
 		"@elysiajs/eden": "^1.4.5",
 		"@tailwindcss/vite": "^4.1.17",
