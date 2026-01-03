@@ -1,1 +1,12 @@
-{}
+[
+  {
+    "name": "零号·安比",
+    "anime": "绝区零",
+    "image_url": "img/Soldier0-Anby.png"
+  },
+  {
+    "name": "安比·德玛拉",
+    "anime": "绝区零",
+    "image_url": "img/Anby-Demara.png"
+  }
+]

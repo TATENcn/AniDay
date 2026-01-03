@@ -1,1 +1,12 @@
-{}
+[
+  {
+    "name": "星见雅",
+    "anime": "绝区零",
+    "image_url": "img/Hoshimi-Miyabi.png"
+  },
+  {
+    "name": "波可娜·费雷尼",
+    "anime": "绝区零",
+    "image_url": "img/Pulchra-Fellini.png"
+  }
+]
