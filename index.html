@@ -1,48 +1,20 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AniDay</title>
-    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KJ4703YGHJ"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-    
       gtag('config', 'G-KJ4703YGHJ');
     </script>
-
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <h1>AniDay</h1>
-        </div>
-
-        <div class="date-controls">
-            <input type="date" id="dateInput" class="date-input">
-            <button id="searchBtn" class="btn">查看</button>
-            <button id="todayBtn" class="btn">今日</button>
-        </div>
-
-        <div class="current-date" id="currentDate"></div>
-
-        <div id="loading" class="loading" style="display: none;">加载中...</div>
-        <div id="error" class="error" style="display: none;"></div>
-
-        <div id="charactersContainer"></div>
-    </div>
-
-    <!-- 页脚 -->
-    <footer style="text-align: center; padding: 15px 0; border-top: 1px solid #ccc; margin-top: 20px; font-size: 14px;">
-        <a href="https://home.linmohan.fun" target="_blank">我的个人网站</a> |
-        <a href="https://home.linmohan.fun/pay.html" target="_blank">赞助我</a>
-    </footer>
-
-    <script src="js/script.js"></script>
-</body>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
