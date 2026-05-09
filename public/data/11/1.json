@@ -1,0 +1,27 @@
+{
+  "date": "11-1",
+  "characters": [
+    {
+      "id": 86,
+      "name": "的场静司",
+      "work": "夏目友人帐",
+      "avatar": "/avatar/MatobaSeiji.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 87,
+      "name": "清泷钢介",
+      "work": "龙王的工作！",
+      "avatar": "/avatar/KiyotakiKōsuke.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

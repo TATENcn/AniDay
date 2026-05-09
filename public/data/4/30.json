@@ -1,0 +1,27 @@
+{
+  "date": "4-30",
+  "characters": [
+    {
+      "id": 290,
+      "name": "迪卢克",
+      "work": "原神",
+      "avatar": "/avatar/DilucRagnvindr.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 291,
+      "name": "花菱春香",
+      "work": "憧憬成为魔法少女",
+      "avatar": "/avatar/HanabishiHaruka.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

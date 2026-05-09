@@ -1,0 +1,60 @@
+{
+  "date": "8-7",
+  "characters": [
+    {
+      "id": 479,
+      "name": "宫泽有纪宁",
+      "work": "CLANNAD",
+      "avatar": "/avatar/MiyazawaYukine.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 480,
+      "name": "野比大雄",
+      "work": "哆啦 A 梦",
+      "avatar": "/avatar/NobiNobita.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 481,
+      "name": "花冈真琴",
+      "work": "前辈是男孩子",
+      "avatar": "/avatar/HanaokaMakoto.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 482,
+      "name": "安昙小太郎",
+      "work": "月色真美",
+      "avatar": "/avatar/AzumiKotarō.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 483,
+      "name": "鬼冢夏美",
+      "work": "LoveLive!Superstar!!",
+      "avatar": "/avatar/OnitsukaNatsumi.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

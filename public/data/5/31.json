@@ -1,0 +1,27 @@
+{
+  "date": "5-31",
+  "characters": [
+    {
+      "id": 335,
+      "name": "阿万音由季",
+      "work": "命运石之门",
+      "avatar": "/avatar/AmaneYuki.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 336,
+      "name": "赛索斯",
+      "work": "原神",
+      "avatar": "/avatar/Sethos.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

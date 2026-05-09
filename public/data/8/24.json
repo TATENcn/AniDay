@@ -1,0 +1,27 @@
+{
+  "date": "8-24",
+  "characters": [
+    {
+      "id": 460,
+      "name": "水越澪",
+      "work": "龙王的工作！",
+      "avatar": "/avatar/MizukoshiMio.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 461,
+      "name": "沟内大树",
+      "work": "堀与宫村",
+      "avatar": "/avatar/MizouchiTaiki.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

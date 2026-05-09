@@ -1,0 +1,27 @@
+{
+  "date": "4-7",
+  "characters": [
+    {
+      "id": 298,
+      "name": "八幡海铃",
+      "work": "Ave Mujica",
+      "avatar": "/avatar/YahataUmiri.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 299,
+      "name": "迪希雅",
+      "work": "原神",
+      "avatar": "/avatar/Dehya.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

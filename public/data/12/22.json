@@ -1,0 +1,38 @@
+{
+  "date": "12-22",
+  "characters": [
+    {
+      "id": 141,
+      "name": "真土翔太",
+      "work": "小林家的龙女仆",
+      "avatar": "/avatar/MagatsuchiShōta.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 142,
+      "name": "远野美凪",
+      "work": "AIR",
+      "avatar": "/avatar/TōnoMinagi.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 143,
+      "name": "嘉明",
+      "work": "原神",
+      "avatar": "/avatar/YipGaming.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "4-1",
+  "characters": [
+    {
+      "id": 254,
+      "name": "菜月昴",
+      "work": "Re:从零开始的异世界生活",
+      "avatar": "/avatar/NatsukiSubaru.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 255,
+      "name": "樱木花道",
+      "work": "灌篮高手",
+      "avatar": "/avatar/SakuragiHanamichi.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

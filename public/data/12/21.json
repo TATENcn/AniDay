@@ -1,0 +1,27 @@
+{
+  "date": "12-21",
+  "characters": [
+    {
+      "id": 139,
+      "name": "多莉·桑歌玛哈巴依",
+      "work": "原神",
+      "avatar": "/avatar/DoriSangemahBay.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 140,
+      "name": "姬路瑞希",
+      "work": "笨蛋、测验、召唤兽",
+      "avatar": "/avatar/HimejiMizuki.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

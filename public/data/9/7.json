@@ -1,0 +1,27 @@
+{
+  "date": "9-7",
+  "characters": [
+    {
+      "id": 515,
+      "name": "赤木晴子",
+      "work": "灌篮高手",
+      "avatar": "/avatar/AkagiHaruko.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 516,
+      "name": "重云",
+      "work": "原神",
+      "avatar": "/avatar/Chongyun.avif",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

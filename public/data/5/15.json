@@ -1,0 +1,38 @@
+{
+  "date": "5-15",
+  "characters": [
+    {
+      "id": 310,
+      "name": "夏目玲子",
+      "work": "夏目友人帐",
+      "avatar": "/avatar/NatsumeReiko.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 311,
+      "name": "多轨透",
+      "work": "夏目友人帐",
+      "avatar": "/avatar/TakiTōru.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 312,
+      "name": "高坂丽奈",
+      "work": "吹响！上低音号",
+      "avatar": "/avatar/KōsakaReina.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

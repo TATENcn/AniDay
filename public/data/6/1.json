@@ -1,0 +1,60 @@
+{
+  "date": "6-1",
+  "characters": [
+    {
+      "id": 356,
+      "name": "祐天寺若麦",
+      "work": "Ave Mujica",
+      "avatar": "/avatar/YūtenjiNyamu.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 357,
+      "name": "派蒙",
+      "work": "原神",
+      "avatar": "/avatar/Paimon.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 358,
+      "name": "荒泷一斗",
+      "work": "原神",
+      "avatar": "/avatar/AratakiItto.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 359,
+      "name": "木之下和也",
+      "work": "租借女友",
+      "avatar": "/avatar/KinoshitaKazuya.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 360,
+      "name": "仓永梢",
+      "work": "缘之空",
+      "avatar": "/avatar/KuranagaKozue.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

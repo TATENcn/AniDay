@@ -1,0 +1,27 @@
+{
+  "date": "2-5",
+  "characters": [
+    {
+      "id": 203,
+      "name": "春日野悠",
+      "work": "缘之空",
+      "avatar": "/avatar/KasuganoHaruka.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 204,
+      "name": "春日野穹",
+      "work": "缘之空",
+      "avatar": "/avatar/KasuganoSora.webp",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

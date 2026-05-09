@@ -1,0 +1,38 @@
+{
+  "date": "6-12",
+  "characters": [
+    {
+      "id": 362,
+      "name": "栉枝实乃梨",
+      "work": "龙与虎",
+      "avatar": "/avatar/MinoriKushieda.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 363,
+      "name": "小鸟游六花",
+      "work": "中二病也要谈恋爱！",
+      "avatar": "/avatar/TakanashiRikka.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 364,
+      "name": "雾岛佳乃",
+      "work": "AIR",
+      "avatar": "/avatar/KirishimaKano.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "3-28",
+  "characters": [
+    {
+      "id": 235,
+      "name": "骨川小夫",
+      "work": "哆啦 A 梦",
+      "avatar": "/avatar/HonekawaSuneo.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 236,
+      "name": "有马公生",
+      "work": "四月是你的谎言",
+      "avatar": "/avatar/ArimaKousei.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

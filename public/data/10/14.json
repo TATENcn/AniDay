@@ -1,0 +1,60 @@
+{
+  "date": "10-14",
+  "characters": [
+    {
+      "id": 49,
+      "name": "坂上智代",
+      "work": "CLANNAD",
+      "avatar": "/avatar/SakagamiTomoyo.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "千反田爱瑠",
+      "work": "冰菓",
+      "avatar": "/avatar/ChitandaEru.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "五月七日茴香",
+      "work": "中二病也要谈恋爱！",
+      "avatar": "/avatar/TsuyuriKumin.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "欧洛伦",
+      "work": "原神",
+      "avatar": "/avatar/Ororon.webp",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "照",
+      "work": "绝区零",
+      "avatar": "/avatar/Zhao.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

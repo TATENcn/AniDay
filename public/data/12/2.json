@@ -1,0 +1,38 @@
+{
+  "date": "12-2",
+  "characters": [
+    {
+      "id": 135,
+      "name": "哆啦美",
+      "work": "哆啦 A 梦",
+      "avatar": "/avatar/Dorami.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 136,
+      "name": "樱岛麻衣",
+      "work": "青春猪头少年系列",
+      "avatar": "/avatar/SakurajimaMai.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 137,
+      "name": "甘雨",
+      "work": "原神",
+      "avatar": "/avatar/Ganyu.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

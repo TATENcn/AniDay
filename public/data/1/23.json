@@ -1,0 +1,27 @@
+{
+  "date": "1-23",
+  "characters": [
+    {
+      "id": 24,
+      "name": "栉田桔梗",
+      "work": "欢迎来到实力至上主义的教室",
+      "avatar": "/avatar/KushidaKikyou.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "苍角",
+      "work": "绝区零",
+      "avatar": "/avatar/Soukaku.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

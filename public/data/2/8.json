@@ -1,0 +1,27 @@
+{
+  "date": "2-8",
+  "characters": [
+    {
+      "id": 206,
+      "name": "石田将也",
+      "work": "声之形",
+      "avatar": "/avatar/IshidaShouya.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 207,
+      "name": "杜乃可莉丝",
+      "work": "憧憬成为魔法少女",
+      "avatar": "/avatar/MorinoKorisu.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

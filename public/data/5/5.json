@@ -1,0 +1,104 @@
+{
+  "date": "5-5",
+  "characters": [
+    {
+      "id": 339,
+      "name": "中野一花",
+      "work": "五等分的新娘",
+      "avatar": "/avatar/NakanoIchika.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 340,
+      "name": "中野二乃",
+      "work": "五等分的新娘",
+      "avatar": "/avatar/NakanoNino.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 341,
+      "name": "中野三玖",
+      "work": "五等分的新娘",
+      "avatar": "/avatar/NakanoMiku.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 342,
+      "name": "中野四叶",
+      "work": "五等分的新娘",
+      "avatar": "/avatar/NakanoYotsuba.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 343,
+      "name": "伊井野弥子",
+      "work": "辉夜大小姐想让我告白",
+      "avatar": "/avatar/IinoMiko.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 344,
+      "name": "泷谷真",
+      "work": "小林家的龙女仆",
+      "avatar": "/avatar/TakiyaMakoto.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 345,
+      "name": "樱花朝日",
+      "work": "别当欧尼酱了！",
+      "avatar": "/avatar/ŌkaAsahi.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 346,
+      "name": "白河千岁",
+      "work": "关于我在无意间被隔壁的天使变成废柴这件事",
+      "avatar": "/avatar/ShirakawaChitose.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 347,
+      "name": "波岛出海",
+      "work": "路人女主的养成方法",
+      "avatar": "/avatar/HashimaIzumi.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

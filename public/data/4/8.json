@@ -1,0 +1,38 @@
+{
+  "date": "4-8",
+  "characters": [
+    {
+      "id": 300,
+      "name": "陆少糖",
+      "work": "坂本日常",
+      "avatar": "/avatar/LuShaotang.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 301,
+      "name": "阿古屋真珠",
+      "work": "憧憬成为魔法少女",
+      "avatar": "/avatar/AkoyaMatama.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 302,
+      "name": "赛斯·洛威尔",
+      "work": "绝区零",
+      "avatar": "/avatar/Seth-Lowell.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

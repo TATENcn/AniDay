@@ -1,0 +1,27 @@
+{
+  "date": "7-22",
+  "characters": [
+    {
+      "id": 411,
+      "name": "和栗薰子",
+      "work": "薰香花朵凛然绽放",
+      "avatar": "/avatar/WaguriKaoruko.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 412,
+      "name": "吉川由纪",
+      "work": "堀与宫村",
+      "avatar": "/avatar/YoshikawaYuki.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

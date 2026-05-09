@@ -1,0 +1,27 @@
+{
+  "date": "4-4",
+  "characters": [
+    {
+      "id": 292,
+      "name": "久岛鸥",
+      "work": "夏日口袋",
+      "avatar": "/avatar/KushimaKamome.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 293,
+      "name": "埃洛伊",
+      "work": "原神",
+      "avatar": "/avatar/Aloy.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "date": "8-3",
+  "characters": [
+    {
+      "id": 468,
+      "name": "五河琴里",
+      "work": "约会大作战",
+      "avatar": "/avatar/ItsukaKotori.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 469,
+      "name": "玛拉妮",
+      "work": "原神",
+      "avatar": "/avatar/Mualani.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 470,
+      "name": "天女目瑛",
+      "work": "缘之空",
+      "avatar": "/avatar/AmatsumeAkira.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 471,
+      "name": "渚一叶",
+      "work": "缘之空",
+      "avatar": "/avatar/MigiwaKaziha.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

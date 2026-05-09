@@ -1,0 +1,27 @@
+{
+  "date": "10-19",
+  "characters": [
+    {
+      "id": 58,
+      "name": "海老名菜菜",
+      "work": "干物妹！小埋",
+      "avatar": "/avatar/EbinaNana.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "早柚",
+      "work": "原神",
+      "avatar": "/avatar/Sayu.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

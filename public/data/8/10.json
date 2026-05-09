@@ -1,0 +1,38 @@
+{
+  "date": "8-10",
+  "characters": [
+    {
+      "id": 441,
+      "name": "安柏",
+      "work": "原神",
+      "avatar": "/avatar/Amber.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 442,
+      "name": "野兽日",
+      "work": "地球 Online",
+      "avatar": "/avatar/Tadokoro.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 443,
+      "name": "珂蕾妲·贝洛伯格",
+      "work": "绝区零",
+      "avatar": "/avatar/Koleda-Belobog.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

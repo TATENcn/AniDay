@@ -1,0 +1,27 @@
+{
+  "date": "10-29",
+  "characters": [
+    {
+      "id": 75,
+      "name": "枫原万叶",
+      "work": "原神",
+      "avatar": "/avatar/KaedeharaKazuha.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "米女芽衣",
+      "work": "LoveLive!Superstar!!",
+      "avatar": "/avatar/YonemeMei.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

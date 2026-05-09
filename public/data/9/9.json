@@ -1,0 +1,49 @@
+{
+  "date": "9-9",
+  "characters": [
+    {
+      "id": 519,
+      "name": "藤林杏",
+      "work": "CLANNAD",
+      "avatar": "/avatar/FujibayashiKyō.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 520,
+      "name": "白银御行",
+      "work": "辉夜大小姐想让我告白",
+      "avatar": "/avatar/ShiroganeMiyuki.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 521,
+      "name": "雷泽",
+      "work": "原神",
+      "avatar": "/avatar/Razor.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 522,
+      "name": "空银子",
+      "work": "龙王的工作！",
+      "avatar": "/avatar/SoraGinko.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

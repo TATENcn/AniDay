@@ -1,0 +1,27 @@
+{
+  "date": "10-27",
+  "characters": [
+    {
+      "id": 73,
+      "name": "纳西妲（布耶尔）",
+      "work": "原神",
+      "avatar": "/avatar/Nahida.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "叶历",
+      "work": "终将成为你",
+      "avatar": "/avatar/KanouKoyomi.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

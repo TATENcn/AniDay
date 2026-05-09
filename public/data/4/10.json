@@ -1,0 +1,104 @@
+{
+  "date": "4-10",
+  "characters": [
+    {
+      "id": 256,
+      "name": "夜刀神十香",
+      "work": "约会大作战",
+      "avatar": "/avatar/YatogamiTōka.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 257,
+      "name": "大我龙二",
+      "work": "前辈是男孩子",
+      "avatar": "/avatar/TaigaRyūji.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 258,
+      "name": "梓川咲太",
+      "work": "青春猪头少年系列",
+      "avatar": "/avatar/AzusagawaSakuta.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 259,
+      "name": "牧之原翔子",
+      "work": "青春猪头少年系列",
+      "avatar": "/avatar/MakinoharaShōko.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 260,
+      "name": "夏洛蒂",
+      "work": "原神",
+      "avatar": "/avatar/Charlotte.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 261,
+      "name": "樱小路希奈子",
+      "work": "LoveLive!Superstar!!",
+      "avatar": "/avatar/SakurakojiKinako.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 262,
+      "name": "小柳香穗",
+      "work": "我怎么可能成为你的恋人，不行不行！",
+      "avatar": "/avatar/KoyanagiKaho.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 263,
+      "name": "岛村抱月",
+      "work": "安达与岛村",
+      "avatar": "/avatar/ShimamuraHogetsu.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 264,
+      "name": "薇薇安•班希",
+      "work": "绝区零",
+      "avatar": "/avatar/Vivian-Banshee.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

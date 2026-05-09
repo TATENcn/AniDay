@@ -1,0 +1,71 @@
+{
+  "date": "12-24",
+  "characters": [
+    {
+      "id": 147,
+      "name": "伊藤诚的祭日",
+      "work": "日在校园",
+      "avatar": "/avatar/ItouMakoto.jpeg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 148,
+      "name": "古河渚",
+      "work": "CLANNAD",
+      "avatar": "/avatar/NagisaFurukawa.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 149,
+      "name": "玛利亚·米哈伊罗夫纳·九条",
+      "work": "不时轻声地以俄语遮羞的邻座艾莉同学",
+      "avatar": "/avatar/MariyaMikhaylovnaKujō.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 150,
+      "name": "橘·希尔芬福特",
+      "work": "干物妹！小埋",
+      "avatar": "/avatar/TachibanaSylphinford.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 151,
+      "name": "千鸟要",
+      "work": "全金属狂潮",
+      "avatar": "/avatar/KanameChidori.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 152,
+      "name": "泰蕾莎·泰斯塔罗莎",
+      "work": "全金属狂潮",
+      "avatar": "/avatar/TeresaTestarossa.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

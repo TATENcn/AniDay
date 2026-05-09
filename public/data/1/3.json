@@ -1,0 +1,27 @@
+{
+  "date": "1-3",
+  "characters": [
+    {
+      "id": 29,
+      "name": "雪之下雪乃",
+      "work": "我的青春恋爱物语果然有问题",
+      "avatar": "/avatar/YukinoshitaYukino.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "流浪者(原神)",
+      "work": "原神",
+      "avatar": "/avatar/Wanderer.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

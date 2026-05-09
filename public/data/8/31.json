@@ -1,0 +1,49 @@
+{
+  "date": "8-31",
+  "characters": [
+    {
+      "id": 475,
+      "name": "䌷文德斯",
+      "work": "夏日口袋",
+      "avatar": "/avatar/TsumugiWenders.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 476,
+      "name": "阿斯托洛吉斯·莫娜·梅姬斯图斯",
+      "work": "原神",
+      "avatar": "/avatar/AstrologistMonaMegistus.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 477,
+      "name": "王冢真唯",
+      "work": "我怎么可能成为你的恋人，不行不行！",
+      "avatar": "/avatar/ŌzukaMai.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 478,
+      "name": "初音未来",
+      "work": "VOCALOID",
+      "avatar": "/avatar/HatsuneMiku.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

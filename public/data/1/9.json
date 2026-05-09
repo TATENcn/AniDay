@@ -1,0 +1,16 @@
+{
+  "date": "1-9",
+  "characters": [
+    {
+      "id": 42,
+      "name": "托马",
+      "work": "原神",
+      "avatar": "/avatar/thoma.avif",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

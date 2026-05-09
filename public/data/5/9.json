@@ -1,0 +1,39 @@
+{
+  "date": "5-9",
+  "characters": [
+    {
+      "id": 353,
+      "name": "孙悟空",
+      "work": "龙珠",
+      "avatar": "/avatar/SonGoku.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 354,
+      "name": "户冢彩加",
+      "work": "我的青春恋爱物语果然有问题。",
+      "avatar": "/avatar/TotsukaSaika.jpeg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐",
+        "aaa"
+      ]
+    },
+    {
+      "id": 355,
+      "name": "仙石翔",
+      "work": "堀与宫村",
+      "avatar": "/avatar/SengokoKakeru.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

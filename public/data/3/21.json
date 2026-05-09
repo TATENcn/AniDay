@@ -1,0 +1,38 @@
+{
+  "date": "3-21",
+  "characters": [
+    {
+      "id": 227,
+      "name": "诺艾尔",
+      "work": "原神",
+      "avatar": "/avatar/Noelle.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 228,
+      "name": "「11号」",
+      "work": "绝区零",
+      "avatar": "/avatar/Soldier-11.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 229,
+      "name": "猫崎享",
+      "work": "式守同学不只可爱而已",
+      "avatar": "/avatar/NekozakiKyo.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

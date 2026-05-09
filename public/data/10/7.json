@@ -1,0 +1,38 @@
+{
+  "date": "10-7",
+  "characters": [
+    {
+      "id": 79,
+      "name": "雏鹤爱",
+      "work": "龙王的工作！",
+      "avatar": "/avatar/HinatsuruAi.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 80,
+      "name": "伊芙琳·舒瓦利耶",
+      "work": "绝区零",
+      "avatar": "/avatar/Evelyn-Chevalier.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 81,
+      "name": "依媛奈绪",
+      "work": "缘之空",
+      "avatar": "/avatar/YolihimeNao.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

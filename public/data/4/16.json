@@ -1,0 +1,38 @@
+{
+  "date": "4-16",
+  "characters": [
+    {
+      "id": 270,
+      "name": "宿海仁太",
+      "work": "未闻花名",
+      "avatar": "/avatar/YadomiJinta.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 271,
+      "name": "一色伊吕波",
+      "work": "我的青春恋爱物语果然有问题。",
+      "avatar": "/avatar/IsshikiIroha.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 272,
+      "name": "谷原牧生",
+      "work": "堀与宫村",
+      "avatar": "/avatar/TaniharaMakio.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

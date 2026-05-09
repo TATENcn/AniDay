@@ -1,0 +1,27 @@
+{
+  "date": "9-21",
+  "characters": [
+    {
+      "id": 499,
+      "name": "LINMOHAN",
+      "work": "地球 Online",
+      "avatar": "/avatar/",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 500,
+      "name": "月城柳",
+      "work": "绝区零",
+      "avatar": "/avatar/Tsukishiro-Yanagi.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

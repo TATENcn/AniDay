@@ -1,0 +1,27 @@
+{
+  "date": "5-6",
+  "characters": [
+    {
+      "id": 348,
+      "name": "中野五月",
+      "work": "五等分的新娘",
+      "avatar": "/avatar/NakanoItsuki.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 349,
+      "name": "园村菜月",
+      "work": "终将成为你",
+      "avatar": "/avatar/SonomuraNatsuki.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

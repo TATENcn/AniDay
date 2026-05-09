@@ -1,0 +1,27 @@
+{
+  "date": "3-16",
+  "characters": [
+    {
+      "id": 219,
+      "name": "依田绚斗",
+      "work": "薰香花朵凛然绽放",
+      "avatar": "/avatar/YoritaAyato.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 220,
+      "name": "凯撒·金",
+      "work": "绝区零",
+      "avatar": "/avatar/Caesar-King.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

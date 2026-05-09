@@ -1,0 +1,60 @@
+{
+  "date": "1-4",
+  "characters": [
+    {
+      "id": 33,
+      "name": "艾莲·乔",
+      "work": "绝区零",
+      "avatar": "/avatar/EllenJoe.webp",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "艾萨克·牛顿",
+      "work": "地球 Online",
+      "avatar": "/avatar/IsaacNewton.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "桂言叶",
+      "work": "日在校园",
+      "avatar": "/avatar/KatsuraKotonoha.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "石神千空",
+      "work": "Dr.STONE 石纪元",
+      "avatar": "/avatar/IshigamiSenkuu.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "安城鸣子",
+      "work": "未闻花名",
+      "avatar": "/avatar/AnjouNaruko.webp",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

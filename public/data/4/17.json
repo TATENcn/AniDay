@@ -1,0 +1,27 @@
+{
+  "date": "4-17",
+  "characters": [
+    {
+      "id": 273,
+      "name": "魈",
+      "work": "原神",
+      "avatar": "/avatar/Xiao.avif",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 274,
+      "name": "宫村伊澄",
+      "work": "堀与宫村",
+      "avatar": "/avatar/MiyamuraIzumi.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "12-28",
+  "characters": [
+    {
+      "id": 159,
+      "name": "鬼冢冬毬",
+      "work": "LoveLive!Superstar!!",
+      "avatar": "/avatar/OnitsukaTomari.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 160,
+      "name": "柳明音",
+      "work": "堀与宫村",
+      "avatar": "/avatar/YanagiAkane.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

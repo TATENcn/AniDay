@@ -1,0 +1,38 @@
+{
+  "date": "8-26",
+  "characters": [
+    {
+      "id": 463,
+      "name": "凝光",
+      "work": "原神",
+      "avatar": "/avatar/Ningguang.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 464,
+      "name": "鹿野千夏",
+      "work": "青春之箱",
+      "avatar": "/avatar/KanoChinatsu.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 465,
+      "name": "更科瑠夏",
+      "work": "租借女友",
+      "avatar": "/avatar/SarashinaRuka.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

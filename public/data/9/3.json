@@ -1,0 +1,16 @@
+{
+  "date": "9-3",
+  "characters": [
+    {
+      "id": 513,
+      "name": "哆啦 A 梦",
+      "work": "哆啦 A 梦",
+      "avatar": "/avatar/Doraemon.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

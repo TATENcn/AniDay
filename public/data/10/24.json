@@ -1,0 +1,27 @@
+{
+  "date": "10-24",
+  "characters": [
+    {
+      "id": 67,
+      "name": "水上麻衣",
+      "work": "日常",
+      "avatar": "/avatar/MinakamiMai.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "井芹仁菜",
+      "work": "少女乐队的呐喊",
+      "avatar": "/avatar/IseriNina.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

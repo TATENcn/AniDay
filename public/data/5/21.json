@@ -1,0 +1,38 @@
+{
+  "date": "5-21",
+  "characters": [
+    {
+      "id": 319,
+      "name": "鹰原羽依里",
+      "work": "夏日口袋",
+      "avatar": "/avatar/TakaharaHairi.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 320,
+      "name": "云堇",
+      "work": "原神",
+      "avatar": "/avatar/YunJin.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 321,
+      "name": "堂岛卓",
+      "work": "终将成为你",
+      "avatar": "/avatar/DojimaSuguru.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "date": "3-15",
+  "characters": [
+    {
+      "id": 216,
+      "name": "本场切绘",
+      "work": "干物妹！小埋",
+      "avatar": "/avatar/MotobaKirie.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 217,
+      "name": "天野远子",
+      "work": "文学少女",
+      "avatar": "/avatar/AmanoTooko.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 218,
+      "name": "井上心叶",
+      "work": "文学少女",
+      "avatar": "/avatar/InoueKonoha.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

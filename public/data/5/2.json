@@ -1,0 +1,38 @@
+{
+  "date": "5-2",
+  "characters": [
+    {
+      "id": 316,
+      "name": "源静香",
+      "work": "哆啦 A 梦",
+      "avatar": "/avatar/MinamotoShizuka.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 317,
+      "name": "御坂美琴",
+      "work": "某科学的超电磁炮",
+      "avatar": "/avatar/MisakaMikoto.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 318,
+      "name": "安东·伊万诺夫",
+      "work": "绝区零",
+      "avatar": "/avatar/Anton-Ivanov.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

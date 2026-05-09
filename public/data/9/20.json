@@ -1,0 +1,27 @@
+{
+  "date": "9-20",
+  "characters": [
+    {
+      "id": 497,
+      "name": "空门苍",
+      "work": "夏日口袋",
+      "avatar": "/avatar/SorakadoAo.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 498,
+      "name": "克洛琳德",
+      "work": "原神",
+      "avatar": "/avatar/Clorinde.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

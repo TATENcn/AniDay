@@ -1,0 +1,38 @@
+{
+  "date": "9-18",
+  "characters": [
+    {
+      "id": 494,
+      "name": "本间芽衣子",
+      "work": "未闻花名",
+      "avatar": "/avatar/",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 495,
+      "name": "山田凉",
+      "work": "孤独摇滚！",
+      "avatar": "/avatar/",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 496,
+      "name": "冢本秀一",
+      "work": "吹响！上低音号",
+      "avatar": "/avatar/",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

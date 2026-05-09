@@ -1,0 +1,38 @@
+{
+  "date": "9-23",
+  "characters": [
+    {
+      "id": 502,
+      "name": "爱蜜莉雅",
+      "work": "Re:从零开始的异世界生活",
+      "avatar": "/avatar/Emilia.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 503,
+      "name": "安艺伦也",
+      "work": "路人女主的养成方法",
+      "avatar": "/avatar/KatōMegumi.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 504,
+      "name": "亚历山德丽娜·莎芭丝缇安",
+      "work": "绝区零",
+      "avatar": "/avatar/Alexandrina-Sebastian.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

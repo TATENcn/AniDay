@@ -1,0 +1,27 @@
+{
+  "date": "1-5",
+  "characters": [
+    {
+      "id": 38,
+      "name": "宫崎骏",
+      "work": "地球 Online",
+      "avatar": "/avatar/MiyazakiHayao.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "狛野真斗",
+      "work": "绝区零",
+      "avatar": "/avatar/Komano-Manato.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

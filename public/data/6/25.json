@@ -1,0 +1,38 @@
+{
+  "date": "6-25",
+  "characters": [
+    {
+      "id": 378,
+      "name": "柏木渚",
+      "work": "辉夜大小姐想让我告白",
+      "avatar": "/avatar/KashiwagiNagisa.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 379,
+      "name": "菱形朱鹭子",
+      "work": "夏日重现",
+      "avatar": "/avatar/HishigataTokiko.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 380,
+      "name": "犬束秀",
+      "work": "式守同学不只可爱而已",
+      "avatar": "/avatar/InudukaShu.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "date": "11-21",
+  "characters": [
+    {
+      "id": 100,
+      "name": "坂本太郎",
+      "work": "坂本日常",
+      "avatar": "/avatar/TaroSakamoto.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

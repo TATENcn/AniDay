@@ -1,0 +1,27 @@
+{
+  "date": "7-25",
+  "characters": [
+    {
+      "id": 418,
+      "name": "牧濑红莉栖",
+      "work": "命运石之门",
+      "avatar": "/avatar/MakiseKurisu.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 419,
+      "name": "小舟潮",
+      "work": "夏日重现",
+      "avatar": "/avatar/KofuneUshio.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

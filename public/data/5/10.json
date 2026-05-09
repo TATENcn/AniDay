@@ -1,0 +1,27 @@
+{
+  "date": "5-10",
+  "characters": [
+    {
+      "id": 305,
+      "name": "赤木刚宪",
+      "work": "灌篮高手",
+      "avatar": "/avatar/AkagiTakenori.webp",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 306,
+      "name": "潘引壶",
+      "work": "绝区零",
+      "avatar": "/avatar/PanYinhu.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "date": "1-1",
+  "characters": [
+    {
+      "id": 1,
+      "name": "宫崎英高",
+      "work": "地球 Online",
+      "avatar": "/avatar/MiyazakiHidetaka.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "四宫辉夜",
+      "work": "辉夜大小姐想让我告白",
+      "avatar": "/avatar/ShinomiyaKaguya.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "四条真妃",
+      "work": "辉夜大小姐想让我告白",
+      "avatar": "/avatar/ShijouMaki.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "自律思考固定炮台",
+      "work": "暗杀教室",
+      "avatar": "/avatar/OnozuRitsu.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "莱因哈鲁特·范·阿斯特雷亚",
+      "work": "Re:从零开始的异世界生活",
+      "avatar": "/avatar/ReinhardVanAstrea.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "刚田猛男",
+      "work": "俺物语!!",
+      "avatar": "/avatar/GōdaTakeo.webp",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "流川枫",
+      "work": "灌篮高手",
+      "avatar": "/avatar/RukawaKaede.webp",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "青衣",
+      "work": "绝区零",
+      "avatar": "/avatar/Qingyi.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

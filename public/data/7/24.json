@@ -1,0 +1,27 @@
+{
+  "date": "7-24",
+  "characters": [
+    {
+      "id": 416,
+      "name": "鹿野院平藏",
+      "work": "原神",
+      "avatar": "/avatar/ShikanoinHeizou.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 417,
+      "name": "般岳",
+      "work": "绝区零",
+      "avatar": "/avatar/Banyue.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

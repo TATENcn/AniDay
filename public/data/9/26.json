@@ -1,0 +1,27 @@
+{
+  "date": "9-26",
+  "characters": [
+    {
+      "id": 507,
+      "name": "土间埋",
+      "work": "干物妹！小埋",
+      "avatar": "/avatar/DomaUmaru.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 508,
+      "name": "一条千佳",
+      "work": "堀与宫村",
+      "avatar": "/avatar/IchijouChika.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

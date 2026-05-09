@@ -1,0 +1,38 @@
+{
+  "date": "9-28",
+  "characters": [
+    {
+      "id": 510,
+      "name": "神里绫华",
+      "work": "原神",
+      "avatar": "/avatar/KamisatoAyaka.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 511,
+      "name": "平安名堇",
+      "work": "LoveLive!Superstar!!",
+      "avatar": "/avatar/HeannaSumire.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 512,
+      "name": "桃森百花",
+      "work": "憧憬成为魔法少女",
+      "avatar": "/avatar/MomomoriMomo.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

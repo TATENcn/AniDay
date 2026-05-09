@@ -1,0 +1,27 @@
+{
+  "date": "5-19",
+  "characters": [
+    {
+      "id": 314,
+      "name": "桥田至",
+      "work": "命运石之门",
+      "avatar": "/avatar/HashidaItaru.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 315,
+      "name": "泽部椿",
+      "work": "四月是你的谎言",
+      "avatar": "/avatar/SawabeTsubaki.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

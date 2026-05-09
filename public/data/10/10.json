@@ -1,0 +1,38 @@
+{
+  "date": "10-10",
+  "characters": [
+    {
+      "id": 44,
+      "name": "大路饼藏",
+      "work": "玉子市场",
+      "avatar": "/avatar/OojiMochizou.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "岛田美波",
+      "work": "笨蛋、测验、召唤兽",
+      "avatar": "/avatar/ShimadaMinami.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "萌节",
+      "work": "地球 Online",
+      "avatar": "/avatar/moenohi.webp",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

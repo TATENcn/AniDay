@@ -1,0 +1,38 @@
+{
+  "date": "12-18",
+  "characters": [
+    {
+      "id": 131,
+      "name": "那维莱特",
+      "work": "原神",
+      "avatar": "/avatar/Neuvillette.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 132,
+      "name": "安艺伦也",
+      "work": "路人女主的养成方法",
+      "avatar": "/avatar/AkiTomoya.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 133,
+      "name": "冰堂美智留",
+      "work": "路人女主的养成方法",
+      "avatar": "/avatar/HyōdōMichiru.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

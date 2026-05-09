@@ -1,0 +1,27 @@
+{
+  "date": "6-26",
+  "characters": [
+    {
+      "id": 381,
+      "name": "三角初华",
+      "work": "Ave Mujica",
+      "avatar": "/avatar/MisumiUika.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 382,
+      "name": "雷电将军（影、巴尔泽布）",
+      "work": "原神",
+      "avatar": "/avatar/RaidenEi.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

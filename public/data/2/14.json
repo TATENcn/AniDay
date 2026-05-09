@@ -1,0 +1,27 @@
+{
+  "date": "2-14",
+  "characters": [
+    {
+      "id": 180,
+      "name": "丰川祥子",
+      "work": "Ave Mujica",
+      "avatar": "/avatar/TogawaSakiko.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 181,
+      "name": "北斗",
+      "work": "原神",
+      "avatar": "/avatar/Beidou.avif",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

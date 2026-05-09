@@ -1,0 +1,27 @@
+{
+  "date": "11-22",
+  "characters": [
+    {
+      "id": 101,
+      "name": "高松灯",
+      "work": "MyGO!!!!!",
+      "avatar": "/avatar/TakamatsuTomori.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 102,
+      "name": "「席德」",
+      "work": "绝区零",
+      "avatar": "/avatar/Seed.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

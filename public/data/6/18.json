@@ -1,0 +1,27 @@
+{
+  "date": "6-18",
+  "characters": [
+    {
+      "id": 368,
+      "name": "由比滨结衣",
+      "work": "我的青春恋爱物语果然有问题。",
+      "avatar": "/avatar/YuigahamaYui.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 369,
+      "name": "室崎美夜",
+      "work": "别当欧尼酱了！",
+      "avatar": "/avatar/MurosakiMiyo.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}
