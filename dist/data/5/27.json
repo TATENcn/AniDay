@@ -1,0 +1,49 @@
+{
+  "date": "5-27",
+  "characters": [
+    {
+      "id": 328,
+      "name": "长崎爽世",
+      "work": "MyGO!!!!!",
+      "avatar": "/avatar/NagasakiSoyo.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 329,
+      "name": "五河士道",
+      "work": "约会大作战",
+      "avatar": "/avatar/ItsukaShidō.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 330,
+      "name": "菲谢尔",
+      "work": "原神",
+      "avatar": "/avatar/Fischl.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 331,
+      "name": "宇佐美翔平",
+      "work": "薰香花朵凛然绽放",
+      "avatar": "/avatar/UsamiShohei.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

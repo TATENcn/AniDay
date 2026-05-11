@@ -1,183 +1,94 @@
 <template>
-  <div class="birthday-app">
-    <!-- Dedicated Background Layer with Transition -->
-    <transition name="bg-zoom" mode="out-in">
-      <div
-          class="background-layer"
-          :key="backgroundStyle.backgroundImage"
-          :style="backgroundStyle"
-      ></div>
-    </transition>
+  <div
+    class="birthday-app"
+    @touchstart="handleTouchStart"
+    @touchend="handleTouchEnd"
+    @mousedown="handleMouseDown"
+    @mouseup="handleMouseUp"
+    @wheel="handleWheel"
+    @click="handleClick"
+  >
+    <BackgroundLayer :style="backgroundStyle" :transition-name="pageTransitionName" />
 
-    <!-- Overlays -->
     <div class="overlay-global"></div>
     <div class="mask-top"></div>
     <div class="mask-bottom"></div>
 
-    <!-- Main Content Wrapper (Restricted to 20% - 80%) -->
-    <div class="content-wrapper">
-      <!-- Quote Area (Left) -->
-      <template v-if="currentCharacter">
-        <transition name="slide-left" mode="out-in">
-          <div class="quote-container" :key="currentIndex" :style="{ '--char-color': currentCharacter.color || 'white' }">
-            <div class="quote-text-group">
-              <div v-for="(quote, index) in currentQuotes" :key="index" class="quote-text-item">
-                <span class="quote-mark">"</span>
-                {{ quote }}
-                <span class="quote-mark">"</span>
-              </div>
-            </div>
+    <transition :name="pageTransitionName" mode="out-in">
+      <div class="content-wrapper" :key="selectedDate">
+        <transition :name="charTransitionName" mode="out-in">
+          <div class="character-content-group" :key="currentIndex">
+            <QuoteDisplay
+              :character="currentCharacter"
+              :quotes="currentQuotes"
+              :index="currentIndex"
+              :loading="loading"
+            />
+
+            <CharacterInfo
+              :character="currentCharacter"
+              :index="currentIndex"
+            />
           </div>
         </transition>
-      </template>
 
-      <div v-else-if="!loading" class="no-data">
-        <div class="quote-text">今天没有发现过生日的角色呢...</div>
+        <MusicInfo
+          :title="musicMetadata.title"
+          :artist="musicMetadata.artist"
+        />
+
+        <AvatarRow
+          :characters="characters"
+          :current-index="currentIndex"
+          @select="handleCharacterSelect"
+        />
       </div>
+    </transition>
 
-      <!-- Character Info (Bottom Right - Above Avatars) -->
-      <transition name="slide-right" mode="out-in">
-        <div class="character-info-bottom-right" v-if="currentCharacter" :key="currentIndex" :style="{ '--char-color': currentCharacter.color || 'white' }">
-          <div class="name">{{ currentCharacter.name }}</div>
-          <div class="meta-info">
-            <span v-if="currentCharacter.cv" class="cv">CV: {{ currentCharacter.cv }}</span>
-            <span v-if="currentCharacter.work" class="work">{{ currentCharacter.work }}</span>
-          </div>
-          <div v-if="currentCharacter.tags && currentCharacter.tags.length" class="tags">
-            <span v-for="tag in currentCharacter.tags" :key="tag" class="tag">#{{ tag }}</span>
-          </div>
-        </div>
-      </transition>
+    <CalendarPicker
+      v-model="selectedDate"
+      :display-text="selectedDateDisplay"
+      @change="handleDateChange"
+    />
 
-      <!-- Music Info -->
-      <div class="music-info-display" v-if="musicMetadata.title">
-        <span class="music-icon">♪</span>
-        <span class="music-title">{{ musicMetadata.title }}</span>
-        <span class="music-sep" v-if="musicMetadata.artist">-</span>
-        <span class="music-artist">{{ musicMetadata.artist }}</span>
-      </div>
-
-      <!-- Bottom Avatar Row -->
-      <div class="avatar-row" v-if="characters.length > 0">
-        <div
-            v-for="(char, index) in characters"
-            :key="index"
-            class="avatar-item"
-            :class="{ active: currentIndex === index }"
-            @click="selectCharacter(index)"
-        >
-          <img :src="char.avatar || char.image_url" :alt="char.name" @error="handleAvatarError($event, char)">
-          <div class="avatar-name">{{ char.name }}</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Date Picker (Floating/Minimal) -->
-    <div class="date-picker-mini" :class="{ open: isDatePickerOpen }">
-      <div class="current-display" @click="isDatePickerOpen = !isDatePickerOpen">
-        {{ selectedDateDisplay }}
-      </div>
-      <div class="picker-content" v-if="isDatePickerOpen">
-        <input type="date" v-model="selectedDate" @change="handleDateChange">
-        <button @click="showToday">今日</button>
-      </div>
-    </div>
-
-    <!-- Audio Player -->
     <audio ref="audioPlayer" :src="currentMusic" autoplay loop @loadeddata="handleMusicLoaded"></audio>
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref, computed, onMounted, watch } from 'vue'
-import jsmediatags from 'jsmediatags'
+import BackgroundLayer from './components/BackgroundLayer.vue'
+import CalendarPicker from './components/CalendarPicker.vue'
+import CharacterInfo from './components/CharacterInfo.vue'
+import QuoteDisplay from './components/QuoteDisplay.vue'
+import AvatarRow from './components/AvatarRow.vue'
+import MusicInfo from './components/MusicInfo.vue'
+import { useCharacters } from './composables/useCharacters'
+import { useMusic } from './composables/useMusic'
+import { useBackground } from './composables/useBackground'
+import { useUrlSync } from './composables/useUrlSync'
+import { useCalendar } from './composables/useCalendar'
 
-// Constants & Defaults
-const DEFAULT_BG = '/background/49831005.png'
-const DEFAULT_MUSIC = '/music/02. 潮鳴り.flac'
-const DEFAULT_QUOTE = '生日快乐'
-
-// State
 const selectedDate = ref(new Date().toISOString().split('T')[0])
-const characters = ref([])
-const currentIndex = ref(0)
 const loading = ref(false)
-const isDatePickerOpen = ref(false)
-const dateBgUrl = ref('')
-const audioPlayer = ref(null)
-const musicMetadata = ref({ title: '', artist: '' })
+const audioPlayer = ref<HTMLAudioElement | null>(null)
 
-// Computed
-const currentCharacter = computed(() => characters.value[currentIndex.value] || null)
+const {
+  characters,
+  currentIndex,
+  currentCharacter,
+  currentQuotes,
+  selectCharacter,
+  setCharacters
+} = useCharacters()
 
-const currentQuotes = computed(() => {
-  if (!currentCharacter.value) return [DEFAULT_QUOTE]
-  const quotes = currentCharacter.value.quotes || []
-  if (quotes.length === 0) return [DEFAULT_QUOTE]
-  return quotes
-})
-
-const currentMusic = computed(() => {
-  if (currentCharacter.value?.music) return currentCharacter.value.music
-  return DEFAULT_MUSIC
-})
-
-const fetchMusicMetadata = async (url) => {
-  musicMetadata.value = { title: url.split('/').pop().split('.')[0], artist: '加载中...' }
-
-  try {
-    const response = await fetch(url)
-    if (!response.ok) throw new Error('Network response was not ok')
-    const blob = await response.blob()
-    const file = new File([blob], url.split('/').pop(), { type: blob.type })
-
-    jsmediatags.read(file, {
-      onSuccess: (tag) => {
-        musicMetadata.value = {
-          title: tag.tags.title || url.split('/').pop().split('.')[0],
-          artist: tag.tags.artist || '未知艺术家'
-        }
-      },
-      onError: (error) => {
-        console.log('Error reading tags: ', error.type, error.info)
-        musicMetadata.value = {
-          title: url.split('/').pop().split('.')[0],
-          artist: ''
-        }
-      }
-    })
-  } catch (error) {
-    console.log('Error fetching music for metadata:', error)
-    musicMetadata.value = {
-      title: url.split('/').pop().split('.')[0],
-      artist: ''
-    }
-  }
-}
-
-watch(currentMusic, (newUrl) => {
-  if (newUrl) fetchMusicMetadata(newUrl)
-}, { immediate: true })
+const { currentMusic, musicMetadata, setMusic } = useMusic()
+const { getBackgroundStyle, loadDateBackground } = useBackground()
+const { updateUrlParams, initFromUrl } = useUrlSync()
+const { loadAvailableDates } = useCalendar()
 
 const backgroundStyle = computed(() => {
-  let url = DEFAULT_BG
-
-  if (currentCharacter.value && currentCharacter.value.bg) {
-    url = currentCharacter.value.bg
-  } else if (dateBgUrl.value) {
-    url = dateBgUrl.value
-  } else {
-    url = DEFAULT_BG
-  }
-
-  const formattedUrl = url.startsWith('http') || url.startsWith('/') ? url : `/${url}`
-  console.log('Final computed background URL:', formattedUrl)
-
-  return {
-    backgroundImage: `url('${formattedUrl}')`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center'
-  }
+  return getBackgroundStyle(currentCharacter.value?.bg)
 })
 
 const selectedDateDisplay = computed(() => {
@@ -185,13 +96,15 @@ const selectedDateDisplay = computed(() => {
   return `${d.getMonth() + 1}月${d.getDate()}日`
 })
 
-// Methods
+watch(() => currentCharacter.value?.music, (newMusic) => {
+  setMusic(newMusic)
+}, { immediate: true })
+
 const handleMusicLoaded = () => {
   if (audioPlayer.value) {
     audioPlayer.value.play().catch(() => {
-      console.log('Autoplay blocked, waiting for interaction')
       const playOnce = () => {
-        audioPlayer.value.play()
+        if (audioPlayer.value) audioPlayer.value.play()
         document.removeEventListener('click', playOnce)
       }
       document.addEventListener('click', playOnce)
@@ -199,36 +112,10 @@ const handleMusicLoaded = () => {
   }
 }
 
-const selectCharacter = (index) => {
-  currentIndex.value = index
-}
+const pageTransitionName = ref('page-flip-up')
 
-const handleAvatarError = (event, char) => {
-  event.target.src = 'https://via.placeholder.com/100?text=' + encodeURIComponent(char.name?.charAt(0) || '?')
-}
-
-const checkFileExists = async (url) => {
-  try {
-    const formattedUrl = url.startsWith('/') ? url : `/${url}`
-    const controller = new AbortController()
-    const timeoutId = setTimeout(() => controller.abort(), 2000)
-
-    const response = await fetch(formattedUrl, {
-      method: 'HEAD',
-      signal: controller.signal
-    })
-    clearTimeout(timeoutId)
-
-    if (!response.ok) return false
-    const contentType = response.headers.get('Content-Type')
-    return contentType && contentType.startsWith('image/')
-  } catch (e) {
-    return false
-  }
-}
-
-const loadData = async () => {
-  console.log('Starting to load data for:', selectedDate.value)
+const loadData = async (direction: 'up' | 'down' = 'up') => {
+  pageTransitionName.value = direction === 'up' ? 'page-flip-up' : 'page-flip-down'
   loading.value = true
   const date = new Date(selectedDate.value)
   const month = date.getMonth() + 1
@@ -236,58 +123,223 @@ const loadData = async () => {
 
   try {
     const dataPath = `/data/${month}/${day}.json`
-    console.log('Fetching character data from:', dataPath)
     const response = await fetch(dataPath)
     if (response.ok) {
       const data = await response.json()
-      console.log('Loaded character data:', data)
-      characters.value = data.characters || []
+      setCharacters(data.characters || [])
     } else {
-      console.warn('Character data not found (404)')
-      characters.value = []
+      setCharacters([])
     }
 
-    const bgRes = await fetch('/data/background.json')
-    dateBgUrl.value = ''
-    if (bgRes.ok) {
-      const bgData = await bgRes.json()
-      if (bgData[month] && bgData[month][day] && bgData[month][day].url) {
-        dateBgUrl.value = bgData[month][day].url
-      }
-    }
+    await loadDateBackground(month, day)
 
-    if (!dateBgUrl.value) {
-      const extensions = ['jpg', 'png', 'webp', 'jpeg']
-      for (const ext of extensions) {
-        const url = `/background/${month}-${day}.${ext}`
-        if (await checkFileExists(url)) {
-          dateBgUrl.value = url
-          break
-        }
-      }
+    const { charIndex } = initFromUrl()
+    if (charIndex !== undefined && charIndex < characters.value.length) {
+      currentIndex.value = charIndex
+    } else {
+      currentIndex.value = 0
     }
-
-    currentIndex.value = 0
   } catch (err) {
     console.error('Failed to load data:', err)
-    characters.value = []
+    setCharacters([])
   } finally {
     loading.value = false
-    console.log('Data loading finished')
   }
 }
 
-const handleDateChange = () => {
-  isDatePickerOpen.value = false
-  loadData()
+const charTransitionName = ref('char-slide-right')
+
+const handleCharacterSelect = (index: number) => {
+  charTransitionName.value = index > currentIndex.value ? 'char-slide-right' : 'char-slide-left'
+  selectCharacter(index)
+  updateUrlParams(selectedDate.value, index)
 }
 
-const showToday = () => {
-  selectedDate.value = new Date().toISOString().split('T')[0]
-  handleDateChange()
+const handleDateChange = (newDate: string, oldDate: string) => {
+  const direction = new Date(newDate) > new Date(oldDate) ? 'up' : 'down'
+  updateUrlParams(selectedDate.value, currentIndex.value)
+  loadData(direction)
+}
+
+const nextCharacter = () => {
+  if (loading.value || characters.value.length <= 1) return
+  const nextIndex = (currentIndex.value + 1) % characters.value.length
+  handleCharacterSelect(nextIndex)
+}
+
+const prevCharacter = () => {
+  if (loading.value || characters.value.length <= 1) return
+  const prevIndex = (currentIndex.value - 1 + characters.value.length) % characters.value.length
+  handleCharacterSelect(prevIndex)
+}
+
+const changeDate = (days: number) => {
+  if (loading.value) return
+  const date = new Date(selectedDate.value)
+  date.setDate(date.getDate() + days)
+  const newDateStr = date.toISOString().split('T')[0]
+  const oldDate = selectedDate.value
+  selectedDate.value = newDateStr
+  handleDateChange(newDateStr, oldDate)
+}
+
+const nextDate = () => changeDate(1)
+const prevDate = () => changeDate(-1)
+
+// Gesture and Edge Click Logic
+const touchStart = ref({ x: 0, y: 0 })
+const mouseStart = ref({ x: 0, y: 0 })
+const isMouseDown = ref(false)
+const lastWheelTime = ref(0)
+const WHEEL_COOLDOWN = 800 // ms
+const EDGE_THRESHOLD = 0.15 // 15% of screen
+const MIN_SWIPE_DISTANCE = 50
+
+const handleWheel = (e: WheelEvent) => {
+  const target = e.target as HTMLElement
+  if (target.closest('.avatar-row') || target.closest('.calendar-dropdown')) {
+    return
+  }
+
+  const now = Date.now()
+  if (now - lastWheelTime.value < WHEEL_COOLDOWN) return
+
+  const absX = Math.abs(e.deltaX)
+  const absY = Math.abs(e.deltaY)
+  const threshold = 30 // Minimum delta to trigger
+
+  if (Math.max(absX, absY) < threshold) return
+
+  if (absX > absY) {
+    // Horizontal scroll -> Character
+    if (e.deltaX > 0) nextCharacter()
+    else prevCharacter()
+    lastWheelTime.value = now
+  } else {
+    // Vertical scroll -> Date
+    if (e.deltaY > 0) nextDate()
+    else prevDate()
+    lastWheelTime.value = now
+  }
+}
+
+const handleTouchStart = (e: TouchEvent) => {
+  const target = e.target as HTMLElement
+  if (target.closest('.avatar-row') || target.closest('.calendar-picker')) {
+    touchStart.value = { x: -1, y: -1 } // Mark as invalid
+    return
+  }
+  touchStart.value = {
+    x: e.touches[0].clientX,
+    y: e.touches[0].clientY
+  }
+}
+
+const handleTouchEnd = (e: TouchEvent) => {
+  if (touchStart.value.x === -1) return
+
+  const touchEnd = {
+    x: e.changedTouches[0].clientX,
+    y: e.changedTouches[0].clientY
+  }
+
+  processSwipe(touchStart.value, touchEnd)
+}
+
+const handleMouseDown = (e: MouseEvent) => {
+  const target = e.target as HTMLElement
+  if (target.closest('.avatar-row') || target.closest('.calendar-picker')) {
+    return
+  }
+  isMouseDown.value = true
+  mouseStart.value = { x: e.clientX, y: e.clientY }
+}
+
+const handleMouseUp = (e: MouseEvent) => {
+  if (!isMouseDown.value) return
+  isMouseDown.value = false
+
+  const mouseEnd = { x: e.clientX, y: e.clientY }
+  const dx = mouseEnd.x - mouseStart.value.x
+  const dy = mouseEnd.y - mouseStart.value.y
+
+  // If it's a significant movement, treat it as a swipe and prevent the click event logic
+  if (Math.max(Math.abs(dx), Math.abs(dy)) > MIN_SWIPE_DISTANCE) {
+    processSwipe(mouseStart.value, mouseEnd)
+  } else {
+    // If it's a small movement, let the handleClick handle it
+    // But we need to be careful not to trigger both
+  }
+}
+
+const processSwipe = (start: { x: number, y: number }, end: { x: number, y: number }) => {
+  const dx = end.x - start.x
+  const dy = end.y - start.y
+  const absX = Math.abs(dx)
+  const absY = Math.abs(dy)
+
+  if (Math.max(absX, absY) > MIN_SWIPE_DISTANCE) {
+    if (absX > absY) {
+      // Horizontal swipe
+      if (dx > 0) prevCharacter()
+      else nextCharacter()
+    } else {
+      // Vertical swipe
+      if (dy > 0) prevDate()
+      else nextDate()
+    }
+  }
+}
+
+const handleClick = (e: MouseEvent) => {
+  // Prevent edge clicks if clicking on interactive elements
+  const target = e.target as HTMLElement
+  if (target.closest('.avatar-row') || target.closest('.calendar-picker') || target.closest('audio')) {
+    return
+  }
+
+  // If the mouse moved significantly between mousedown and mouseup, don't trigger edge click
+  if (mouseStart.value.x !== 0 || mouseStart.value.y !== 0) {
+    const dx = Math.abs(e.clientX - mouseStart.value.x)
+    const dy = Math.abs(e.clientY - mouseStart.value.y)
+    if (Math.max(dx, dy) > 10) return // Threshold for click vs drag
+  }
+
+  const { innerWidth, innerHeight } = window
+  const x = e.clientX
+  const y = e.clientY
+
+  const distL = x
+  const distR = innerWidth - x
+  const distT = y
+  const distB = innerHeight - y
+
+  const minDist = Math.min(distL, distR, distT, distB)
+  const threshold = Math.min(innerWidth, innerHeight) * EDGE_THRESHOLD
+
+  if (minDist > threshold) return
+
+  if (minDist === distL) {
+    prevCharacter()
+  } else if (minDist === distR) {
+    nextCharacter()
+  } else if (minDist === distT) {
+    prevDate()
+  } else if (minDist === distB) {
+    nextDate()
+  }
 }
 
 onMounted(() => {
+  const { date, charIndex } = initFromUrl()
+  if (date) {
+    selectedDate.value = date
+  }
+  if (charIndex !== undefined) {
+    currentIndex.value = charIndex
+  }
+
+  loadAvailableDates()
   loadData()
 })
 </script>
@@ -317,7 +369,21 @@ onMounted(() => {
 :root {
   --primary-color: #ffffff;
   --accent-color: #ffffff;
-  --text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+  --text-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.8);
+  --content-margin-x: 15%;
+  --content-width: 70%;
+  --quote-font-size: 2.8rem;
+  --quote-mark-size: 3.5rem;
+  --quote-max-width: 65%;
+  --char-name-size: 2.2rem;
+  --meta-font-size: 1.1rem;
+  --info-bottom-offset: 13.75rem;
+  --music-bottom-offset: 10rem;
+  --avatar-bottom-offset: 3.75rem;
+  --avatar-size: 3.75rem;
+  --avatar-gap: 0.9375rem;
+  --picker-top: 1.875rem;
+  --picker-right: 5%;
 }
 
 body, html {
@@ -336,17 +402,6 @@ body, html {
   overflow: hidden;
   background-color: #000;
   font-family: 'LXGWNeoXiHei', system-ui, sans-serif;
-}
-
-.background-layer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-size: cover;
-  background-position: center;
-  z-index: 0;
 }
 
 .overlay-global {
@@ -383,8 +438,8 @@ body, html {
 .content-wrapper {
   position: relative;
   z-index: 10;
-  margin-left: 15%;
-  width: 70%;
+  margin-left: var(--content-margin-x);
+  width: var(--content-width);
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -392,206 +447,52 @@ body, html {
   color: white;
 }
 
-.quote-container {
-  max-width: 65%;
-  margin-bottom: 15vh;
-  animation: fadeIn 1.5s ease-out;
-  overflow-y: auto;
-  max-height: 60vh;
-  scrollbar-width: none;
-}
-
-.quote-container::-webkit-scrollbar {
-  display: none;
-}
-
-.quote-text-group {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-/* 名言专用字体 */
-.quote-text-item {
-  font-family: 'LXGWNeoZhiSong', serif;
-  font-size: 2.8rem;
-  font-weight: 300;
-  line-height: 1.5;
-  text-shadow: var(--text-shadow);
-  text-align: left;
-}
-
-.quote-mark {
-  font-family: 'LXGWNeoZhiSong', serif;
-  font-size: 3.5rem;
-  opacity: 0.8;
-}
-
-.character-info-bottom-right {
-  position: absolute;
-  bottom: 220px;
-  right: 0;
-  text-align: right;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  animation: fadeInRight 1.5s ease-out;
-  z-index: 15;
-}
-
-.character-info-bottom-right .name {
-  font-size: 2.2rem;
-  font-weight: 500;
-  text-shadow: var(--text-shadow);
-  color: var(--char-color);
-  transition: color 0.5s ease;
-  margin-bottom: 0.2rem;
-}
-
-.meta-info {
-  display: flex;
-  gap: 15px;
-  align-items: center;
-  justify-content: flex-end;
-  font-size: 1.1rem;
-  opacity: 0.8;
-  text-shadow: var(--text-shadow);
-}
-
-.tags {
-  margin-top: 8px;
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-}
-
-.tag {
-  font-size: 0.85rem;
-  background: rgba(255, 255, 255, 0.1);
-  padding: 2px 10px;
-  border-radius: 12px;
-  backdrop-filter: blur(5px);
-}
-
-.music-info-display {
-  position: absolute;
-  bottom: 160px;
-  left: 0;
-  font-size: 0.85rem;
-  opacity: 0.6;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  text-shadow: var(--text-shadow);
-  z-index: 20;
-}
-
-.music-icon {
-  font-size: 1.2rem;
-}
-
-.music-title {
-  font-weight: bold;
-}
-
-.avatar-row {
-  position: absolute;
-  bottom: 60px;
-  left: 0;
-  display: flex;
-  gap: 15px;
-  padding: 10px 0;
-  overflow-x: auto;
-  scrollbar-width: none;
-}
-
-.avatar-row::-webkit-scrollbar {
-  display: none;
-}
-
-.avatar-item {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-  min-width: 70px;
-}
-
-.avatar-item img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  object-fit: cover;
-  transition: all 0.3s;
-}
-
-.avatar-item .avatar-name {
-  font-size: 0.75rem;
-  margin-top: 8px;
-  text-align: center;
+.character-content-group {
+  position: relative;
   width: 100%;
-  white-space: nowrap;
-}
-
-.avatar-item:hover img {
-  transform: scale(1.05);
-  border-color: white;
-}
-
-.avatar-item.active img {
-  border-color: white;
-  transform: scale(1.1);
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
-}
-
-.avatar-item.active .avatar-name {
-  font-weight: bold;
-}
-
-.date-picker-mini {
-  position: absolute;
-  top: 30px;
-  right: 5%;
-  z-index: 20;
-  color: white;
-}
-
-.current-display {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 6px 15px;
-  border-radius: 20px;
-  cursor: pointer;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
-  font-size: 0.9rem;
-}
-
-.picker-content {
-  position: absolute;
-  top: 110%;
-  right: 0;
-  background: rgba(0, 0, 0, 0.9);
-  padding: 15px;
-  border-radius: 12px;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  justify-content: center;
+  left: 0;
+  top: 0;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateX(-20px); }
-  to { opacity: 1; transform: translateX(0); }
+@media (max-width: 64rem) {
+  :root {
+    --content-margin-x: 8%;
+    --content-width: 84%;
+    --quote-font-size: 2.2rem;
+    --quote-mark-size: 2.8rem;
+    --char-name-size: 1.8rem;
+    --meta-font-size: 1rem;
+    --info-bottom-offset: 12.5rem;
+    --music-bottom-offset: 9.0625rem;
+    --avatar-size: 3.125rem;
+    --avatar-gap: 0.75rem;
+  }
 }
 
-@keyframes fadeInRight {
-  from { opacity: 0; transform: translateX(20px); }
-  to { opacity: 1; transform: translateX(0); }
+@media (max-width: 48rem) {
+  :root {
+    --content-margin-x: 5%;
+    --content-width: 90%;
+    --quote-font-size: 1.6rem;
+    --quote-mark-size: 2rem;
+    --quote-max-width: 100%;
+    --char-name-size: 1.4rem;
+    --meta-font-size: 0.9rem;
+    --info-bottom-offset: 11.25rem;
+    --music-bottom-offset: 8.125rem;
+    --avatar-bottom-offset: 3.125rem;
+    --avatar-size: 2.8125rem;
+    --avatar-gap: 0.625rem;
+    --picker-top: 0.9375rem;
+    --picker-right: 3%;
+  }
 }
 
+/* Original zoom transition (unused now, but kept for reference) */
 .bg-zoom-enter-active,
 .bg-zoom-leave-active {
   transition: all 1.2s cubic-bezier(0.4, 0, 0.2, 1);
@@ -606,64 +507,56 @@ body, html {
   opacity: 0;
 }
 
-.slide-left-enter-active,
-.slide-left-leave-active {
-  transition: all 0.8s ease;
+/* Global Page flip transitions */
+.page-flip-up-enter-active,
+.page-flip-up-leave-active,
+.page-flip-down-enter-active,
+.page-flip-down-leave-active,
+.char-slide-right-enter-active,
+.char-slide-right-leave-active,
+.char-slide-left-enter-active,
+.char-slide-left-leave-active {
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.slide-left-enter-from {
+.page-flip-up-enter-from {
   opacity: 0;
-  transform: translateX(-30px);
+  transform: translateY(3.125rem);
 }
 
-.slide-left-leave-to {
+.page-flip-up-leave-to {
   opacity: 0;
-  transform: translateX(-30px);
+  transform: translateY(-3.125rem);
 }
 
-.slide-right-enter-active,
-.slide-right-leave-active {
-  transition: all 0.8s ease;
-}
-
-.slide-right-enter-from {
+.page-flip-down-enter-from {
   opacity: 0;
-  transform: translateX(30px);
+  transform: translateY(-3.125rem);
 }
 
-.slide-right-leave-to {
+.page-flip-down-leave-to {
   opacity: 0;
-  transform: translateX(30px);
+  transform: translateY(3.125rem);
 }
 
-.fade-quote-enter-active,
-.fade-quote-leave-active {
-  transition: all 0.8s ease;
-}
-
-.fade-quote-enter-from {
+/* Character Slide transitions */
+.char-slide-right-enter-from {
   opacity: 0;
-  transform: translateY(10px);
+  transform: translateX(3.125rem);
 }
 
-.fade-quote-leave-to {
+.char-slide-right-leave-to {
   opacity: 0;
-  transform: translateY(-10px);
+  transform: translateX(-3.125rem);
 }
 
-@media (max-width: 1024px) {
-  .content-wrapper {
-    margin-left: 10%;
-    width: 80%;
-  }
+.char-slide-left-enter-from {
+  opacity: 0;
+  transform: translateX(-3.125rem);
 }
 
-@media (max-width: 768px) {
-  .quote-text-item {
-    font-size: 1.8rem;
-  }
-  .character-info-bottom-right .name {
-    font-size: 1.5rem;
-  }
+.char-slide-left-leave-to {
+  opacity: 0;
+  transform: translateX(3.125rem);
 }
 </style>

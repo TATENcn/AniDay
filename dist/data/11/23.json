@@ -1,0 +1,38 @@
+{
+  "date": "11-23",
+  "characters": [
+    {
+      "id": 103,
+      "name": "天川那由多",
+      "work": "别当欧尼酱了！",
+      "avatar": "/avatar/TenkawaNayuta.webp",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 104,
+      "name": "莱欧斯利",
+      "work": "原神",
+      "avatar": "/avatar/Wriothesley.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 105,
+      "name": "槙圣司",
+      "work": "终将成为你",
+      "avatar": "/avatar/NanamiTouko.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

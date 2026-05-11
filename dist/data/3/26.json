@@ -1,0 +1,27 @@
+{
+  "date": "3-26",
+  "characters": [
+    {
+      "id": 232,
+      "name": "市川京太郎",
+      "work": "我心里危险的东西",
+      "avatar": "/avatar/IchikawaKyōtarō.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 233,
+      "name": "神里绫人",
+      "work": "原神",
+      "avatar": "/avatar/KamisatoAyato.avif",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

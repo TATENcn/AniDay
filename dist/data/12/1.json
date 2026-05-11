@@ -1,0 +1,27 @@
+{
+  "date": "12-1",
+  "characters": [
+    {
+      "id": 120,
+      "name": "立花泷",
+      "work": "你的名字。",
+      "avatar": "/avatar/TachibanaTaki.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 121,
+      "name": "宫水三叶",
+      "work": "你的名字。",
+      "avatar": "/avatar/MiyamizuMitsuha.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "date": "4-14",
+  "characters": [
+    {
+      "id": 267,
+      "name": "出木杉英才",
+      "work": "哆啦 A 梦",
+      "avatar": "/avatar/DekisugiHidetoshi.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 268,
+      "name": "渡亮太",
+      "work": "四月是你的谎言",
+      "avatar": "/avatar/WatariRyouta.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 269,
+      "name": "格莉丝·霍华德",
+      "work": "绝区零",
+      "avatar": "/avatar/Grace-Howard.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

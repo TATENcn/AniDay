@@ -1,0 +1,49 @@
+{
+  "date": "12-31",
+  "characters": [
+    {
+      "id": 165,
+      "name": "北白川玉子",
+      "work": "玉子市场",
+      "avatar": "/avatar/KitashirakawaTamako.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 166,
+      "name": "钟离（摩拉克斯）",
+      "work": "原神",
+      "avatar": "/avatar/",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 167,
+      "name": "相座凪",
+      "work": "四月是你的谎言",
+      "avatar": "/avatar/AizaTakeshi.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 168,
+      "name": "泽田穗乃香",
+      "work": "堀与宫村",
+      "avatar": "/avatar/SawadaHonoka.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

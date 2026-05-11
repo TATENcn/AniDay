@@ -1,0 +1,27 @@
+{
+  "date": "8-28",
+  "characters": [
+    {
+      "id": 466,
+      "name": "玛薇卡",
+      "work": "原神",
+      "avatar": "/avatar/Mavuika.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 467,
+      "name": "亚托莉",
+      "work": "ATRI -My Dear Moments-",
+      "avatar": "/avatar/ATRI.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "date": "6-7",
+  "characters": [
+    {
+      "id": 391,
+      "name": "朝仓信",
+      "work": "坂本日常",
+      "avatar": "/avatar/AsakuraShin.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 392,
+      "name": "西宫硝子",
+      "work": "声之形",
+      "avatar": "/avatar/NishimiyaShouko.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 393,
+      "name": "牧野神奈",
+      "work": "玉子市场",
+      "avatar": "/avatar/MakinoKanna.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 394,
+      "name": "佐藤和真",
+      "work": "为美好的世界献上祝福！",
+      "avatar": "/avatar/SatōKazuma.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

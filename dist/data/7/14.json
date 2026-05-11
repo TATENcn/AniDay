@@ -1,0 +1,27 @@
+{
+  "date": "7-14",
+  "characters": [
+    {
+      "id": 401,
+      "name": "白井黑子",
+      "work": "某科学的超电磁炮",
+      "avatar": "/avatar/ShiraiKuroko.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 402,
+      "name": "九条娑罗",
+      "work": "原神",
+      "avatar": "/avatar/KujouSara.webp",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

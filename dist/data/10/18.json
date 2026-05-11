@@ -1,0 +1,27 @@
+{
+  "date": "10-18",
+  "characters": [
+    {
+      "id": 56,
+      "name": "八舞夕弦",
+      "work": "约会大作战",
+      "avatar": "/avatar/YamaiYuzuru.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "八舞耶俱矢",
+      "work": "约会大作战",
+      "avatar": "/avatar/YamaiKaguya.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

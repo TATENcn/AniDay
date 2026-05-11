@@ -1,0 +1,27 @@
+{
+  "date": "2-29",
+  "characters": [
+    {
+      "id": 201,
+      "name": "本条二亚",
+      "work": "约会大作战",
+      "avatar": "/avatar/HonjōNia.webp",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 202,
+      "name": "班尼特",
+      "work": "原神",
+      "avatar": "/avatar/Bennett.avif",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

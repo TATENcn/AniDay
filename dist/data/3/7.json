@@ -1,0 +1,27 @@
+{
+  "date": "3-7",
+  "characters": [
+    {
+      "id": 251,
+      "name": "东云名乃",
+      "work": "日常",
+      "avatar": "/avatar/ShinonomeNano.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 252,
+      "name": "三月七",
+      "work": "崩坏：星穹铁道",
+      "avatar": "/avatar/March7th.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

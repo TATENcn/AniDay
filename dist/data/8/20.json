@@ -1,0 +1,27 @@
+{
+  "date": "8-20",
+  "characters": [
+    {
+      "id": 452,
+      "name": "珐露珊",
+      "work": "原神",
+      "avatar": "/avatar/Faruzan.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 453,
+      "name": "雨果•维拉德",
+      "work": "绝区零",
+      "avatar": "/avatar/Hugo.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

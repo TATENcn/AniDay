@@ -1,0 +1,27 @@
+{
+  "date": "7-20",
+  "characters": [
+    {
+      "id": 409,
+      "name": "伊吹风子",
+      "work": "CLANNAD",
+      "avatar": "/avatar/IbukiFuko.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 410,
+      "name": "达达利亚（公子）",
+      "work": "原神",
+      "avatar": "/avatar/Tartaglia.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

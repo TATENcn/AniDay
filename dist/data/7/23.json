@@ -1,0 +1,38 @@
+{
+  "date": "7-23",
+  "characters": [
+    {
+      "id": 413,
+      "name": "福部里志",
+      "work": "冰菓",
+      "avatar": "/avatar/FukubeSatoshi.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 414,
+      "name": "镜野七罪",
+      "work": "约会大作战",
+      "avatar": "/avatar/KyōnoNatsumi.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 415,
+      "name": "神尾观铃",
+      "work": "AIR",
+      "avatar": "/avatar/KamioMisuzu.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

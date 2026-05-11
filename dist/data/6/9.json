@@ -1,0 +1,27 @@
+{
+  "date": "6-9",
+  "characters": [
+    {
+      "id": 396,
+      "name": "丽莎",
+      "work": "原神",
+      "avatar": "/avatar/Lisa.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 397,
+      "name": "坂本雄二",
+      "work": "笨蛋、测验、召唤兽",
+      "avatar": "/avatar/SakamotoYūji.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

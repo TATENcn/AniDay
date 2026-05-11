@@ -1,0 +1,27 @@
+{
+  "date": "6-2",
+  "characters": [
+    {
+      "id": 372,
+      "name": "土间大平",
+      "work": "干物妹！小埋",
+      "avatar": "/avatar/DomaTaihei.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 373,
+      "name": "可琳·威克斯",
+      "work": "绝区零",
+      "avatar": "/avatar/Corin-Wickes.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

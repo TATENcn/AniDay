@@ -1,0 +1,27 @@
+{
+  "date": "4-2",
+  "characters": [
+    {
+      "id": 277,
+      "name": "早坂爱",
+      "work": "辉夜大小姐想让我告白",
+      "avatar": "/avatar/HayasakaAi.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 278,
+      "name": "进藤晃一",
+      "work": "堀与宫村",
+      "avatar": "/avatar/ShindōKōichi.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "10-21",
+  "characters": [
+    {
+      "id": 64,
+      "name": "奈良坂真绫",
+      "work": "义妹生活",
+      "avatar": "/avatar/NarasakaMaaya.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 65,
+      "name": "派派·韦尔",
+      "work": "绝区零",
+      "avatar": "/avatar/Piper-Whee.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

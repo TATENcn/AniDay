@@ -1,0 +1,27 @@
+{
+  "date": "12-5",
+  "characters": [
+    {
+      "id": 170,
+      "name": "鲁路修·vi·布里塔尼亚",
+      "work": "CODE GEASS",
+      "avatar": "/avatar/LelouchLamperouge.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 171,
+      "name": "䌷杏子",
+      "work": "薰香花朵凛然绽放",
+      "avatar": "/avatar/TsumugiKyouko.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2-11",
+  "characters": [
+    {
+      "id": 177,
+      "name": "艾尔海森",
+      "work": "原神",
+      "avatar": "/avatar/Alhaitham.avif",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 178,
+      "name": "和泉幽希",
+      "work": "式守同学不只可爱而已",
+      "avatar": "/avatar/YuukiIzumi.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

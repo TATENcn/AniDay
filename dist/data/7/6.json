@@ -1,0 +1,27 @@
+{
+  "date": "7-6",
+  "characters": [
+    {
+      "id": 431,
+      "name": "七宫智音",
+      "work": "中二病也要谈恋爱！",
+      "avatar": "/avatar/ShichimiyaSatone.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 432,
+      "name": "阿良河基维",
+      "work": "憧憬成为魔法少女",
+      "avatar": "/avatar/AragaKiwi.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

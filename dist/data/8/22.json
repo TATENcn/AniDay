@@ -1,0 +1,27 @@
+{
+  "date": "8-22",
+  "characters": [
+    {
+      "id": 458,
+      "name": "天野阳菜",
+      "work": "天气之子",
+      "avatar": "/avatar/AmanoHina.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 459,
+      "name": "阿蕾奇诺（佩露薇利，仆人，父亲）",
+      "work": "原神",
+      "avatar": "/avatar/Peruere.webp",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

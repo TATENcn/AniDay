@@ -1,0 +1,27 @@
+{
+  "date": "4-22",
+  "characters": [
+    {
+      "id": 282,
+      "name": "绪山美波里",
+      "work": "别当欧尼酱了！",
+      "avatar": "/avatar/OyamaMihari.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 283,
+      "name": "卡齐娜",
+      "work": "原神",
+      "avatar": "/avatar/Kachina.webp",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

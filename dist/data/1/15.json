@@ -1,0 +1,27 @@
+{
+  "date": "1-15",
+  "characters": [
+    {
+      "id": 13,
+      "name": "秋山澪",
+      "work": "轻音少女",
+      "avatar": "/avatar/AkiyamaMio.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "猪股大喜",
+      "work": "青春之箱",
+      "avatar": "/avatar/InomataTaiki.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

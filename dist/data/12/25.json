@@ -1,0 +1,49 @@
+{
+  "date": "12-25",
+  "characters": [
+    {
+      "id": 153,
+      "name": "温水和彦",
+      "work": "败犬女主太多了！",
+      "avatar": "/avatar/NukumizuKazuhiko.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 154,
+      "name": "宫野志保(灰原哀)",
+      "work": "名侦探柯南",
+      "avatar": "/avatar/MiyanoShiho2.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 155,
+      "name": "崇宫澪",
+      "work": "约会大作战",
+      "avatar": "/avatar/TakamiyaMio.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 156,
+      "name": "C.C.",
+      "work": "CODE GEASS",
+      "avatar": "/avatar/C.C..jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

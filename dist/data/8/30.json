@@ -1,0 +1,38 @@
+{
+  "date": "8-30",
+  "characters": [
+    {
+      "id": 472,
+      "name": "漆原琉华",
+      "work": "命运石之门",
+      "avatar": "/avatar/UrushibaraRuka.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 473,
+      "name": "丹生谷森夏",
+      "work": "中二病也要谈恋爱！",
+      "avatar": "/avatar/NibutaniShinka.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 474,
+      "name": "爱丽丝·泰姆菲尔德",
+      "work": "绝区零",
+      "avatar": "/avatar/Alice-Thymefield.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

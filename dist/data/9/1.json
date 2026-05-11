@@ -1,0 +1,27 @@
+{
+  "date": "9-1",
+  "characters": [
+    {
+      "id": 487,
+      "name": "加藤羽未",
+      "work": "夏日口袋",
+      "avatar": "/avatar/KatōUmi.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 488,
+      "name": "朱鸢",
+      "work": "绝区零",
+      "avatar": "/avatar/ZhuYuan.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

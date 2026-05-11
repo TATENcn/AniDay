@@ -1,0 +1,49 @@
+{
+  "date": "1-20",
+  "characters": [
+    {
+      "id": 19,
+      "name": "茜特菈莉",
+      "work": "原神",
+      "avatar": "/avatar/Citlali.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "薇恩·玛格丽特",
+      "work": "LoveLive!Superstar!!",
+      "avatar": "/avatar/WienMargarete.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "叶瞬光",
+      "work": "绝区零",
+      "avatar": "/avatar/YeShunGuang.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "河野樱",
+      "work": "堀与宫村",
+      "avatar": "/avatar/KōnoSakura.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "1-2",
+  "characters": [
+    {
+      "id": 17,
+      "name": "艾萨克·阿西莫夫",
+      "work": "地球 Online",
+      "avatar": "/avatar/IsaacAsimov.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "小鸟游星野",
+      "work": "蔚蓝档案",
+      "avatar": "/avatar/TakanashiHoshino.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "date": "11-2",
+  "characters": [
+    {
+      "id": 96,
+      "name": "比屋定真帆",
+      "work": "命运石之门",
+      "avatar": "/avatar/HiyajōMaho.webp",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 97,
+      "name": "香菱",
+      "work": "原神",
+      "avatar": "/avatar/Xiangling.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 98,
+      "name": "浮波柚叶",
+      "work": "绝区零",
+      "avatar": "/avatar/Ukinami-Yuzuha.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

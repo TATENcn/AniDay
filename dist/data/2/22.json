@@ -1,0 +1,27 @@
+{
+  "date": "2-22",
+  "characters": [
+    {
+      "id": 196,
+      "name": "要乐奈",
+      "work": "MyGO!!!!!",
+      "avatar": "/avatar/KanameRāna.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 197,
+      "name": "珊瑚宫心海",
+      "work": "原神",
+      "avatar": "/avatar/SangonomiyaKokomi.avif",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

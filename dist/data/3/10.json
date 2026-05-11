@@ -1,0 +1,49 @@
+{
+  "date": "3-10",
+  "characters": [
+    {
+      "id": 208,
+      "name": "佐天泪子",
+      "work": "某科学的超电磁炮",
+      "avatar": "/avatar/SatenRuiko.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 209,
+      "name": "长野原美绪",
+      "work": "日常",
+      "avatar": "/avatar/NaganoharaMio.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 210,
+      "name": "申鹤",
+      "work": "原神",
+      "avatar": "/avatar/Shenhe.avif",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 211,
+      "name": "赫萝",
+      "work": "狼与香辛料",
+      "avatar": "/avatar/Holo.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

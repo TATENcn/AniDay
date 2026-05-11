@@ -1,0 +1,49 @@
+{
+  "date": "8-21",
+  "characters": [
+    {
+      "id": 454,
+      "name": "田井中律",
+      "work": "轻音少女",
+      "avatar": "/avatar/TainakaRitsu.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 455,
+      "name": "才川莉子",
+      "work": "小林家的龙女仆",
+      "avatar": "/avatar/SaikawaRiko.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 456,
+      "name": "黄前久美子",
+      "work": "吹响！上低音号",
+      "avatar": "/avatar/ŌmaeKumiko.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 457,
+      "name": "夏泽朔",
+      "work": "薰香花朵凛然绽放",
+      "avatar": "/avatar/NatsusawaSaku.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

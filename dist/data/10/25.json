@@ -1,0 +1,38 @@
+{
+  "date": "10-25",
+  "characters": [
+    {
+      "id": 69,
+      "name": "优菈·劳伦斯",
+      "work": "原神",
+      "avatar": "/avatar/EulaLawrence.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 70,
+      "name": "娜娜莉·vi·布里塔尼亚",
+      "work": "CODE GEASS",
+      "avatar": "/avatar/NunnallyviBritannia.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 71,
+      "name": "式守都",
+      "work": "式守同学不只可爱而已",
+      "avatar": "/avatar/MiyakoShikimori.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

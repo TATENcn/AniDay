@@ -1,0 +1,38 @@
+{
+  "date": "4-6",
+  "characters": [
+    {
+      "id": 295,
+      "name": "达克妮丝",
+      "work": "为美好的世界献上祝福！",
+      "avatar": "/avatar/LalatinaFordDustiness.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 296,
+      "name": "橘阳菜",
+      "work": "家有女友",
+      "avatar": "/avatar/HinaTachibana.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 297,
+      "name": "井川绘见",
+      "work": "四月是你的谎言",
+      "avatar": "/avatar/IgawaEmi.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

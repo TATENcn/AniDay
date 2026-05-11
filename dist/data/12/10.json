@@ -1,0 +1,38 @@
+{
+  "date": "12-10",
+  "characters": [
+    {
+      "id": 122,
+      "name": "恰斯卡",
+      "work": "原神",
+      "avatar": "/avatar/Chasca.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 123,
+      "name": "夜叉神天衣",
+      "work": "龙王的工作！",
+      "avatar": "/avatar/YashajinAi.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 124,
+      "name": "和泉纱雾",
+      "work": "埃罗芒阿老师",
+      "avatar": "/avatar/IzumiSagiri.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

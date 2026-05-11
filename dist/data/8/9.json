@@ -1,0 +1,27 @@
+{
+  "date": "8-9",
+  "characters": [
+    {
+      "id": 485,
+      "name": "椎名立希",
+      "work": "MyGO!!!!!",
+      "avatar": "/avatar/ShiinaTaki.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 486,
+      "name": "凸守早苗 death",
+      "work": "中二病也要谈恋爱！ death",
+      "avatar": "/avatar/DekomoriSanae.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

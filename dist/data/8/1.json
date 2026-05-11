@@ -1,0 +1,38 @@
+{
+  "date": "8-1",
+  "characters": [
+    {
+      "id": 438,
+      "name": "烧盐柠檬",
+      "work": "败犬女主太多了！",
+      "avatar": "/avatar/YakishioRemon.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 439,
+      "name": "阿库娅",
+      "work": "为美好的世界献上祝福！",
+      "avatar": "/avatar/Aqua.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 440,
+      "name": "九头龙八一",
+      "work": "龙王的工作！",
+      "avatar": "/avatar/KuzuryūYaichi.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

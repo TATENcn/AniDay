@@ -1,0 +1,27 @@
+{
+  "date": "1-31",
+  "characters": [
+    {
+      "id": 31,
+      "name": "霞之丘诗羽",
+      "work": "路人女主的养成方法",
+      "avatar": "/avatar/KasumigaokaUtaha.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "耀嘉音",
+      "work": "绝区零",
+      "avatar": "/avatar/Astra-Yao.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

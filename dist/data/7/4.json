@@ -1,0 +1,27 @@
+{
+  "date": "7-4",
+  "characters": [
+    {
+      "id": 428,
+      "name": "宫园薰",
+      "work": "四月是你的谎言",
+      "avatar": "/avatar/MiyazonoKaori.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 429,
+      "name": "和泉许子",
+      "work": "式守同学不只可爱而已",
+      "avatar": "/avatar/IzumiMotoko.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

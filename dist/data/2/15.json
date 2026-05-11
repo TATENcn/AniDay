@@ -1,0 +1,27 @@
+{
+  "date": "2-15",
+  "characters": [
+    {
+      "id": 182,
+      "name": "小鸟游十花",
+      "work": "中二病也要谈恋爱！",
+      "avatar": "/avatar/TakanashiHoshino.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 183,
+      "name": "堀北铃音",
+      "work": "欢迎来到实力至上主义的教室",
+      "avatar": "/avatar/HorikitaSuzune.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

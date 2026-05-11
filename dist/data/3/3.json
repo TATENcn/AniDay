@@ -1,0 +1,60 @@
+{
+  "date": "3-3",
+  "characters": [
+    {
+      "id": 239,
+      "name": "藤原千花",
+      "work": "辉夜大小姐想让我告白",
+      "avatar": "/avatar/FujiwaraChika.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 240,
+      "name": "石上优",
+      "work": "辉夜大小姐想让我告白",
+      "avatar": "/avatar/IshigamiYū.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 241,
+      "name": "比企谷小町",
+      "work": "我的青春恋爱物语果然有问题。",
+      "avatar": "/avatar/HikigayaKomachi.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 242,
+      "name": "七七",
+      "work": "原神",
+      "avatar": "/avatar/Qiqi.avif",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 243,
+      "name": "甘织玲奈子",
+      "work": "我怎么可能成为你的恋人，不行不行！",
+      "avatar": "/avatar/AmaoriRenako.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

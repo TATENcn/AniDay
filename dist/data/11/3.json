@@ -1,0 +1,49 @@
+{
+  "date": "11-3",
+  "characters": [
+    {
+      "id": 111,
+      "name": "阿明·阿诺德",
+      "work": "进击的巨人",
+      "avatar": "/avatar/ArminArlert.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 112,
+      "name": "川岛绿辉",
+      "work": "吹响！上低音号",
+      "avatar": "/avatar/KawashimaSapphire.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 113,
+      "name": "奥菲丝·马格努森（「鬼火」）",
+      "work": "绝区零",
+      "avatar": "/avatar/Orphie-agnusson.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 114,
+      "name": "狼谷蓝",
+      "work": "式守同学不只可爱而已",
+      "avatar": "/avatar/Kamiya.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "date": "12-3",
+  "characters": [
+    {
+      "id": 162,
+      "name": "妮露",
+      "work": "原神",
+      "avatar": "/avatar/Nilou.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 163,
+      "name": "贞任绫乃",
+      "work": "龙王的工作！",
+      "avatar": "/avatar/SadatouAyano.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 164,
+      "name": "仪玄",
+      "work": "绝区零",
+      "avatar": "/avatar/Yixuan.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

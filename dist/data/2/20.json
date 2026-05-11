@@ -1,0 +1,27 @@
+{
+  "date": "2-20",
+  "characters": [
+    {
+      "id": 192,
+      "name": "零号·安比",
+      "work": "绝区零",
+      "avatar": "/avatar/Soldier0-Anby.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 193,
+      "name": "安比·德玛拉",
+      "work": "绝区零",
+      "avatar": "/avatar/Anby-Demara.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

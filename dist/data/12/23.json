@@ -1,0 +1,38 @@
+{
+  "date": "12-23",
+  "characters": [
+    {
+      "id": 144,
+      "name": "远野贵树",
+      "work": "秒速 5 厘米",
+      "avatar": "/avatar/TōnoTakaki.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 145,
+      "name": "本·比格",
+      "work": "绝区零",
+      "avatar": "/avatar/Ben-Bigger.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 146,
+      "name": "乃木坂初佳",
+      "work": "缘之空",
+      "avatar": "/avatar/NogisakaMotoka.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

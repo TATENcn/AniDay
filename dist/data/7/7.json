@@ -1,0 +1,49 @@
+{
+  "date": "7-7",
+  "characters": [
+    {
+      "id": 433,
+      "name": "椎名篝",
+      "work": "命运石之门",
+      "avatar": "/avatar/ShiinaKagari.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 434,
+      "name": "富㭴勇太",
+      "work": "中二病也要谈恋爱！",
+      "avatar": "/avatar/TogashiYūta.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 435,
+      "name": "雪之下阳乃",
+      "work": "我的青春恋爱物语果然有问题。",
+      "avatar": "/avatar/YukinoshitaHaruno.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 436,
+      "name": "相良宗介",
+      "work": "全金属狂潮",
+      "avatar": "/avatar/SagaraSōsuke.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

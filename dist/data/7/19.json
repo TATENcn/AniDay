@@ -1,0 +1,27 @@
+{
+  "date": "7-19",
+  "characters": [
+    {
+      "id": 406,
+      "name": "篠原明里",
+      "work": "秒速 5 厘米",
+      "avatar": "/avatar/ShinoharaAkari.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 407,
+      "name": "浅羽悠真",
+      "work": "绝区零",
+      "avatar": "/avatar/Asaba-Harumasa.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

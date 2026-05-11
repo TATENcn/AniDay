@@ -1,0 +1,27 @@
+{
+  "date": "9-8",
+  "characters": [
+    {
+      "id": 517,
+      "name": "千早爱音",
+      "work": "MyGO!!!!!",
+      "avatar": "/avatar/ChihayaAnon.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 518,
+      "name": "箱崎理子",
+      "work": "终将成为你",
+      "avatar": "/avatar/HagozakiRiko.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

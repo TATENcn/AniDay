@@ -1,0 +1,27 @@
+{
+  "date": "2-21",
+  "characters": [
+    {
+      "id": 194,
+      "name": "君岛绫乃",
+      "work": "不时轻声地以俄语遮羞的邻座艾莉同学",
+      "avatar": "/avatar/KimishimaAyano.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 195,
+      "name": "后藤一里",
+      "work": "孤独摇滚！",
+      "avatar": "/avatar/boochi.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

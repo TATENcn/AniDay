@@ -1,0 +1,38 @@
+{
+  "date": "3-30",
+  "characters": [
+    {
+      "id": 244,
+      "name": "艾伦·耶格尔",
+      "work": "进击的巨人",
+      "avatar": "/avatar/ErenJaeger.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 245,
+      "name": "岩见泽宁宁",
+      "work": "青春猪头少年系列",
+      "avatar": "/avatar/IwamizawaNene.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 246,
+      "name": "希格雯",
+      "work": "原神",
+      "avatar": "/avatar/Sigewinne.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "5-3",
+  "characters": [
+    {
+      "id": 333,
+      "name": "高须龙儿",
+      "work": "龙与虎",
+      "avatar": "/avatar/TakasuRyuuji.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 334,
+      "name": "坎蒂丝",
+      "work": "原神",
+      "avatar": "/avatar/Candace.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

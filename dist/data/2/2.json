@@ -1,0 +1,60 @@
+{
+  "date": "2-2",
+  "characters": [
+    {
+      "id": 187,
+      "name": "拉姆",
+      "work": "Re:从零开始的异世界生活",
+      "avatar": "/avatar/Ram.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 188,
+      "name": "雷姆",
+      "work": "Re:从零开始的异世界生活",
+      "avatar": "/avatar/Rem.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 189,
+      "name": "野村美希",
+      "work": "夏日口袋",
+      "avatar": "/avatar/NomuraMiki.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 190,
+      "name": "林尼",
+      "work": "原神",
+      "avatar": "/avatar/Lyney.avif",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 191,
+      "name": "琳妮特",
+      "work": "原神",
+      "avatar": "/avatar/Lynette.avif",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

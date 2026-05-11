@@ -1,0 +1,38 @@
+{
+  "date": "10-8",
+  "characters": [
+    {
+      "id": 82,
+      "name": "鹤见知利子",
+      "work": "未闻花名",
+      "avatar": "/avatar/TsurumiChiriko.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 83,
+      "name": "朝仓美羽",
+      "work": "文学少女",
+      "avatar": "/avatar/AsakuraMiu.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 84,
+      "name": "凉宫春日",
+      "work": "凉宫春日系列",
+      "avatar": "/avatar/SuzumiyaHaruhi.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

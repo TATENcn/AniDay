@@ -1,0 +1,38 @@
+{
+  "date": "5-8",
+  "characters": [
+    {
+      "id": 350,
+      "name": "樱桃子",
+      "work": "樱桃小丸子",
+      "avatar": "/avatar/SakuraMomoko.webp",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 351,
+      "name": "网代慎平",
+      "work": "夏日重现",
+      "avatar": "/avatar/AjiroShinpei.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 352,
+      "name": "柯莱",
+      "work": "原神",
+      "avatar": "/avatar/Collei.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

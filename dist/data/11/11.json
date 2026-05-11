@@ -1,0 +1,49 @@
+{
+  "date": "11-11",
+  "characters": [
+    {
+      "id": 88,
+      "name": "鸢一折纸",
+      "work": "约会大作战",
+      "avatar": "/avatar/TobiichiOrigami.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 89,
+      "name": "中野梓",
+      "work": "轻音少女",
+      "avatar": "/avatar/NakanoAzusa.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 90,
+      "name": "基尼奇",
+      "work": "原神",
+      "avatar": "/avatar/Kinich.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 91,
+      "name": "妮可·德玛拉",
+      "work": "绝区零",
+      "avatar": "/avatar/Nicole-Demara.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "4-21",
+  "characters": [
+    {
+      "id": 280,
+      "name": "喜多郁代",
+      "work": "孤独摇滚！",
+      "avatar": "/avatar/KitaIkuyo.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 281,
+      "name": "「扳机」",
+      "work": "绝区零",
+      "avatar": "/avatar/Trigger.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

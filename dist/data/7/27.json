@@ -1,0 +1,38 @@
+{
+  "date": "7-27",
+  "characters": [
+    {
+      "id": 421,
+      "name": "逢坂大河",
+      "work": "龙与虎",
+      "avatar": "/avatar/AisakaTaiga.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 422,
+      "name": "可莉",
+      "work": "原神",
+      "avatar": "/avatar/Klee.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 423,
+      "name": "久岐忍",
+      "work": "原神",
+      "avatar": "/avatar/KukiShinobu.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

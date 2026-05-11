@@ -1,0 +1,27 @@
+{
+  "date": "9-12",
+  "characters": [
+    {
+      "id": 490,
+      "name": "星宫六喰",
+      "work": "约会大作战",
+      "avatar": "/avatar/HoshimiyaMukuro.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 491,
+      "name": "穗月枫",
+      "work": "别当欧尼酱了！",
+      "avatar": "/avatar/HozukiKaede.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

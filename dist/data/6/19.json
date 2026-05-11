@@ -1,0 +1,27 @@
+{
+  "date": "6-19",
+  "characters": [
+    {
+      "id": 370,
+      "name": "星见雅",
+      "work": "绝区零",
+      "avatar": "/avatar/Hoshimi-Miyabi.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 371,
+      "name": "波可娜·费雷尼",
+      "work": "绝区零",
+      "avatar": "/avatar/Pulchra-Fellini.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

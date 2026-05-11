@@ -1,0 +1,27 @@
+{
+  "date": "8-17",
+  "characters": [
+    {
+      "id": 448,
+      "name": "千织",
+      "work": "原神",
+      "avatar": "/avatar/Chiori.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 449,
+      "name": "天川薰子",
+      "work": "憧憬成为魔法少女",
+      "avatar": "/avatar/TenkawaKaoruko.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "1-10",
+  "characters": [
+    {
+      "id": 9,
+      "name": "夏沃蕾",
+      "work": "原神",
+      "avatar": "/avatar/Chevreuse.webp",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "伊福部八寻",
+      "work": "缘之空",
+      "avatar": "/avatar/IfukubeYahiro.png",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "3-14",
+  "characters": [
+    {
+      "id": 214,
+      "name": "丰滨和香",
+      "work": "青春猪头少年系列",
+      "avatar": "/avatar/ToyohamaNodoka.jpg",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": 215,
+      "name": "琴",
+      "work": "原神",
+      "avatar": "/avatar/JeanGunnhildr.avif",
+      "bg": null,
+      "music": null,
+      "quotes": [
+        "生日快乐"
+      ]
+    }
+  ]
+}
