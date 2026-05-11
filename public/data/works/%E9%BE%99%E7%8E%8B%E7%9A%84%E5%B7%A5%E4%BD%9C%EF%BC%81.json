@@ -1,0 +1,69 @@
+{
+  "work": "龙王的工作！",
+  "characters": [
+    {
+      "id": 440,
+      "name": "九头龙八一",
+      "month": 8,
+      "day": 1,
+      "avatar": "/avatar/KuzuryūYaichi.png",
+      "cv": ""
+    },
+    {
+      "id": 460,
+      "name": "水越澪",
+      "month": 8,
+      "day": 24,
+      "avatar": "/avatar/MizukoshiMio.png",
+      "cv": ""
+    },
+    {
+      "id": 522,
+      "name": "空银子",
+      "month": 9,
+      "day": 9,
+      "avatar": "/avatar/SoraGinko.jpg",
+      "cv": ""
+    },
+    {
+      "id": 79,
+      "name": "雏鹤爱",
+      "month": 10,
+      "day": 7,
+      "avatar": "/avatar/HinatsuruAi.png",
+      "cv": ""
+    },
+    {
+      "id": 87,
+      "name": "清泷钢介",
+      "month": 11,
+      "day": 1,
+      "avatar": "/avatar/KiyotakiKōsuke.jpg",
+      "cv": ""
+    },
+    {
+      "id": 119,
+      "name": "清泷桂香",
+      "month": 11,
+      "day": 9,
+      "avatar": "/avatar/KiyotakiKeika.png",
+      "cv": ""
+    },
+    {
+      "id": 163,
+      "name": "贞任绫乃",
+      "month": 12,
+      "day": 3,
+      "avatar": "/avatar/SadatouAyano.png",
+      "cv": ""
+    },
+    {
+      "id": 123,
+      "name": "夜叉神天衣",
+      "month": 12,
+      "day": 10,
+      "avatar": "/avatar/YashajinAi.jpg",
+      "cv": ""
+    }
+  ]
+}

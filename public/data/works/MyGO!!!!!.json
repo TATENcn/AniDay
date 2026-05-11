@@ -1,0 +1,45 @@
+{
+  "work": "MyGO!!!!!",
+  "characters": [
+    {
+      "id": 196,
+      "name": "要乐奈",
+      "month": 2,
+      "day": 22,
+      "avatar": "/avatar/KanameRāna.jpg",
+      "cv": ""
+    },
+    {
+      "id": 328,
+      "name": "长崎爽世",
+      "month": 5,
+      "day": 27,
+      "avatar": "/avatar/NagasakiSoyo.png",
+      "cv": ""
+    },
+    {
+      "id": 485,
+      "name": "椎名立希",
+      "month": 8,
+      "day": 9,
+      "avatar": "/avatar/ShiinaTaki.png",
+      "cv": ""
+    },
+    {
+      "id": 517,
+      "name": "千早爱音",
+      "month": 9,
+      "day": 8,
+      "avatar": "/avatar/ChihayaAnon.png",
+      "cv": ""
+    },
+    {
+      "id": 101,
+      "name": "高松灯",
+      "month": 11,
+      "day": 22,
+      "avatar": "/avatar/TakamatsuTomori.png",
+      "cv": ""
+    }
+  ]
+}

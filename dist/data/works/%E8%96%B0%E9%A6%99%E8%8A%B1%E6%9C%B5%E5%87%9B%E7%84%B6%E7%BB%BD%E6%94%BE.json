@@ -1,0 +1,69 @@
+{
+  "work": "薰香花朵凛然绽放",
+  "characters": [
+    {
+      "id": 28,
+      "name": "䌷凛太郎",
+      "month": 1,
+      "day": 28,
+      "avatar": "/avatar/TsumugiRintaro.jpg",
+      "cv": ""
+    },
+    {
+      "id": 219,
+      "name": "依田绚斗",
+      "month": 3,
+      "day": 16,
+      "avatar": "/avatar/YoritaAyato.jpg",
+      "cv": ""
+    },
+    {
+      "id": 275,
+      "name": "䌷圭一郎",
+      "month": 4,
+      "day": 18,
+      "avatar": "/avatar/TsumugiKêitirô.jpg",
+      "cv": ""
+    },
+    {
+      "id": 331,
+      "name": "宇佐美翔平",
+      "month": 5,
+      "day": 27,
+      "avatar": "/avatar/UsamiShohei.jpg",
+      "cv": ""
+    },
+    {
+      "id": 411,
+      "name": "和栗薰子",
+      "month": 7,
+      "day": 22,
+      "avatar": "/avatar/WaguriKaoruko.jpg",
+      "cv": ""
+    },
+    {
+      "id": 457,
+      "name": "夏泽朔",
+      "month": 8,
+      "day": 21,
+      "avatar": "/avatar/NatsusawaSaku.jpg",
+      "cv": ""
+    },
+    {
+      "id": 95,
+      "name": "保科昴",
+      "month": 11,
+      "day": 19,
+      "avatar": "/avatar/HoshinaSubaru.jpg",
+      "cv": ""
+    },
+    {
+      "id": 171,
+      "name": "䌷杏子",
+      "month": 12,
+      "day": 5,
+      "avatar": "/avatar/TsumugiKyouko.jpg",
+      "cv": ""
+    }
+  ]
+}

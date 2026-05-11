@@ -1,0 +1,69 @@
+{
+  "work": "夏日口袋",
+  "characters": [
+    {
+      "id": 189,
+      "name": "野村美希",
+      "month": 2,
+      "day": 2,
+      "avatar": "/avatar/NomuraMiki.jpg",
+      "cv": ""
+    },
+    {
+      "id": 292,
+      "name": "久岛鸥",
+      "month": 4,
+      "day": 4,
+      "avatar": "/avatar/KushimaKamome.jpg",
+      "cv": ""
+    },
+    {
+      "id": 288,
+      "name": "水织静久",
+      "month": 4,
+      "day": 29,
+      "avatar": "/avatar/MizuoriShizuku.jpg",
+      "cv": ""
+    },
+    {
+      "id": 319,
+      "name": "鹰原羽依里",
+      "month": 5,
+      "day": 21,
+      "avatar": "/avatar/TakaharaHairi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 395,
+      "name": "鸣濑白羽",
+      "month": 6,
+      "day": 8,
+      "avatar": "/avatar/NaruseShiroha.jpg",
+      "cv": ""
+    },
+    {
+      "id": 475,
+      "name": "䌷文德斯",
+      "month": 8,
+      "day": 31,
+      "avatar": "/avatar/TsumugiWenders.jpg",
+      "cv": ""
+    },
+    {
+      "id": 487,
+      "name": "加藤羽未",
+      "month": 9,
+      "day": 1,
+      "avatar": "/avatar/KatōUmi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 497,
+      "name": "空门苍",
+      "month": 9,
+      "day": 20,
+      "avatar": "/avatar/SorakadoAo.jpg",
+      "cv": ""
+    }
+  ]
+}

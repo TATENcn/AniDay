@@ -1,0 +1,101 @@
+{
+  "work": "终将成为你",
+  "characters": [
+    {
+      "id": 186,
+      "name": "七海灯子",
+      "month": 2,
+      "day": 19,
+      "avatar": "/avatar/NanamiTouko.jpg",
+      "cv": ""
+    },
+    {
+      "id": 294,
+      "name": "小丝侑",
+      "month": 4,
+      "day": 5,
+      "avatar": "/avatar/KoitoYuu.jpg",
+      "cv": ""
+    },
+    {
+      "id": 266,
+      "name": "儿玉都",
+      "month": 4,
+      "day": 13,
+      "avatar": "/avatar/KodamaMiyako.jpg",
+      "cv": ""
+    },
+    {
+      "id": 349,
+      "name": "园村菜月",
+      "month": 5,
+      "day": 6,
+      "avatar": "/avatar/SonomuraNatsuki.png",
+      "cv": ""
+    },
+    {
+      "id": 321,
+      "name": "堂岛卓",
+      "month": 5,
+      "day": 21,
+      "avatar": "/avatar/DojimaSuguru.png",
+      "cv": ""
+    },
+    {
+      "id": 389,
+      "name": "小丝怜",
+      "month": 6,
+      "day": 6,
+      "avatar": "/avatar/KoitoRei.jpg",
+      "cv": ""
+    },
+    {
+      "id": 375,
+      "name": "日向朱里",
+      "month": 6,
+      "day": 21,
+      "avatar": "/avatar/HyuugaAkari.jpg",
+      "cv": ""
+    },
+    {
+      "id": 425,
+      "name": "佐伯沙弥香",
+      "month": 7,
+      "day": 29,
+      "avatar": "/avatar/SaekiSayaka.jpg",
+      "cv": ""
+    },
+    {
+      "id": 518,
+      "name": "箱崎理子",
+      "month": 9,
+      "day": 8,
+      "avatar": "/avatar/HagozakiRiko.jpg",
+      "cv": ""
+    },
+    {
+      "id": 74,
+      "name": "叶历",
+      "month": 10,
+      "day": 27,
+      "avatar": "/avatar/KanouKoyomi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 105,
+      "name": "槙圣司",
+      "month": 11,
+      "day": 23,
+      "avatar": "/avatar/NanamiTouko.jpg",
+      "cv": ""
+    },
+    {
+      "id": 173,
+      "name": "市谷知雪",
+      "month": 12,
+      "day": 7,
+      "avatar": "/avatar/IchigayaTomoyuki.jpg",
+      "cv": ""
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "work": "憧憬成为魔法少女",
+  "characters": [
+    {
+      "id": 27,
+      "name": "田中满子",
+      "month": 1,
+      "day": 27,
+      "avatar": "/avatar/TanakaMichiko.webp",
+      "cv": ""
+    },
+    {
+      "id": 207,
+      "name": "杜乃可莉丝",
+      "month": 2,
+      "day": 8,
+      "avatar": "/avatar/MorinoKorisu.jpg",
+      "cv": ""
+    },
+    {
+      "id": 301,
+      "name": "阿古屋真珠",
+      "month": 4,
+      "day": 8,
+      "avatar": "/avatar/AkoyaMatama.jpg",
+      "cv": ""
+    },
+    {
+      "id": 291,
+      "name": "花菱春香",
+      "month": 4,
+      "day": 30,
+      "avatar": "/avatar/HanabishiHaruka.jpg",
+      "cv": ""
+    },
+    {
+      "id": 377,
+      "name": "姊母娞摩",
+      "month": 6,
+      "day": 23,
+      "avatar": "/avatar/AnemoNemo.jpg",
+      "cv": ""
+    },
+    {
+      "id": 432,
+      "name": "阿良河基维",
+      "month": 7,
+      "day": 6,
+      "avatar": "/avatar/AragaKiwi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 449,
+      "name": "天川薰子",
+      "month": 8,
+      "day": 17,
+      "avatar": "/avatar/TenkawaKaoruko.jpg",
+      "cv": ""
+    },
+    {
+      "id": 512,
+      "name": "桃森百花",
+      "month": 9,
+      "day": 28,
+      "avatar": "/avatar/MomomoriMomo.png",
+      "cv": ""
+    },
+    {
+      "id": 94,
+      "name": "柊舞缇娜",
+      "month": 11,
+      "day": 14,
+      "avatar": "/avatar/HiiragiUtena.jpg",
+      "cv": ""
+    },
+    {
+      "id": 125,
+      "name": "多田兰朵",
+      "month": 12,
+      "day": 11,
+      "avatar": "/avatar/TadawaRanda.jpg",
+      "cv": ""
+    }
+  ]
+}

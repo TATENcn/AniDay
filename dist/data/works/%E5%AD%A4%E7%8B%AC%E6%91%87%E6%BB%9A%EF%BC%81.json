@@ -1,0 +1,37 @@
+{
+  "work": "孤独摇滚！",
+  "characters": [
+    {
+      "id": 195,
+      "name": "后藤一里",
+      "month": 2,
+      "day": 21,
+      "avatar": "/avatar/boochi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 280,
+      "name": "喜多郁代",
+      "month": 4,
+      "day": 21,
+      "avatar": "/avatar/KitaIkuyo.jpg",
+      "cv": ""
+    },
+    {
+      "id": 332,
+      "name": "伊地知虹夏",
+      "month": 5,
+      "day": 29,
+      "avatar": "/avatar/IjichiNijika.jpg",
+      "cv": ""
+    },
+    {
+      "id": 495,
+      "name": "山田凉",
+      "month": 9,
+      "day": 18,
+      "avatar": "/avatar/",
+      "cv": ""
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "work": "败犬女主太多了！",
+  "characters": [
+    {
+      "id": 237,
+      "name": "小鞠知花",
+      "month": 3,
+      "day": 29,
+      "avatar": "/avatar/KomariChika.jpg",
+      "cv": ""
+    },
+    {
+      "id": 385,
+      "name": "温水佳树",
+      "month": 6,
+      "day": 6,
+      "avatar": "/avatar/NukumizuKaju.jpg",
+      "cv": ""
+    },
+    {
+      "id": 438,
+      "name": "烧盐柠檬",
+      "month": 8,
+      "day": 1,
+      "avatar": "/avatar/YakishioRemon.jpg",
+      "cv": ""
+    },
+    {
+      "id": 110,
+      "name": "八奈见杏菜",
+      "month": 11,
+      "day": 29,
+      "avatar": "/avatar/YanamiAnna.jpg",
+      "cv": ""
+    },
+    {
+      "id": 153,
+      "name": "温水和彦",
+      "month": 12,
+      "day": 25,
+      "avatar": "/avatar/NukumizuKazuhiko.jpg",
+      "cv": ""
+    }
+  ]
+}

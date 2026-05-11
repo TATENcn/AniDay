@@ -1,0 +1,37 @@
+{
+  "work": "冰菓",
+  "characters": [
+    {
+      "id": 287,
+      "name": "折木奉太郎",
+      "month": 4,
+      "day": 28,
+      "avatar": "/avatar/OrekiHōtarō.jpg",
+      "cv": ""
+    },
+    {
+      "id": 413,
+      "name": "福部里志",
+      "month": 7,
+      "day": 23,
+      "avatar": "/avatar/FukubeSatoshi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 50,
+      "name": "千反田爱瑠",
+      "month": 10,
+      "day": 14,
+      "avatar": "/avatar/ChitandaEru.jpg",
+      "cv": ""
+    },
+    {
+      "id": 130,
+      "name": "伊原摩耶花",
+      "month": 12,
+      "day": 16,
+      "avatar": "/avatar/IbaraMayaka.jpg",
+      "cv": ""
+    }
+  ]
+}

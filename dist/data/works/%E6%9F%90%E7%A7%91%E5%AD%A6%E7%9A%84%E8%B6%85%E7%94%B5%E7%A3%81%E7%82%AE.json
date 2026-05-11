@@ -1,0 +1,29 @@
+{
+  "work": "某科学的超电磁炮",
+  "characters": [
+    {
+      "id": 208,
+      "name": "佐天泪子",
+      "month": 3,
+      "day": 10,
+      "avatar": "/avatar/SatenRuiko.jpg",
+      "cv": ""
+    },
+    {
+      "id": 317,
+      "name": "御坂美琴",
+      "month": 5,
+      "day": 2,
+      "avatar": "/avatar/MisakaMikoto.png",
+      "cv": ""
+    },
+    {
+      "id": 401,
+      "name": "白井黑子",
+      "month": 7,
+      "day": 14,
+      "avatar": "/avatar/ShiraiKuroko.png",
+      "cv": ""
+    }
+  ]
+}

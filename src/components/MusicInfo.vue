@@ -17,13 +17,13 @@ defineProps<{
 <style scoped>
 .music-info-display {
   position: absolute;
-  bottom: var(--music-bottom-offset);
-  left: 0;
+  bottom: calc(var(--music-bottom-offset) + 0.5rem);
+  left: var(--space-lg);
   font-size: 0.85rem;
   opacity: 0.6;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: var(--space-sm);
   text-shadow: var(--text-shadow);
   z-index: 20;
 }

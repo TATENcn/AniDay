@@ -1,0 +1,29 @@
+{
+  "work": "进击的巨人",
+  "characters": [
+    {
+      "id": 176,
+      "name": "三笠·阿克曼",
+      "month": 2,
+      "day": 10,
+      "avatar": "/avatar/MikasaAckerman.webp",
+      "cv": ""
+    },
+    {
+      "id": 244,
+      "name": "艾伦·耶格尔",
+      "month": 3,
+      "day": 30,
+      "avatar": "/avatar/ErenJaeger.jpg",
+      "cv": ""
+    },
+    {
+      "id": 111,
+      "name": "阿明·阿诺德",
+      "month": 11,
+      "day": 3,
+      "avatar": "/avatar/ArminArlert.png",
+      "cv": ""
+    }
+  ]
+}

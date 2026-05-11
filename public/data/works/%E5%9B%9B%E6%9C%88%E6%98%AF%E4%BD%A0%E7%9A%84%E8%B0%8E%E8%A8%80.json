@@ -1,0 +1,61 @@
+{
+  "work": "四月是你的谎言",
+  "characters": [
+    {
+      "id": 234,
+      "name": "相座武士",
+      "month": 3,
+      "day": 27,
+      "avatar": "/avatar/AizaTakeshi.png",
+      "cv": ""
+    },
+    {
+      "id": 236,
+      "name": "有马公生",
+      "month": 3,
+      "day": 28,
+      "avatar": "/avatar/ArimaKousei.jpg",
+      "cv": ""
+    },
+    {
+      "id": 297,
+      "name": "井川绘见",
+      "month": 4,
+      "day": 6,
+      "avatar": "/avatar/IgawaEmi.png",
+      "cv": ""
+    },
+    {
+      "id": 268,
+      "name": "渡亮太",
+      "month": 4,
+      "day": 14,
+      "avatar": "/avatar/WatariRyouta.png",
+      "cv": ""
+    },
+    {
+      "id": 315,
+      "name": "泽部椿",
+      "month": 5,
+      "day": 19,
+      "avatar": "/avatar/SawabeTsubaki.png",
+      "cv": ""
+    },
+    {
+      "id": 428,
+      "name": "宫园薰",
+      "month": 7,
+      "day": 4,
+      "avatar": "/avatar/MiyazonoKaori.png",
+      "cv": ""
+    },
+    {
+      "id": 167,
+      "name": "相座凪",
+      "month": 12,
+      "day": 31,
+      "avatar": "/avatar/AizaTakeshi.png",
+      "cv": ""
+    }
+  ]
+}

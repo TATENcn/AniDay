@@ -1,0 +1,93 @@
+{
+  "work": "LoveLive!Superstar!!",
+  "characters": [
+    {
+      "id": 20,
+      "name": "薇恩·玛格丽特",
+      "month": 1,
+      "day": 20,
+      "avatar": "/avatar/WienMargarete.jpg",
+      "cv": ""
+    },
+    {
+      "id": 199,
+      "name": "岚千砂都",
+      "month": 2,
+      "day": 25,
+      "avatar": "/avatar/ArashiChisato.png",
+      "cv": ""
+    },
+    {
+      "id": 261,
+      "name": "樱小路希奈子",
+      "month": 4,
+      "day": 10,
+      "avatar": "/avatar/SakurakojiKinako.png",
+      "cv": ""
+    },
+    {
+      "id": 304,
+      "name": "涩谷香音",
+      "month": 5,
+      "day": 1,
+      "avatar": "/avatar/ShibuyaKanon.png",
+      "cv": ""
+    },
+    {
+      "id": 367,
+      "name": "若菜四季",
+      "month": 6,
+      "day": 17,
+      "avatar": "/avatar/WakanaShiki.jpg",
+      "cv": ""
+    },
+    {
+      "id": 404,
+      "name": "唐可可",
+      "month": 7,
+      "day": 17,
+      "avatar": "/avatar/TangKeke.jpg",
+      "cv": ""
+    },
+    {
+      "id": 483,
+      "name": "鬼冢夏美",
+      "month": 8,
+      "day": 7,
+      "avatar": "/avatar/OnitsukaNatsumi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 511,
+      "name": "平安名堇",
+      "month": 9,
+      "day": 28,
+      "avatar": "/avatar/HeannaSumire.jpg",
+      "cv": ""
+    },
+    {
+      "id": 76,
+      "name": "米女芽衣",
+      "month": 10,
+      "day": 29,
+      "avatar": "/avatar/YonemeMei.png",
+      "cv": ""
+    },
+    {
+      "id": 106,
+      "name": "叶月恋",
+      "month": 11,
+      "day": 24,
+      "avatar": "/avatar/HazukiRen.jpg",
+      "cv": ""
+    },
+    {
+      "id": 159,
+      "name": "鬼冢冬毬",
+      "month": 12,
+      "day": 28,
+      "avatar": "/avatar/OnitsukaTomari.jpg",
+      "cv": ""
+    }
+  ]
+}

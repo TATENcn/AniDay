@@ -1,0 +1,69 @@
+{
+  "work": "青春猪头少年系列",
+  "characters": [
+    {
+      "id": 214,
+      "name": "丰滨和香",
+      "month": 3,
+      "day": 14,
+      "avatar": "/avatar/ToyohamaNodoka.jpg",
+      "cv": ""
+    },
+    {
+      "id": 245,
+      "name": "岩见泽宁宁",
+      "month": 3,
+      "day": 30,
+      "avatar": "/avatar/IwamizawaNene.jpg",
+      "cv": ""
+    },
+    {
+      "id": 258,
+      "name": "梓川咲太",
+      "month": 4,
+      "day": 10,
+      "avatar": "/avatar/AzusagawaSakuta.jpg",
+      "cv": ""
+    },
+    {
+      "id": 259,
+      "name": "牧之原翔子",
+      "month": 4,
+      "day": 10,
+      "avatar": "/avatar/MakinoharaShōko.jpg",
+      "cv": ""
+    },
+    {
+      "id": 323,
+      "name": "古贺朋绘",
+      "month": 5,
+      "day": 23,
+      "avatar": "/avatar/KogaTomoe.jpg",
+      "cv": ""
+    },
+    {
+      "id": 66,
+      "name": "双叶理央",
+      "month": 10,
+      "day": 23,
+      "avatar": "/avatar/FutabaRio.jpg",
+      "cv": ""
+    },
+    {
+      "id": 116,
+      "name": "梓川花枫（梓川枫）",
+      "month": 11,
+      "day": 5,
+      "avatar": "/avatar/AzusagawaKaede.jpg",
+      "cv": ""
+    },
+    {
+      "id": 136,
+      "name": "樱岛麻衣",
+      "month": 12,
+      "day": 2,
+      "avatar": "/avatar/SakurajimaMai.jpg",
+      "cv": ""
+    }
+  ]
+}

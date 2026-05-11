@@ -1,0 +1,45 @@
+{
+  "work": "轻音少女",
+  "characters": [
+    {
+      "id": 13,
+      "name": "秋山澪",
+      "month": 1,
+      "day": 15,
+      "avatar": "/avatar/AkiyamaMio.jpg",
+      "cv": ""
+    },
+    {
+      "id": 408,
+      "name": "琴吹䌷",
+      "month": 7,
+      "day": 2,
+      "avatar": "/avatar/KotobukiTsumugi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 454,
+      "name": "田井中律",
+      "month": 8,
+      "day": 21,
+      "avatar": "/avatar/TainakaRitsu.jpg",
+      "cv": ""
+    },
+    {
+      "id": 89,
+      "name": "中野梓",
+      "month": 11,
+      "day": 11,
+      "avatar": "/avatar/NakanoAzusa.jpg",
+      "cv": ""
+    },
+    {
+      "id": 109,
+      "name": "平泽唯",
+      "month": 11,
+      "day": 27,
+      "avatar": "/avatar/HirasawaYui.jpg",
+      "cv": ""
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "work": "堀与宫村",
+  "characters": [
+    {
+      "id": 22,
+      "name": "河野樱",
+      "month": 1,
+      "day": 20,
+      "avatar": "/avatar/KōnoSakura.png",
+      "cv": ""
+    },
+    {
+      "id": 205,
+      "name": "井浦秀",
+      "month": 2,
+      "day": 7,
+      "avatar": "/avatar/IuraShū.png",
+      "cv": ""
+    },
+    {
+      "id": 231,
+      "name": "堀京子",
+      "month": 3,
+      "day": 25,
+      "avatar": "/avatar/HoriKyōko.jpg",
+      "cv": ""
+    },
+    {
+      "id": 278,
+      "name": "进藤晃一",
+      "month": 4,
+      "day": 2,
+      "avatar": "/avatar/ShindōKōichi.png",
+      "cv": ""
+    },
+    {
+      "id": 272,
+      "name": "谷原牧生",
+      "month": 4,
+      "day": 16,
+      "avatar": "/avatar/TaniharaMakio.png",
+      "cv": ""
+    },
+    {
+      "id": 274,
+      "name": "宫村伊澄",
+      "month": 4,
+      "day": 17,
+      "avatar": "/avatar/MiyamuraIzumi.png",
+      "cv": ""
+    },
+    {
+      "id": 355,
+      "name": "仙石翔",
+      "month": 5,
+      "day": 9,
+      "avatar": "/avatar/SengokoKakeru.png",
+      "cv": ""
+    },
+    {
+      "id": 309,
+      "name": "井浦基子",
+      "month": 5,
+      "day": 14,
+      "avatar": "/avatar/IuraMotoko.png",
+      "cv": ""
+    },
+    {
+      "id": 390,
+      "name": "绫崎礼美",
+      "month": 6,
+      "day": 6,
+      "avatar": "/avatar/AyasakiRemi.png",
+      "cv": ""
+    },
+    {
+      "id": 412,
+      "name": "吉川由纪",
+      "month": 7,
+      "day": 22,
+      "avatar": "/avatar/YoshikawaYuki.png",
+      "cv": ""
+    },
+    {
+      "id": 461,
+      "name": "沟内大树",
+      "month": 8,
+      "day": 24,
+      "avatar": "/avatar/MizouchiTaiki.png",
+      "cv": ""
+    },
+    {
+      "id": 508,
+      "name": "一条千佳",
+      "month": 9,
+      "day": 26,
+      "avatar": "/avatar/IchijouChika.png",
+      "cv": ""
+    },
+    {
+      "id": 43,
+      "name": "石川透",
+      "month": 10,
+      "day": 1,
+      "avatar": "/avatar/IshikawaTooru.png",
+      "cv": ""
+    },
+    {
+      "id": 160,
+      "name": "柳明音",
+      "month": 12,
+      "day": 28,
+      "avatar": "/avatar/YanagiAkane.png",
+      "cv": ""
+    },
+    {
+      "id": 168,
+      "name": "泽田穗乃香",
+      "month": 12,
+      "day": 31,
+      "avatar": "/avatar/SawadaHonoka.png",
+      "cv": ""
+    }
+  ]
+}

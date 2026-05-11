@@ -1,0 +1,29 @@
+{
+  "work": "青春之箱",
+  "characters": [
+    {
+      "id": 14,
+      "name": "猪股大喜",
+      "month": 1,
+      "day": 15,
+      "avatar": "/avatar/InomataTaiki.jpg",
+      "cv": ""
+    },
+    {
+      "id": 223,
+      "name": "蝶野雏",
+      "month": 3,
+      "day": 2,
+      "avatar": "/avatar/ChōnoHina.png",
+      "cv": ""
+    },
+    {
+      "id": 464,
+      "name": "鹿野千夏",
+      "month": 8,
+      "day": 26,
+      "avatar": "/avatar/KanoChinatsu.jpg",
+      "cv": ""
+    }
+  ]
+}

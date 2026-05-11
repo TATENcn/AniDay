@@ -1,0 +1,21 @@
+{
+  "work": "日在校园",
+  "characters": [
+    {
+      "id": 35,
+      "name": "桂言叶",
+      "month": 1,
+      "day": 4,
+      "avatar": "/avatar/KatsuraKotonoha.jpg",
+      "cv": ""
+    },
+    {
+      "id": 147,
+      "name": "伊藤诚的祭日",
+      "month": 12,
+      "day": 24,
+      "avatar": "/avatar/ItouMakoto.jpeg",
+      "cv": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "work": "命运石之门",
+  "characters": [
+    {
+      "id": 175,
+      "name": "椎名真由理",
+      "month": 2,
+      "day": 1,
+      "avatar": "/avatar/ShiinaMayuri.png",
+      "cv": ""
+    },
+    {
+      "id": 289,
+      "name": "菲莉丝·喵喵",
+      "month": 4,
+      "day": 3,
+      "avatar": "/avatar/FarisNyan-Nyan.jpg",
+      "cv": ""
+    },
+    {
+      "id": 314,
+      "name": "桥田至",
+      "month": 5,
+      "day": 19,
+      "avatar": "/avatar/HashidaItaru.jpg",
+      "cv": ""
+    },
+    {
+      "id": 335,
+      "name": "阿万音由季",
+      "month": 5,
+      "day": 31,
+      "avatar": "/avatar/AmaneYuki.jpg",
+      "cv": ""
+    },
+    {
+      "id": 387,
+      "name": "桐生萌郁",
+      "month": 6,
+      "day": 6,
+      "avatar": "/avatar/KiryūMoeka.png",
+      "cv": ""
+    },
+    {
+      "id": 433,
+      "name": "椎名篝",
+      "month": 7,
+      "day": 7,
+      "avatar": "/avatar/ShiinaKagari.jpg",
+      "cv": ""
+    },
+    {
+      "id": 418,
+      "name": "牧濑红莉栖",
+      "month": 7,
+      "day": 25,
+      "avatar": "/avatar/MakiseKurisu.jpg",
+      "cv": ""
+    },
+    {
+      "id": 472,
+      "name": "漆原琉华",
+      "month": 8,
+      "day": 30,
+      "avatar": "/avatar/UrushibaraRuka.jpg",
+      "cv": ""
+    },
+    {
+      "id": 509,
+      "name": "阿万音铃羽",
+      "month": 9,
+      "day": 27,
+      "avatar": "/avatar/AmaneSuzuha.jpg",
+      "cv": ""
+    },
+    {
+      "id": 96,
+      "name": "比屋定真帆",
+      "month": 11,
+      "day": 2,
+      "avatar": "/avatar/HiyajōMaho.webp",
+      "cv": ""
+    },
+    {
+      "id": 128,
+      "name": "冈部伦太郎",
+      "month": 12,
+      "day": 14,
+      "avatar": "/avatar/OkabeRintarō.jpg",
+      "cv": ""
+    }
+  ]
+}

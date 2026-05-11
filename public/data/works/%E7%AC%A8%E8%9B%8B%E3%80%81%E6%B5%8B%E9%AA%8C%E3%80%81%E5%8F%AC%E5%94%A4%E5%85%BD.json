@@ -1,0 +1,37 @@
+{
+  "work": "笨蛋、测验、召唤兽",
+  "characters": [
+    {
+      "id": 250,
+      "name": "吉井明久",
+      "month": 3,
+      "day": 6,
+      "avatar": "/avatar/YoshiiAkihisa.jpg",
+      "cv": ""
+    },
+    {
+      "id": 397,
+      "name": "坂本雄二",
+      "month": 6,
+      "day": 9,
+      "avatar": "/avatar/SakamotoYūji.jpg",
+      "cv": ""
+    },
+    {
+      "id": 45,
+      "name": "岛田美波",
+      "month": 10,
+      "day": 10,
+      "avatar": "/avatar/ShimadaMinami.jpg",
+      "cv": ""
+    },
+    {
+      "id": 140,
+      "name": "姬路瑞希",
+      "month": 12,
+      "day": 21,
+      "avatar": "/avatar/HimejiMizuki.jpg",
+      "cv": ""
+    }
+  ]
+}

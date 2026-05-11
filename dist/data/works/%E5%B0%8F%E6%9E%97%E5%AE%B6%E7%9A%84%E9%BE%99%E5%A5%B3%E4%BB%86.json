@@ -1,0 +1,37 @@
+{
+  "work": "小林家的龙女仆",
+  "characters": [
+    {
+      "id": 284,
+      "name": "小林",
+      "month": 4,
+      "day": 23,
+      "avatar": "/avatar/Kobayashi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 344,
+      "name": "泷谷真",
+      "month": 5,
+      "day": 5,
+      "avatar": "/avatar/TakiyaMakoto.jpg",
+      "cv": ""
+    },
+    {
+      "id": 455,
+      "name": "才川莉子",
+      "month": 8,
+      "day": 21,
+      "avatar": "/avatar/SaikawaRiko.jpg",
+      "cv": ""
+    },
+    {
+      "id": 141,
+      "name": "真土翔太",
+      "month": 12,
+      "day": 22,
+      "avatar": "/avatar/MagatsuchiShōta.jpg",
+      "cv": ""
+    }
+  ]
+}

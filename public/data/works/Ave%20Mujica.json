@@ -1,0 +1,45 @@
+{
+  "work": "Ave Mujica",
+  "characters": [
+    {
+      "id": 12,
+      "name": "若叶睦",
+      "month": 1,
+      "day": 14,
+      "avatar": "/avatar/WakabaMutsumi.png",
+      "cv": ""
+    },
+    {
+      "id": 180,
+      "name": "丰川祥子",
+      "month": 2,
+      "day": 14,
+      "avatar": "/avatar/TogawaSakiko.jpg",
+      "cv": ""
+    },
+    {
+      "id": 298,
+      "name": "八幡海铃",
+      "month": 4,
+      "day": 7,
+      "avatar": "/avatar/YahataUmiri.png",
+      "cv": ""
+    },
+    {
+      "id": 356,
+      "name": "祐天寺若麦",
+      "month": 6,
+      "day": 1,
+      "avatar": "/avatar/YūtenjiNyamu.png",
+      "cv": ""
+    },
+    {
+      "id": 381,
+      "name": "三角初华",
+      "month": 6,
+      "day": 26,
+      "avatar": "/avatar/MisumiUika.png",
+      "cv": ""
+    }
+  ]
+}

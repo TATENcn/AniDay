@@ -1,0 +1,61 @@
+{
+  "work": "哆啦 A 梦",
+  "characters": [
+    {
+      "id": 235,
+      "name": "骨川小夫",
+      "month": 3,
+      "day": 28,
+      "avatar": "/avatar/HonekawaSuneo.png",
+      "cv": ""
+    },
+    {
+      "id": 267,
+      "name": "出木杉英才",
+      "month": 4,
+      "day": 14,
+      "avatar": "/avatar/DekisugiHidetoshi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 316,
+      "name": "源静香",
+      "month": 5,
+      "day": 2,
+      "avatar": "/avatar/MinamotoShizuka.jpg",
+      "cv": ""
+    },
+    {
+      "id": 365,
+      "name": "刚田武",
+      "month": 6,
+      "day": 15,
+      "avatar": "/avatar/GōdaTakeshi.png",
+      "cv": ""
+    },
+    {
+      "id": 480,
+      "name": "野比大雄",
+      "month": 8,
+      "day": 7,
+      "avatar": "/avatar/NobiNobita.jpg",
+      "cv": ""
+    },
+    {
+      "id": 513,
+      "name": "哆啦 A 梦",
+      "month": 9,
+      "day": 3,
+      "avatar": "/avatar/Doraemon.jpg",
+      "cv": ""
+    },
+    {
+      "id": 135,
+      "name": "哆啦美",
+      "month": 12,
+      "day": 2,
+      "avatar": "/avatar/Dorami.jpg",
+      "cv": ""
+    }
+  ]
+}

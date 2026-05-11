@@ -1,0 +1,29 @@
+{
+  "work": "文学少女",
+  "characters": [
+    {
+      "id": 217,
+      "name": "天野远子",
+      "month": 3,
+      "day": 15,
+      "avatar": "/avatar/AmanoTooko.jpg",
+      "cv": ""
+    },
+    {
+      "id": 218,
+      "name": "井上心叶",
+      "month": 3,
+      "day": 15,
+      "avatar": "/avatar/InoueKonoha.jpg",
+      "cv": ""
+    },
+    {
+      "id": 83,
+      "name": "朝仓美羽",
+      "month": 10,
+      "day": 8,
+      "avatar": "/avatar/AsakuraMiu.jpg",
+      "cv": ""
+    }
+  ]
+}

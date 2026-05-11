@@ -1,0 +1,61 @@
+{
+  "work": "别当欧尼酱了！",
+  "characters": [
+    {
+      "id": 248,
+      "name": "绪山真寻",
+      "month": 3,
+      "day": 6,
+      "avatar": "/avatar/OyamaMahiro.jpg",
+      "cv": ""
+    },
+    {
+      "id": 282,
+      "name": "绪山美波里",
+      "month": 4,
+      "day": 22,
+      "avatar": "/avatar/OyamaMihari.jpg",
+      "cv": ""
+    },
+    {
+      "id": 345,
+      "name": "樱花朝日",
+      "month": 5,
+      "day": 5,
+      "avatar": "/avatar/ŌkaAsahi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 369,
+      "name": "室崎美夜",
+      "month": 6,
+      "day": 18,
+      "avatar": "/avatar/MurosakiMiyo.png",
+      "cv": ""
+    },
+    {
+      "id": 491,
+      "name": "穗月枫",
+      "month": 9,
+      "day": 12,
+      "avatar": "/avatar/HozukiKaede.jpg",
+      "cv": ""
+    },
+    {
+      "id": 63,
+      "name": "穗月椛",
+      "month": 10,
+      "day": 20,
+      "avatar": "/avatar/HozukiMomiji.jpg",
+      "cv": ""
+    },
+    {
+      "id": 103,
+      "name": "天川那由多",
+      "month": 11,
+      "day": 23,
+      "avatar": "/avatar/TenkawaNayuta.webp",
+      "cv": ""
+    }
+  ]
+}

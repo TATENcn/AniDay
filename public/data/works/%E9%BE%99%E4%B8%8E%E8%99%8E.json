@@ -1,0 +1,29 @@
+{
+  "work": "龙与虎",
+  "characters": [
+    {
+      "id": 333,
+      "name": "高须龙儿",
+      "month": 5,
+      "day": 3,
+      "avatar": "/avatar/TakasuRyuuji.jpg",
+      "cv": ""
+    },
+    {
+      "id": 362,
+      "name": "栉枝实乃梨",
+      "month": 6,
+      "day": 12,
+      "avatar": "/avatar/MinoriKushieda.jpg",
+      "cv": ""
+    },
+    {
+      "id": 421,
+      "name": "逢坂大河",
+      "month": 7,
+      "day": 27,
+      "avatar": "/avatar/AisakaTaiga.jpg",
+      "cv": ""
+    }
+  ]
+}

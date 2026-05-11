@@ -1,0 +1,13 @@
+{
+  "work": "龙珠",
+  "characters": [
+    {
+      "id": 353,
+      "name": "孙悟空",
+      "month": 5,
+      "day": 9,
+      "avatar": "/avatar/SonGoku.jpg",
+      "cv": ""
+    }
+  ]
+}

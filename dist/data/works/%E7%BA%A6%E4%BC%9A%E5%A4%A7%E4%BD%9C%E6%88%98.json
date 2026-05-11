@@ -1,0 +1,109 @@
+{
+  "work": "约会大作战",
+  "characters": [
+    {
+      "id": 16,
+      "name": "诱宵美九",
+      "month": 1,
+      "day": 19,
+      "avatar": "/avatar/IzayoiMiku.jpg",
+      "cv": ""
+    },
+    {
+      "id": 201,
+      "name": "本条二亚",
+      "month": 2,
+      "day": 29,
+      "avatar": "/avatar/HonjōNia.webp",
+      "cv": ""
+    },
+    {
+      "id": 224,
+      "name": "冰芽川四糸乃",
+      "month": 3,
+      "day": 20,
+      "avatar": "/avatar/HimekawaYoshino.jpg",
+      "cv": ""
+    },
+    {
+      "id": 256,
+      "name": "夜刀神十香",
+      "month": 4,
+      "day": 10,
+      "avatar": "/avatar/YatogamiTōka.jpg",
+      "cv": ""
+    },
+    {
+      "id": 329,
+      "name": "五河士道",
+      "month": 5,
+      "day": 27,
+      "avatar": "/avatar/ItsukaShidō.png",
+      "cv": ""
+    },
+    {
+      "id": 361,
+      "name": "时崎狂三",
+      "month": 6,
+      "day": 10,
+      "avatar": "/avatar/TokisakiKurumi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 414,
+      "name": "镜野七罪",
+      "month": 7,
+      "day": 23,
+      "avatar": "/avatar/KyōnoNatsumi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 468,
+      "name": "五河琴里",
+      "month": 8,
+      "day": 3,
+      "avatar": "/avatar/ItsukaKotori.png",
+      "cv": ""
+    },
+    {
+      "id": 490,
+      "name": "星宫六喰",
+      "month": 9,
+      "day": 12,
+      "avatar": "/avatar/HoshimiyaMukuro.jpg",
+      "cv": ""
+    },
+    {
+      "id": 56,
+      "name": "八舞夕弦",
+      "month": 10,
+      "day": 18,
+      "avatar": "/avatar/YamaiYuzuru.jpg",
+      "cv": ""
+    },
+    {
+      "id": 57,
+      "name": "八舞耶俱矢",
+      "month": 10,
+      "day": 18,
+      "avatar": "/avatar/YamaiKaguya.jpg",
+      "cv": ""
+    },
+    {
+      "id": 88,
+      "name": "鸢一折纸",
+      "month": 11,
+      "day": 11,
+      "avatar": "/avatar/TobiichiOrigami.jpg",
+      "cv": ""
+    },
+    {
+      "id": 155,
+      "name": "崇宫澪",
+      "month": 12,
+      "day": 25,
+      "avatar": "/avatar/TakamiyaMio.jpg",
+      "cv": ""
+    }
+  ]
+}

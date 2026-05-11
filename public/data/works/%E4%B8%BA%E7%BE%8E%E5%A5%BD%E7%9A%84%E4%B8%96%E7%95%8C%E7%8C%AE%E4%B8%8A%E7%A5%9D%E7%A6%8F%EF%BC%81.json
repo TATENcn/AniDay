@@ -1,0 +1,37 @@
+{
+  "work": "为美好的世界献上祝福！",
+  "characters": [
+    {
+      "id": 295,
+      "name": "达克妮丝",
+      "month": 4,
+      "day": 6,
+      "avatar": "/avatar/LalatinaFordDustiness.jpg",
+      "cv": ""
+    },
+    {
+      "id": 394,
+      "name": "佐藤和真",
+      "month": 6,
+      "day": 7,
+      "avatar": "/avatar/SatōKazuma.jpg",
+      "cv": ""
+    },
+    {
+      "id": 439,
+      "name": "阿库娅",
+      "month": 8,
+      "day": 1,
+      "avatar": "/avatar/Aqua.jpg",
+      "cv": ""
+    },
+    {
+      "id": 169,
+      "name": "惠惠",
+      "month": 12,
+      "day": 4,
+      "avatar": "/avatar/Megumin.jpg",
+      "cv": ""
+    }
+  ]
+}

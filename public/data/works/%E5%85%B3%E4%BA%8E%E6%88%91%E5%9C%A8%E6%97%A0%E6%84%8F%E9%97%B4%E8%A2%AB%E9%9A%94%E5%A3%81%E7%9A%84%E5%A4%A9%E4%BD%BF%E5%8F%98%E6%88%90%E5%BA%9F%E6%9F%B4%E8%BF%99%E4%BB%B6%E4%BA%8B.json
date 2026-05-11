@@ -1,0 +1,37 @@
+{
+  "work": "关于我在无意间被隔壁的天使变成废柴这件事",
+  "characters": [
+    {
+      "id": 247,
+      "name": "赤泽树",
+      "month": 3,
+      "day": 4,
+      "avatar": "/avatar/AkazawaItsuki.jpg",
+      "cv": ""
+    },
+    {
+      "id": 346,
+      "name": "白河千岁",
+      "month": 5,
+      "day": 5,
+      "avatar": "/avatar/ShirakawaChitose.jpg",
+      "cv": ""
+    },
+    {
+      "id": 118,
+      "name": "藤宫周",
+      "month": 11,
+      "day": 8,
+      "avatar": "/avatar/FujimiyaAmane.png",
+      "cv": ""
+    },
+    {
+      "id": 172,
+      "name": "椎名真昼",
+      "month": 12,
+      "day": 6,
+      "avatar": "/avatar/ShiinaMahiru.jpg",
+      "cv": ""
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "work": "玉子市场",
+  "characters": [
+    {
+      "id": 338,
+      "name": "北白川馅子",
+      "month": 5,
+      "day": 4,
+      "avatar": "/avatar/KitashirakawaAnko.jpg",
+      "cv": ""
+    },
+    {
+      "id": 393,
+      "name": "牧野神奈",
+      "month": 6,
+      "day": 7,
+      "avatar": "/avatar/MakinoKanna.jpg",
+      "cv": ""
+    },
+    {
+      "id": 451,
+      "name": "常盘绿",
+      "month": 8,
+      "day": 19,
+      "avatar": "/avatar/TokiwaMidori.jpg",
+      "cv": ""
+    },
+    {
+      "id": 44,
+      "name": "大路饼藏",
+      "month": 10,
+      "day": 10,
+      "avatar": "/avatar/OojiMochizou.jpg",
+      "cv": ""
+    },
+    {
+      "id": 165,
+      "name": "北白川玉子",
+      "month": 12,
+      "day": 31,
+      "avatar": "/avatar/KitashirakawaTamako.jpg",
+      "cv": ""
+    }
+  ]
+}

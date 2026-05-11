@@ -1,0 +1,53 @@
+{
+  "work": "路人女主的养成方法",
+  "characters": [
+    {
+      "id": 31,
+      "name": "霞之丘诗羽",
+      "month": 1,
+      "day": 31,
+      "avatar": "/avatar/KasumigaokaUtaha.jpg",
+      "cv": ""
+    },
+    {
+      "id": 226,
+      "name": "泽村·斯宾塞·英梨梨",
+      "month": 3,
+      "day": 20,
+      "avatar": "/avatar/SawamuraSpencerEriri.jpg",
+      "cv": ""
+    },
+    {
+      "id": 347,
+      "name": "波岛出海",
+      "month": 5,
+      "day": 5,
+      "avatar": "/avatar/HashimaIzumi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 503,
+      "name": "安艺伦也",
+      "month": 9,
+      "day": 23,
+      "avatar": "/avatar/KatōMegumi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 132,
+      "name": "安艺伦也",
+      "month": 12,
+      "day": 18,
+      "avatar": "/avatar/AkiTomoya.jpg",
+      "cv": ""
+    },
+    {
+      "id": 133,
+      "name": "冰堂美智留",
+      "month": 12,
+      "day": 18,
+      "avatar": "/avatar/HyōdōMichiru.jpg",
+      "cv": ""
+    }
+  ]
+}

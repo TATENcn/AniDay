@@ -1,0 +1,45 @@
+{
+  "work": "夏日重现",
+  "characters": [
+    {
+      "id": 351,
+      "name": "网代慎平",
+      "month": 5,
+      "day": 8,
+      "avatar": "/avatar/AjiroShinpei.jpg",
+      "cv": ""
+    },
+    {
+      "id": 379,
+      "name": "菱形朱鹭子",
+      "month": 6,
+      "day": 25,
+      "avatar": "/avatar/HishigataTokiko.jpg",
+      "cv": ""
+    },
+    {
+      "id": 419,
+      "name": "小舟潮",
+      "month": 7,
+      "day": 25,
+      "avatar": "/avatar/KofuneUshio.jpg",
+      "cv": ""
+    },
+    {
+      "id": 60,
+      "name": "小舟澪",
+      "month": 10,
+      "day": 20,
+      "avatar": "/avatar/KofuneMio.jpg",
+      "cv": ""
+    },
+    {
+      "id": 61,
+      "name": "菱形窗",
+      "month": 10,
+      "day": 20,
+      "avatar": "/avatar/HishigataSō.jpg",
+      "cv": ""
+    }
+  ]
+}

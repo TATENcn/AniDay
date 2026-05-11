@@ -1,0 +1,69 @@
+{
+  "work": "CLANNAD",
+  "characters": [
+    {
+      "id": 185,
+      "name": "春原阳平",
+      "month": 2,
+      "day": 17,
+      "avatar": "/avatar/SunoharaYouhei.jpg",
+      "cv": ""
+    },
+    {
+      "id": 308,
+      "name": "一之濑琴美",
+      "month": 5,
+      "day": 13,
+      "avatar": "/avatar/IchinoseKotomi.png",
+      "cv": ""
+    },
+    {
+      "id": 409,
+      "name": "伊吹风子",
+      "month": 7,
+      "day": 20,
+      "avatar": "/avatar/IbukiFuko.jpg",
+      "cv": ""
+    },
+    {
+      "id": 479,
+      "name": "宫泽有纪宁",
+      "month": 8,
+      "day": 7,
+      "avatar": "/avatar/MiyazawaYukine.jpg",
+      "cv": ""
+    },
+    {
+      "id": 519,
+      "name": "藤林杏",
+      "month": 9,
+      "day": 9,
+      "avatar": "/avatar/FujibayashiKyō.jpg",
+      "cv": ""
+    },
+    {
+      "id": 49,
+      "name": "坂上智代",
+      "month": 10,
+      "day": 14,
+      "avatar": "/avatar/SakagamiTomoyo.jpg",
+      "cv": ""
+    },
+    {
+      "id": 77,
+      "name": "冈崎朋也",
+      "month": 10,
+      "day": 30,
+      "avatar": "/avatar/OkazakiTomoya.jpg",
+      "cv": ""
+    },
+    {
+      "id": 148,
+      "name": "古河渚",
+      "month": 12,
+      "day": 24,
+      "avatar": "/avatar/NagisaFurukawa.jpg",
+      "cv": ""
+    }
+  ]
+}

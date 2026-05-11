@@ -29,10 +29,11 @@ defineProps<{
   position: absolute;
   bottom: var(--info-bottom-offset);
   right: 0;
-  text-align: right;
+  width: var(--info-width, 18rem);
+  text-align: left;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   z-index: 15;
 }
 
@@ -42,25 +43,25 @@ defineProps<{
   text-shadow: var(--text-shadow);
   color: var(--char-color);
   transition: color 0.5s ease;
-  margin-bottom: 0.125rem;
+  margin-bottom: var(--space-xs);
 }
 
 .meta-info {
   display: flex;
-  gap: 0.9375rem;
+  gap: var(--space-md);
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   font-size: var(--meta-font-size);
   opacity: 0.8;
   text-shadow: var(--text-shadow);
 }
 
 .tags {
-  margin-top: 0.5rem;
+  margin-top: var(--space-sm);
   display: flex;
-  gap: 0.5rem;
+  gap: var(--space-sm);
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .tag {

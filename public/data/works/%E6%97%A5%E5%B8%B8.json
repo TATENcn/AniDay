@@ -1,0 +1,45 @@
+{
+  "work": "日常",
+  "characters": [
+    {
+      "id": 251,
+      "name": "东云名乃",
+      "month": 3,
+      "day": 7,
+      "avatar": "/avatar/ShinonomeNano.jpg",
+      "cv": ""
+    },
+    {
+      "id": 209,
+      "name": "长野原美绪",
+      "month": 3,
+      "day": 10,
+      "avatar": "/avatar/NaganoharaMio.jpg",
+      "cv": ""
+    },
+    {
+      "id": 388,
+      "name": "博士（东云）",
+      "month": 6,
+      "day": 6,
+      "avatar": "/avatar/Hakase.jpg",
+      "cv": ""
+    },
+    {
+      "id": 67,
+      "name": "水上麻衣",
+      "month": 10,
+      "day": 24,
+      "avatar": "/avatar/MinakamiMai.jpg",
+      "cv": ""
+    },
+    {
+      "id": 157,
+      "name": "相生祐子",
+      "month": 12,
+      "day": 26,
+      "avatar": "/avatar/AioiYūko.jpg",
+      "cv": ""
+    }
+  ]
+}

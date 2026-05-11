@@ -1,0 +1,45 @@
+{
+  "work": "Re:从零开始的异世界生活",
+  "characters": [
+    {
+      "id": 5,
+      "name": "莱因哈鲁特·范·阿斯特雷亚",
+      "month": 1,
+      "day": 1,
+      "avatar": "/avatar/ReinhardVanAstrea.jpg",
+      "cv": ""
+    },
+    {
+      "id": 187,
+      "name": "拉姆",
+      "month": 2,
+      "day": 2,
+      "avatar": "/avatar/Ram.jpg",
+      "cv": ""
+    },
+    {
+      "id": 188,
+      "name": "雷姆",
+      "month": 2,
+      "day": 2,
+      "avatar": "/avatar/Rem.jpg",
+      "cv": ""
+    },
+    {
+      "id": 254,
+      "name": "菜月昴",
+      "month": 4,
+      "day": 1,
+      "avatar": "/avatar/NatsukiSubaru.jpg",
+      "cv": ""
+    },
+    {
+      "id": 502,
+      "name": "爱蜜莉雅",
+      "month": 9,
+      "day": 23,
+      "avatar": "/avatar/Emilia.jpg",
+      "cv": ""
+    }
+  ]
+}

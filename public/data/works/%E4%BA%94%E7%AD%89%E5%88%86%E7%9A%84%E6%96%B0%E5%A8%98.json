@@ -1,0 +1,45 @@
+{
+  "work": "五等分的新娘",
+  "characters": [
+    {
+      "id": 339,
+      "name": "中野一花",
+      "month": 5,
+      "day": 5,
+      "avatar": "/avatar/NakanoIchika.jpg",
+      "cv": ""
+    },
+    {
+      "id": 340,
+      "name": "中野二乃",
+      "month": 5,
+      "day": 5,
+      "avatar": "/avatar/NakanoNino.jpg",
+      "cv": ""
+    },
+    {
+      "id": 341,
+      "name": "中野三玖",
+      "month": 5,
+      "day": 5,
+      "avatar": "/avatar/NakanoMiku.jpg",
+      "cv": ""
+    },
+    {
+      "id": 342,
+      "name": "中野四叶",
+      "month": 5,
+      "day": 5,
+      "avatar": "/avatar/NakanoYotsuba.jpg",
+      "cv": ""
+    },
+    {
+      "id": 348,
+      "name": "中野五月",
+      "month": 5,
+      "day": 6,
+      "avatar": "/avatar/NakanoItsuki.jpg",
+      "cv": ""
+    }
+  ]
+}

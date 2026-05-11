@@ -1,0 +1,37 @@
+{
+  "work": "AIR",
+  "characters": [
+    {
+      "id": 364,
+      "name": "雾岛佳乃",
+      "month": 6,
+      "day": 12,
+      "avatar": "/avatar/KirishimaKano.png",
+      "cv": ""
+    },
+    {
+      "id": 415,
+      "name": "神尾观铃",
+      "month": 7,
+      "day": 23,
+      "avatar": "/avatar/KamioMisuzu.jpg",
+      "cv": ""
+    },
+    {
+      "id": 493,
+      "name": "国崎往人",
+      "month": 9,
+      "day": 14,
+      "avatar": "/avatar/KunisakiYukito.jpg",
+      "cv": ""
+    },
+    {
+      "id": 142,
+      "name": "远野美凪",
+      "month": 12,
+      "day": 22,
+      "avatar": "/avatar/TōnoMinagi.png",
+      "cv": ""
+    }
+  ]
+}

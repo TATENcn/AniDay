@@ -42,9 +42,9 @@ withDefaults(defineProps<Props>(), {
 <style scoped>
 .quote-container {
   max-width: var(--quote-max-width);
-  margin-bottom: 15vh;
+  margin-bottom: var(--space-3xl);
   overflow-y: auto;
-  max-height: 60vh;
+  max-height: 50vh;
   scrollbar-width: none;
 }
 
@@ -55,7 +55,7 @@ withDefaults(defineProps<Props>(), {
 .quote-text-group {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: var(--space-lg);
 }
 
 .quote-text-item {

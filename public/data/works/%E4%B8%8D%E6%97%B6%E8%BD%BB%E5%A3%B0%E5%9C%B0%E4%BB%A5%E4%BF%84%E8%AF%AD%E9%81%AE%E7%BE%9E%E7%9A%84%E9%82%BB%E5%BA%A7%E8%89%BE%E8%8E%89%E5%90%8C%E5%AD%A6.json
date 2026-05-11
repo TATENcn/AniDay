@@ -1,0 +1,45 @@
+{
+  "work": "不时轻声地以俄语遮羞的邻座艾莉同学",
+  "characters": [
+    {
+      "id": 194,
+      "name": "君岛绫乃",
+      "month": 2,
+      "day": 21,
+      "avatar": "/avatar/KimishimaAyano.jpg",
+      "cv": ""
+    },
+    {
+      "id": 212,
+      "name": "周防有希",
+      "month": 3,
+      "day": 12,
+      "avatar": "/avatar/YukiSuou.jpg",
+      "cv": ""
+    },
+    {
+      "id": 303,
+      "name": "久世政近",
+      "month": 4,
+      "day": 9,
+      "avatar": "/avatar/KuzeMasachika.png",
+      "cv": ""
+    },
+    {
+      "id": 117,
+      "name": "艾莉莎·米哈伊罗夫纳·九条",
+      "month": 11,
+      "day": 7,
+      "avatar": "/avatar/AlisaMikhaylovnaKujō.jpg",
+      "cv": ""
+    },
+    {
+      "id": 149,
+      "name": "玛利亚·米哈伊罗夫纳·九条",
+      "month": 12,
+      "day": 24,
+      "avatar": "/avatar/MariyaMikhaylovnaKujō.jpg",
+      "cv": ""
+    }
+  ]
+}

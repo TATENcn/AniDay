@@ -1,0 +1,29 @@
+{
+  "work": "前辈是男孩子",
+  "characters": [
+    {
+      "id": 257,
+      "name": "大我龙二",
+      "month": 4,
+      "day": 10,
+      "avatar": "/avatar/TaigaRyūji.jpg",
+      "cv": ""
+    },
+    {
+      "id": 481,
+      "name": "花冈真琴",
+      "month": 8,
+      "day": 7,
+      "avatar": "/avatar/HanaokaMakoto.jpg",
+      "cv": ""
+    },
+    {
+      "id": 129,
+      "name": "苍井咲",
+      "month": 12,
+      "day": 15,
+      "avatar": "/avatar/AoiSaki.jpg",
+      "cv": ""
+    }
+  ]
+}

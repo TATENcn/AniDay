@@ -1,0 +1,45 @@
+{
+  "work": "租借女友",
+  "characters": [
+    {
+      "id": 225,
+      "name": "樱泽墨",
+      "month": 3,
+      "day": 20,
+      "avatar": "/avatar/SakurasawaSumi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 276,
+      "name": "水原千鹤",
+      "month": 4,
+      "day": 19,
+      "avatar": "/avatar/IchinoseChizuru.jpg",
+      "cv": ""
+    },
+    {
+      "id": 359,
+      "name": "木之下和也",
+      "month": 6,
+      "day": 1,
+      "avatar": "/avatar/KinoshitaKazuya.jpg",
+      "cv": ""
+    },
+    {
+      "id": 465,
+      "name": "更科瑠夏",
+      "month": 8,
+      "day": 26,
+      "avatar": "/avatar/SarashinaRuka.jpg",
+      "cv": ""
+    },
+    {
+      "id": 93,
+      "name": "七海麻美",
+      "month": 11,
+      "day": 13,
+      "avatar": "/avatar/NanamiMami.jpg",
+      "cv": ""
+    }
+  ]
+}

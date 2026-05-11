@@ -1,0 +1,45 @@
+{
+  "work": "吹响！上低音号",
+  "characters": [
+    {
+      "id": 179,
+      "name": "加藤叶月",
+      "month": 2,
+      "day": 13,
+      "avatar": "/avatar/KatōHazuki.jpg",
+      "cv": ""
+    },
+    {
+      "id": 312,
+      "name": "高坂丽奈",
+      "month": 5,
+      "day": 15,
+      "avatar": "/avatar/KōsakaReina.jpg",
+      "cv": ""
+    },
+    {
+      "id": 456,
+      "name": "黄前久美子",
+      "month": 8,
+      "day": 21,
+      "avatar": "/avatar/ŌmaeKumiko.jpg",
+      "cv": ""
+    },
+    {
+      "id": 496,
+      "name": "冢本秀一",
+      "month": 9,
+      "day": 18,
+      "avatar": "/avatar/",
+      "cv": ""
+    },
+    {
+      "id": 112,
+      "name": "川岛绿辉",
+      "month": 11,
+      "day": 3,
+      "avatar": "/avatar/KawashimaSapphire.jpg",
+      "cv": ""
+    }
+  ]
+}

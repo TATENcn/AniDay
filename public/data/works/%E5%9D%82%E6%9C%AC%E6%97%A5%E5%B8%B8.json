@@ -1,0 +1,29 @@
+{
+  "work": "坂本日常",
+  "characters": [
+    {
+      "id": 300,
+      "name": "陆少糖",
+      "month": 4,
+      "day": 8,
+      "avatar": "/avatar/LuShaotang.jpg",
+      "cv": ""
+    },
+    {
+      "id": 391,
+      "name": "朝仓信",
+      "month": 6,
+      "day": 7,
+      "avatar": "/avatar/AsakuraShin.png",
+      "cv": ""
+    },
+    {
+      "id": 100,
+      "name": "坂本太郎",
+      "month": 11,
+      "day": 21,
+      "avatar": "/avatar/TaroSakamoto.jpg",
+      "cv": ""
+    }
+  ]
+}

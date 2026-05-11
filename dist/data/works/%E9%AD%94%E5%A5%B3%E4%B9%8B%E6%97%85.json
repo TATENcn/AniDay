@@ -1,0 +1,37 @@
+{
+  "work": "魔女之旅",
+  "characters": [
+    {
+      "id": 253,
+      "name": "沙耶",
+      "month": 3,
+      "day": 8,
+      "avatar": "/avatar/Saya.webp",
+      "cv": ""
+    },
+    {
+      "id": 326,
+      "name": "艾姆妮西亚",
+      "month": 5,
+      "day": 25,
+      "avatar": "/avatar/Amnesia.jpg",
+      "cv": ""
+    },
+    {
+      "id": 327,
+      "name": "艾维莉亚",
+      "month": 5,
+      "day": 26,
+      "avatar": "/avatar/Avilia.jpg",
+      "cv": ""
+    },
+    {
+      "id": 55,
+      "name": "伊蕾娜",
+      "month": 10,
+      "day": 17,
+      "avatar": "/avatar/Elaina.png",
+      "cv": ""
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "work": "欢迎来到实力至上主义的教室",
+  "characters": [
+    {
+      "id": 24,
+      "name": "栉田桔梗",
+      "month": 1,
+      "day": 23,
+      "avatar": "/avatar/KushidaKikyou.jpg",
+      "cv": ""
+    },
+    {
+      "id": 183,
+      "name": "堀北铃音",
+      "month": 2,
+      "day": 15,
+      "avatar": "/avatar/HorikitaSuzune.png",
+      "cv": ""
+    },
+    {
+      "id": 62,
+      "name": "绫小路清隆",
+      "month": 10,
+      "day": 20,
+      "avatar": "/avatar/AyanokōjiKiyotaka.png",
+      "cv": ""
+    }
+  ]
+}

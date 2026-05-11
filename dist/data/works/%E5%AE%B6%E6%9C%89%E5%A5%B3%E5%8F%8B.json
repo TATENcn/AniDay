@@ -1,0 +1,29 @@
+{
+  "work": "家有女友",
+  "characters": [
+    {
+      "id": 296,
+      "name": "橘阳菜",
+      "month": 4,
+      "day": 6,
+      "avatar": "/avatar/HinaTachibana.jpg",
+      "cv": ""
+    },
+    {
+      "id": 400,
+      "name": "藤井夏生",
+      "month": 7,
+      "day": 13,
+      "avatar": "/avatar/NatsuoFujii.jpg",
+      "cv": ""
+    },
+    {
+      "id": 514,
+      "name": "橘瑠衣",
+      "month": 9,
+      "day": 5,
+      "avatar": "/avatar/TachibanaRui.jpg",
+      "cv": ""
+    }
+  ]
+}

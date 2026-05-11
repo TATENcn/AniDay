@@ -1,0 +1,21 @@
+{
+  "work": "我心里危险的东西",
+  "characters": [
+    {
+      "id": 232,
+      "name": "市川京太郎",
+      "month": 3,
+      "day": 26,
+      "avatar": "/avatar/IchikawaKyōtarō.jpg",
+      "cv": ""
+    },
+    {
+      "id": 489,
+      "name": "山田杏奈",
+      "month": 9,
+      "day": 10,
+      "avatar": "/avatar/YamadaAnna.png",
+      "cv": ""
+    }
+  ]
+}

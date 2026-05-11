@@ -1,5 +1,5 @@
 <template>
-  <div class="avatar-row" v-if="characters.length > 0">
+  <div class="avatar-row" v-if="characters.length > 0" ref="containerRef">
     <div
       v-for="(char, index) in characters"
       :key="index"
@@ -7,20 +7,24 @@
       :class="{ active: currentIndex === index }"
       @click="$emit('select', index)"
     >
-      <img
-        :src="char.avatar || char.image_url"
-        :alt="char.name"
-        @error="handleAvatarError($event, char)"
-      >
+      <div class="img-wrapper">
+        <img
+          :src="char.avatar || char.image_url"
+          :alt="char.name"
+          @error="handleAvatarError($event, char)"
+          loading="lazy"
+        >
+      </div>
       <div class="avatar-name">{{ char.name }}</div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
+import { watch, nextTick, ref } from 'vue'
 import type { Character } from '../composables/useCharacters'
 
-defineProps<{
+const props = defineProps<{
   characters: Character[]
   currentIndex: number
 }>()
@@ -28,6 +32,21 @@ defineProps<{
 defineEmits<{
   (e: 'select', index: number): void
 }>()
+
+const containerRef = ref<HTMLElement | null>(null)
+
+watch(() => props.currentIndex, () => {
+  nextTick(() => {
+    const activeElement = containerRef.value?.querySelector('.avatar-item.active') as HTMLElement
+    if (activeElement && containerRef.value) {
+      activeElement.scrollIntoView({
+        behavior: 'smooth',
+        block: 'nearest',
+        inline: 'center'
+      })
+    }
+  })
+})
 
 const handleAvatarError = (event: Event, char: Character) => {
   const target = event.target as HTMLImageElement
@@ -42,8 +61,8 @@ const handleAvatarError = (event: Event, char: Character) => {
   left: 0;
   display: flex;
   gap: var(--avatar-gap);
-  padding: 1.875rem 1.25rem;
-  margin-bottom: -1.25rem;
+  padding: var(--space-xl) var(--space-lg);
+  margin-bottom: calc(-1 * var(--space-xl));
   overflow-x: auto;
   scrollbar-width: none;
   width: 100%;
@@ -59,42 +78,54 @@ const handleAvatarError = (event: Event, char: Character) => {
   align-items: flex-start;
   cursor: pointer;
   transition: transform 0.3s ease;
-  min-width: 4.375rem;
+  min-width: 4rem;
 }
 
-.avatar-item img {
+.avatar-item .img-wrapper {
   width: var(--avatar-size);
   height: var(--avatar-size);
   border-radius: 50%;
   border: 0.125rem solid rgba(255, 255, 255, 0.3);
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.avatar-item img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  transition: all 0.3s;
+  transition: transform 0.5s ease;
 }
 
 .avatar-item .avatar-name {
   font-size: 0.75rem;
-  margin-top: 0.5rem;
+  margin-top: var(--space-sm);
   text-align: center;
   width: 100%;
   white-space: nowrap;
+  opacity: 0.7;
+  transition: all 0.3s ease;
 }
 
-.avatar-item:hover img {
-  transform: scale(1.05);
-  border-color: white;
+.avatar-item:hover .img-wrapper {
+  transform: translateY(-0.25rem);
+  border-color: rgba(255, 255, 255, 0.8);
 }
 
 .avatar-item.active {
   z-index: 5;
 }
 
-.avatar-item.active img {
+.avatar-item.active .img-wrapper {
   border-color: white;
-  transform: scale(1.1);
-  box-shadow: 0 0 1.25rem rgba(255, 255, 255, 0.4);
+  transform: scale(1.15) translateY(-0.25rem);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.4), 0 0 1rem rgba(255, 255, 255, 0.2);
 }
 
 .avatar-item.active .avatar-name {
+  opacity: 1;
   font-weight: bold;
+  transform: translateY(-0.125rem);
 }
 </style>

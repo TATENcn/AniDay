@@ -1,0 +1,21 @@
+{
+  "work": "凉宫春日系列",
+  "characters": [
+    {
+      "id": 84,
+      "name": "凉宫春日",
+      "month": 10,
+      "day": 8,
+      "avatar": "/avatar/SuzumiyaHaruhi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 47,
+      "name": "阿虚",
+      "month": 10,
+      "day": 11,
+      "avatar": "/avatar/Kyon.jpg",
+      "cv": ""
+    }
+  ]
+}

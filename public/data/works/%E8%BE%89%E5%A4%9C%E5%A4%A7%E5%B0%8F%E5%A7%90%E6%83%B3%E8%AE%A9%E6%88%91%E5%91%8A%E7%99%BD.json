@@ -1,0 +1,85 @@
+{
+  "work": "辉夜大小姐想让我告白",
+  "characters": [
+    {
+      "id": 2,
+      "name": "四宫辉夜",
+      "month": 1,
+      "day": 1,
+      "avatar": "/avatar/ShinomiyaKaguya.png",
+      "cv": "古贺葵"
+    },
+    {
+      "id": 3,
+      "name": "四条真妃",
+      "month": 1,
+      "day": 1,
+      "avatar": "/avatar/ShijouMaki.jpg",
+      "cv": ""
+    },
+    {
+      "id": 239,
+      "name": "藤原千花",
+      "month": 3,
+      "day": 3,
+      "avatar": "/avatar/FujiwaraChika.jpg",
+      "cv": ""
+    },
+    {
+      "id": 240,
+      "name": "石上优",
+      "month": 3,
+      "day": 3,
+      "avatar": "/avatar/IshigamiYū.png",
+      "cv": ""
+    },
+    {
+      "id": 277,
+      "name": "早坂爱",
+      "month": 4,
+      "day": 2,
+      "avatar": "/avatar/HayasakaAi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 343,
+      "name": "伊井野弥子",
+      "month": 5,
+      "day": 5,
+      "avatar": "/avatar/IinoMiko.png",
+      "cv": ""
+    },
+    {
+      "id": 386,
+      "name": "大佛小钵",
+      "month": 6,
+      "day": 6,
+      "avatar": "/avatar/OsaragiKobachi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 378,
+      "name": "柏木渚",
+      "month": 6,
+      "day": 25,
+      "avatar": "/avatar/KashiwagiNagisa.png",
+      "cv": ""
+    },
+    {
+      "id": 462,
+      "name": "田沼翼",
+      "month": 8,
+      "day": 25,
+      "avatar": "/avatar/TanumaTsubasa.jpg",
+      "cv": ""
+    },
+    {
+      "id": 520,
+      "name": "白银御行",
+      "month": 9,
+      "day": 9,
+      "avatar": "/avatar/ShiroganeMiyuki.png",
+      "cv": ""
+    }
+  ]
+}

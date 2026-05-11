@@ -1,0 +1,45 @@
+{
+  "work": "干物妹！小埋",
+  "characters": [
+    {
+      "id": 216,
+      "name": "本场切绘",
+      "month": 3,
+      "day": 15,
+      "avatar": "/avatar/MotobaKirie.jpg",
+      "cv": ""
+    },
+    {
+      "id": 372,
+      "name": "土间大平",
+      "month": 6,
+      "day": 2,
+      "avatar": "/avatar/DomaTaihei.jpg",
+      "cv": ""
+    },
+    {
+      "id": 507,
+      "name": "土间埋",
+      "month": 9,
+      "day": 26,
+      "avatar": "/avatar/DomaUmaru.jpg",
+      "cv": ""
+    },
+    {
+      "id": 58,
+      "name": "海老名菜菜",
+      "month": 10,
+      "day": 19,
+      "avatar": "/avatar/EbinaNana.jpg",
+      "cv": ""
+    },
+    {
+      "id": 150,
+      "name": "橘·希尔芬福特",
+      "month": 12,
+      "day": 24,
+      "avatar": "/avatar/TachibanaSylphinford.png",
+      "cv": ""
+    }
+  ]
+}

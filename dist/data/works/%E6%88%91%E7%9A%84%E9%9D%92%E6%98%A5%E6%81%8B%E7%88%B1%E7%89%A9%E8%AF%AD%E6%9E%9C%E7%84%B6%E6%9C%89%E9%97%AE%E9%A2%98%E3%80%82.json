@@ -1,0 +1,61 @@
+{
+  "work": "我的青春恋爱物语果然有问题。",
+  "characters": [
+    {
+      "id": 241,
+      "name": "比企谷小町",
+      "month": 3,
+      "day": 3,
+      "avatar": "/avatar/HikigayaKomachi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 271,
+      "name": "一色伊吕波",
+      "month": 4,
+      "day": 16,
+      "avatar": "/avatar/IsshikiIroha.png",
+      "cv": ""
+    },
+    {
+      "id": 354,
+      "name": "户冢彩加",
+      "month": 5,
+      "day": 9,
+      "avatar": "/avatar/TotsukaSaika.jpeg",
+      "cv": "小松未可子"
+    },
+    {
+      "id": 368,
+      "name": "由比滨结衣",
+      "month": 6,
+      "day": 18,
+      "avatar": "/avatar/YuigahamaYui.jpg",
+      "cv": ""
+    },
+    {
+      "id": 435,
+      "name": "雪之下阳乃",
+      "month": 7,
+      "day": 7,
+      "avatar": "/avatar/YukinoshitaHaruno.png",
+      "cv": ""
+    },
+    {
+      "id": 484,
+      "name": "比企谷八幡",
+      "month": 8,
+      "day": 8,
+      "avatar": "/avatar/HikigayaHachiman.jpg",
+      "cv": ""
+    },
+    {
+      "id": 72,
+      "name": "川崎沙希",
+      "month": 10,
+      "day": 26,
+      "avatar": "/avatar/KawasakiSaki.jpg",
+      "cv": ""
+    }
+  ]
+}

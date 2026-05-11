@@ -1,0 +1,21 @@
+{
+  "work": "铃芽之旅",
+  "characters": [
+    {
+      "id": 198,
+      "name": "宗像草太",
+      "month": 2,
+      "day": 24,
+      "avatar": "/avatar/MunakataSōta.jpg",
+      "cv": ""
+    },
+    {
+      "id": 325,
+      "name": "岩户铃芽",
+      "month": 5,
+      "day": 24,
+      "avatar": "/avatar/IwadoSuzume.jpg",
+      "cv": ""
+    }
+  ]
+}

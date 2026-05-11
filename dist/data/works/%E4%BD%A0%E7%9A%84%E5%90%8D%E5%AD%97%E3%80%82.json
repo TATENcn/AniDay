@@ -1,0 +1,21 @@
+{
+  "work": "你的名字。",
+  "characters": [
+    {
+      "id": 120,
+      "name": "立花泷",
+      "month": 12,
+      "day": 1,
+      "avatar": "/avatar/TachibanaTaki.png",
+      "cv": ""
+    },
+    {
+      "id": 121,
+      "name": "宫水三叶",
+      "month": 12,
+      "day": 1,
+      "avatar": "/avatar/MiyamizuMitsuha.png",
+      "cv": ""
+    }
+  ]
+}

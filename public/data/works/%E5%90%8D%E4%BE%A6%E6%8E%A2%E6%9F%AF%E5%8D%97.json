@@ -1,0 +1,29 @@
+{
+  "work": "名侦探柯南",
+  "characters": [
+    {
+      "id": 337,
+      "name": "江户川柯南(工藤新一)",
+      "month": 5,
+      "day": 4,
+      "avatar": "/avatar/EdokawaKonan.jpg",
+      "cv": ""
+    },
+    {
+      "id": 450,
+      "name": "宫野志保(灰原哀)",
+      "month": 8,
+      "day": 18,
+      "avatar": "/avatar/MiyanoShiho.png",
+      "cv": ""
+    },
+    {
+      "id": 154,
+      "name": "宫野志保(灰原哀)",
+      "month": 12,
+      "day": 25,
+      "avatar": "/avatar/MiyanoShiho2.jpg",
+      "cv": ""
+    }
+  ]
+}

@@ -1,0 +1,757 @@
+{
+  "work": "原神",
+  "characters": [
+    {
+      "id": 30,
+      "name": "流浪者(原神)",
+      "month": 1,
+      "day": 3,
+      "avatar": "/avatar/Wanderer.png",
+      "cv": ""
+    },
+    {
+      "id": 41,
+      "name": "蓝砚",
+      "month": 1,
+      "day": 6,
+      "avatar": "/avatar/LanYan.jpg",
+      "cv": ""
+    },
+    {
+      "id": 42,
+      "name": "托马",
+      "month": 1,
+      "day": 9,
+      "avatar": "/avatar/thoma.avif",
+      "cv": ""
+    },
+    {
+      "id": 9,
+      "name": "夏沃蕾",
+      "month": 1,
+      "day": 10,
+      "avatar": "/avatar/Chevreuse.webp",
+      "cv": ""
+    },
+    {
+      "id": 15,
+      "name": "迪奥娜",
+      "month": 1,
+      "day": 18,
+      "avatar": "/avatar/Diona.avif",
+      "cv": ""
+    },
+    {
+      "id": 19,
+      "name": "茜特菈莉",
+      "month": 1,
+      "day": 20,
+      "avatar": "/avatar/Citlali.png",
+      "cv": ""
+    },
+    {
+      "id": 23,
+      "name": "绮良良",
+      "month": 1,
+      "day": 22,
+      "avatar": "/avatar/Kirara.png",
+      "cv": ""
+    },
+    {
+      "id": 26,
+      "name": "罗莎莉亚",
+      "month": 1,
+      "day": 24,
+      "avatar": "/avatar/Rosaria.avif",
+      "cv": ""
+    },
+    {
+      "id": 190,
+      "name": "林尼",
+      "month": 2,
+      "day": 2,
+      "avatar": "/avatar/Lyney.avif",
+      "cv": ""
+    },
+    {
+      "id": 191,
+      "name": "琳妮特",
+      "month": 2,
+      "day": 2,
+      "avatar": "/avatar/Lynette.avif",
+      "cv": ""
+    },
+    {
+      "id": 177,
+      "name": "艾尔海森",
+      "month": 2,
+      "day": 11,
+      "avatar": "/avatar/Alhaitham.avif",
+      "cv": ""
+    },
+    {
+      "id": 181,
+      "name": "北斗",
+      "month": 2,
+      "day": 14,
+      "avatar": "/avatar/Beidou.avif",
+      "cv": ""
+    },
+    {
+      "id": 197,
+      "name": "珊瑚宫心海",
+      "month": 2,
+      "day": 22,
+      "avatar": "/avatar/SangonomiyaKokomi.avif",
+      "cv": ""
+    },
+    {
+      "id": 202,
+      "name": "班尼特",
+      "month": 2,
+      "day": 29,
+      "avatar": "/avatar/Bennett.avif",
+      "cv": ""
+    },
+    {
+      "id": 242,
+      "name": "七七",
+      "month": 3,
+      "day": 3,
+      "avatar": "/avatar/Qiqi.avif",
+      "cv": ""
+    },
+    {
+      "id": 249,
+      "name": "瑶瑶",
+      "month": 3,
+      "day": 6,
+      "avatar": "/avatar/Yaoyao.png",
+      "cv": ""
+    },
+    {
+      "id": 210,
+      "name": "申鹤",
+      "month": 3,
+      "day": 10,
+      "avatar": "/avatar/Shenhe.avif",
+      "cv": ""
+    },
+    {
+      "id": 213,
+      "name": "希诺宁",
+      "month": 3,
+      "day": 13,
+      "avatar": "/avatar/Xilonen.png",
+      "cv": ""
+    },
+    {
+      "id": 215,
+      "name": "琴",
+      "month": 3,
+      "day": 14,
+      "avatar": "/avatar/JeanGunnhildr.avif",
+      "cv": ""
+    },
+    {
+      "id": 227,
+      "name": "诺艾尔",
+      "month": 3,
+      "day": 21,
+      "avatar": "/avatar/Noelle.jpg",
+      "cv": ""
+    },
+    {
+      "id": 233,
+      "name": "神里绫人",
+      "month": 3,
+      "day": 26,
+      "avatar": "/avatar/KamisatoAyato.avif",
+      "cv": ""
+    },
+    {
+      "id": 246,
+      "name": "希格雯",
+      "month": 3,
+      "day": 30,
+      "avatar": "/avatar/Sigewinne.png",
+      "cv": ""
+    },
+    {
+      "id": 293,
+      "name": "埃洛伊",
+      "month": 4,
+      "day": 4,
+      "avatar": "/avatar/Aloy.jpg",
+      "cv": ""
+    },
+    {
+      "id": 299,
+      "name": "迪希雅",
+      "month": 4,
+      "day": 7,
+      "avatar": "/avatar/Dehya.jpg",
+      "cv": ""
+    },
+    {
+      "id": 260,
+      "name": "夏洛蒂",
+      "month": 4,
+      "day": 10,
+      "avatar": "/avatar/Charlotte.jpg",
+      "cv": ""
+    },
+    {
+      "id": 265,
+      "name": "闲云",
+      "month": 4,
+      "day": 11,
+      "avatar": "/avatar/Xianyun.jpg",
+      "cv": ""
+    },
+    {
+      "id": 273,
+      "name": "魈",
+      "month": 4,
+      "day": 17,
+      "avatar": "/avatar/Xiao.avif",
+      "cv": ""
+    },
+    {
+      "id": 279,
+      "name": "夜兰",
+      "month": 4,
+      "day": 20,
+      "avatar": "/avatar/Yelan.jpg",
+      "cv": ""
+    },
+    {
+      "id": 283,
+      "name": "卡齐娜",
+      "month": 4,
+      "day": 22,
+      "avatar": "/avatar/Kachina.webp",
+      "cv": ""
+    },
+    {
+      "id": 285,
+      "name": "白术",
+      "month": 4,
+      "day": 25,
+      "avatar": "/avatar/Baizhu.jpg",
+      "cv": ""
+    },
+    {
+      "id": 290,
+      "name": "迪卢克",
+      "month": 4,
+      "day": 30,
+      "avatar": "/avatar/DilucRagnvindr.jpg",
+      "cv": ""
+    },
+    {
+      "id": 334,
+      "name": "坎蒂丝",
+      "month": 5,
+      "day": 3,
+      "avatar": "/avatar/Candace.jpg",
+      "cv": ""
+    },
+    {
+      "id": 352,
+      "name": "柯莱",
+      "month": 5,
+      "day": 8,
+      "avatar": "/avatar/Collei.jpg",
+      "cv": ""
+    },
+    {
+      "id": 313,
+      "name": "五郎",
+      "month": 5,
+      "day": 18,
+      "avatar": "/avatar/Gorou.jpg",
+      "cv": ""
+    },
+    {
+      "id": 320,
+      "name": "云堇",
+      "month": 5,
+      "day": 21,
+      "avatar": "/avatar/YunJin.jpg",
+      "cv": ""
+    },
+    {
+      "id": 330,
+      "name": "菲谢尔",
+      "month": 5,
+      "day": 27,
+      "avatar": "/avatar/Fischl.jpg",
+      "cv": ""
+    },
+    {
+      "id": 336,
+      "name": "赛索斯",
+      "month": 5,
+      "day": 31,
+      "avatar": "/avatar/Sethos.png",
+      "cv": ""
+    },
+    {
+      "id": 357,
+      "name": "派蒙",
+      "month": 6,
+      "day": 1,
+      "avatar": "/avatar/Paimon.jpg",
+      "cv": ""
+    },
+    {
+      "id": 358,
+      "name": "荒泷一斗",
+      "month": 6,
+      "day": 1,
+      "avatar": "/avatar/AratakiItto.jpg",
+      "cv": ""
+    },
+    {
+      "id": 396,
+      "name": "丽莎",
+      "month": 6,
+      "day": 9,
+      "avatar": "/avatar/Lisa.jpg",
+      "cv": ""
+    },
+    {
+      "id": 366,
+      "name": "温迪（巴巴托斯）",
+      "month": 6,
+      "day": 16,
+      "avatar": "/avatar/Barbatos.jpg",
+      "cv": ""
+    },
+    {
+      "id": 374,
+      "name": "宵宫",
+      "month": 6,
+      "day": 21,
+      "avatar": "/avatar/Yoimiya.jpg",
+      "cv": ""
+    },
+    {
+      "id": 376,
+      "name": "赛诺",
+      "month": 6,
+      "day": 23,
+      "avatar": "/avatar/Cyno.jpg",
+      "cv": ""
+    },
+    {
+      "id": 382,
+      "name": "雷电将军（影、巴尔泽布）",
+      "month": 6,
+      "day": 26,
+      "avatar": "/avatar/RaidenEi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 383,
+      "name": "八重神子",
+      "month": 6,
+      "day": 27,
+      "avatar": "/avatar/YaeMiko.jpg",
+      "cv": ""
+    },
+    {
+      "id": 430,
+      "name": "芭芭拉",
+      "month": 7,
+      "day": 5,
+      "avatar": "/avatar/Barbara.jpg",
+      "cv": ""
+    },
+    {
+      "id": 437,
+      "name": "卡维",
+      "month": 7,
+      "day": 9,
+      "avatar": "/avatar/Kaveh.jpg",
+      "cv": ""
+    },
+    {
+      "id": 402,
+      "name": "九条娑罗",
+      "month": 7,
+      "day": 14,
+      "avatar": "/avatar/KujouSara.webp",
+      "cv": ""
+    },
+    {
+      "id": 403,
+      "name": "胡桃",
+      "month": 7,
+      "day": 15,
+      "avatar": "/avatar/HuTao.jpg",
+      "cv": ""
+    },
+    {
+      "id": 410,
+      "name": "达达利亚（公子）",
+      "month": 7,
+      "day": 20,
+      "avatar": "/avatar/Tartaglia.jpg",
+      "cv": ""
+    },
+    {
+      "id": 416,
+      "name": "鹿野院平藏",
+      "month": 7,
+      "day": 24,
+      "avatar": "/avatar/ShikanoinHeizou.jpg",
+      "cv": ""
+    },
+    {
+      "id": 422,
+      "name": "可莉",
+      "month": 7,
+      "day": 27,
+      "avatar": "/avatar/Klee.jpg",
+      "cv": ""
+    },
+    {
+      "id": 423,
+      "name": "久岐忍",
+      "month": 7,
+      "day": 27,
+      "avatar": "/avatar/KukiShinobu.jpg",
+      "cv": ""
+    },
+    {
+      "id": 424,
+      "name": "烟绯",
+      "month": 7,
+      "day": 28,
+      "avatar": "/avatar/Yanfei.jpg",
+      "cv": ""
+    },
+    {
+      "id": 469,
+      "name": "玛拉妮",
+      "month": 8,
+      "day": 3,
+      "avatar": "/avatar/Mualani.png",
+      "cv": ""
+    },
+    {
+      "id": 441,
+      "name": "安柏",
+      "month": 8,
+      "day": 10,
+      "avatar": "/avatar/Amber.jpg",
+      "cv": ""
+    },
+    {
+      "id": 444,
+      "name": "米卡",
+      "month": 8,
+      "day": 11,
+      "avatar": "/avatar/Mika.jpg",
+      "cv": ""
+    },
+    {
+      "id": 447,
+      "name": "娜维娅·卡萨帕",
+      "month": 8,
+      "day": 16,
+      "avatar": "/avatar/NaviaCaspar.jpg",
+      "cv": ""
+    },
+    {
+      "id": 448,
+      "name": "千织",
+      "month": 8,
+      "day": 17,
+      "avatar": "/avatar/Chiori.jpg",
+      "cv": ""
+    },
+    {
+      "id": 452,
+      "name": "珐露珊",
+      "month": 8,
+      "day": 20,
+      "avatar": "/avatar/Faruzan.jpg",
+      "cv": ""
+    },
+    {
+      "id": 459,
+      "name": "阿蕾奇诺（佩露薇利，仆人，父亲）",
+      "month": 8,
+      "day": 22,
+      "avatar": "/avatar/Peruere.webp",
+      "cv": ""
+    },
+    {
+      "id": 463,
+      "name": "凝光",
+      "month": 8,
+      "day": 26,
+      "avatar": "/avatar/Ningguang.jpg",
+      "cv": ""
+    },
+    {
+      "id": 466,
+      "name": "玛薇卡",
+      "month": 8,
+      "day": 28,
+      "avatar": "/avatar/Mavuika.jpg",
+      "cv": ""
+    },
+    {
+      "id": 476,
+      "name": "阿斯托洛吉斯·莫娜·梅姬斯图斯",
+      "month": 8,
+      "day": 31,
+      "avatar": "/avatar/AstrologistMonaMegistus.jpg",
+      "cv": ""
+    },
+    {
+      "id": 516,
+      "name": "重云",
+      "month": 9,
+      "day": 7,
+      "avatar": "/avatar/Chongyun.avif",
+      "cv": ""
+    },
+    {
+      "id": 521,
+      "name": "雷泽",
+      "month": 9,
+      "day": 9,
+      "avatar": "/avatar/Razor.jpg",
+      "cv": ""
+    },
+    {
+      "id": 492,
+      "name": "阿贝多",
+      "month": 9,
+      "day": 13,
+      "avatar": "/avatar/Albedo.jpg",
+      "cv": ""
+    },
+    {
+      "id": 498,
+      "name": "克洛琳德",
+      "month": 9,
+      "day": 20,
+      "avatar": "/avatar/Clorinde.jpg",
+      "cv": ""
+    },
+    {
+      "id": 501,
+      "name": "艾梅莉埃",
+      "month": 9,
+      "day": 22,
+      "avatar": "/avatar/Emilie.webp",
+      "cv": ""
+    },
+    {
+      "id": 505,
+      "name": "菲米尼",
+      "month": 9,
+      "day": 24,
+      "avatar": "/avatar/Freminet.jpg",
+      "cv": ""
+    },
+    {
+      "id": 510,
+      "name": "神里绫华",
+      "month": 9,
+      "day": 28,
+      "avatar": "/avatar/KamisatoAyaka.jpg",
+      "cv": ""
+    },
+    {
+      "id": 85,
+      "name": "行秋",
+      "month": 10,
+      "day": 9,
+      "avatar": "/avatar/Xingqiu.jpg",
+      "cv": ""
+    },
+    {
+      "id": 48,
+      "name": "芙宁娜·德·枫丹（芙卡洛斯）",
+      "month": 10,
+      "day": 13,
+      "avatar": "/avatar/FurinadeFontaine.jpg",
+      "cv": ""
+    },
+    {
+      "id": 52,
+      "name": "欧洛伦",
+      "month": 10,
+      "day": 14,
+      "avatar": "/avatar/Ororon.webp",
+      "cv": ""
+    },
+    {
+      "id": 54,
+      "name": "辛焱",
+      "month": 10,
+      "day": 16,
+      "avatar": "/avatar/Xinyan.jpg",
+      "cv": ""
+    },
+    {
+      "id": 59,
+      "name": "早柚",
+      "month": 10,
+      "day": 19,
+      "avatar": "/avatar/Sayu.jpg",
+      "cv": ""
+    },
+    {
+      "id": 69,
+      "name": "优菈·劳伦斯",
+      "month": 10,
+      "day": 25,
+      "avatar": "/avatar/EulaLawrence.jpg",
+      "cv": ""
+    },
+    {
+      "id": 73,
+      "name": "纳西妲（布耶尔）",
+      "month": 10,
+      "day": 27,
+      "avatar": "/avatar/Nahida.jpg",
+      "cv": ""
+    },
+    {
+      "id": 75,
+      "name": "枫原万叶",
+      "month": 10,
+      "day": 29,
+      "avatar": "/avatar/KaedeharaKazuha.jpg",
+      "cv": ""
+    },
+    {
+      "id": 97,
+      "name": "香菱",
+      "month": 11,
+      "day": 2,
+      "avatar": "/avatar/Xiangling.jpg",
+      "cv": ""
+    },
+    {
+      "id": 90,
+      "name": "基尼奇",
+      "month": 11,
+      "day": 11,
+      "avatar": "/avatar/Kinich.jpg",
+      "cv": ""
+    },
+    {
+      "id": 99,
+      "name": "刻晴",
+      "month": 11,
+      "day": 20,
+      "avatar": "/avatar/Keqing.jpg",
+      "cv": ""
+    },
+    {
+      "id": 104,
+      "name": "莱欧斯利",
+      "month": 11,
+      "day": 23,
+      "avatar": "/avatar/Wriothesley.jpg",
+      "cv": ""
+    },
+    {
+      "id": 108,
+      "name": "砂糖",
+      "month": 11,
+      "day": 26,
+      "avatar": "/avatar/Sucrose.jpg",
+      "cv": ""
+    },
+    {
+      "id": 115,
+      "name": "凯亚",
+      "month": 11,
+      "day": 30,
+      "avatar": "/avatar/KaeyaAlberich.jpg",
+      "cv": ""
+    },
+    {
+      "id": 137,
+      "name": "甘雨",
+      "month": 12,
+      "day": 2,
+      "avatar": "/avatar/Ganyu.jpg",
+      "cv": ""
+    },
+    {
+      "id": 162,
+      "name": "妮露",
+      "month": 12,
+      "day": 3,
+      "avatar": "/avatar/Nilou.jpg",
+      "cv": ""
+    },
+    {
+      "id": 122,
+      "name": "恰斯卡",
+      "month": 12,
+      "day": 10,
+      "avatar": "/avatar/Chasca.png",
+      "cv": ""
+    },
+    {
+      "id": 131,
+      "name": "那维莱特",
+      "month": 12,
+      "day": 18,
+      "avatar": "/avatar/Neuvillette.jpg",
+      "cv": ""
+    },
+    {
+      "id": 134,
+      "name": "莱依拉",
+      "month": 12,
+      "day": 19,
+      "avatar": "/avatar/Layla.jpg",
+      "cv": ""
+    },
+    {
+      "id": 139,
+      "name": "多莉·桑歌玛哈巴依",
+      "month": 12,
+      "day": 21,
+      "avatar": "/avatar/DoriSangemahBay.jpg",
+      "cv": ""
+    },
+    {
+      "id": 143,
+      "name": "嘉明",
+      "month": 12,
+      "day": 22,
+      "avatar": "/avatar/YipGaming.png",
+      "cv": ""
+    },
+    {
+      "id": 161,
+      "name": "提纳里",
+      "month": 12,
+      "day": 29,
+      "avatar": "/avatar/Tighnari.jpg",
+      "cv": ""
+    },
+    {
+      "id": 166,
+      "name": "钟离（摩拉克斯）",
+      "month": 12,
+      "day": 31,
+      "avatar": "/avatar/",
+      "cv": ""
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "work": "绝区零",
+  "characters": [
+    {
+      "id": 8,
+      "name": "青衣",
+      "month": 1,
+      "day": 1,
+      "avatar": "/avatar/Qingyi.png",
+      "cv": ""
+    },
+    {
+      "id": 33,
+      "name": "艾莲·乔",
+      "month": 1,
+      "day": 4,
+      "avatar": "/avatar/EllenJoe.webp",
+      "cv": ""
+    },
+    {
+      "id": 39,
+      "name": "狛野真斗",
+      "month": 1,
+      "day": 5,
+      "avatar": "/avatar/Komano-Manato.png",
+      "cv": ""
+    },
+    {
+      "id": 40,
+      "name": "橘福福",
+      "month": 1,
+      "day": 6,
+      "avatar": "/avatar/JuFufu.png",
+      "cv": ""
+    },
+    {
+      "id": 21,
+      "name": "叶瞬光",
+      "month": 1,
+      "day": 20,
+      "avatar": "/avatar/YeShunGuang.png",
+      "cv": ""
+    },
+    {
+      "id": 25,
+      "name": "苍角",
+      "month": 1,
+      "day": 23,
+      "avatar": "/avatar/Soukaku.png",
+      "cv": ""
+    },
+    {
+      "id": 32,
+      "name": "耀嘉音",
+      "month": 1,
+      "day": 31,
+      "avatar": "/avatar/Astra-Yao.png",
+      "cv": ""
+    },
+    {
+      "id": 184,
+      "name": "简·杜",
+      "month": 2,
+      "day": 16,
+      "avatar": "/avatar/Jane-Doe.jpg",
+      "cv": ""
+    },
+    {
+      "id": 192,
+      "name": "零号·安比",
+      "month": 2,
+      "day": 20,
+      "avatar": "/avatar/Soldier0-Anby.png",
+      "cv": ""
+    },
+    {
+      "id": 193,
+      "name": "安比·德玛拉",
+      "month": 2,
+      "day": 20,
+      "avatar": "/avatar/Anby-Demara.png",
+      "cv": ""
+    },
+    {
+      "id": 220,
+      "name": "凯撒·金",
+      "month": 3,
+      "day": 16,
+      "avatar": "/avatar/Caesar-King.png",
+      "cv": ""
+    },
+    {
+      "id": 221,
+      "name": "卢西娅·艾洛温",
+      "month": 3,
+      "day": 17,
+      "avatar": "/avatar/Lucia-Elowen.png",
+      "cv": ""
+    },
+    {
+      "id": 222,
+      "name": "伊德海莉·墨菲",
+      "month": 3,
+      "day": 19,
+      "avatar": "/avatar/Yidhari-Murphy.png",
+      "cv": ""
+    },
+    {
+      "id": 228,
+      "name": "「11号」",
+      "month": 3,
+      "day": 21,
+      "avatar": "/avatar/Soldier-11.png",
+      "cv": ""
+    },
+    {
+      "id": 302,
+      "name": "赛斯·洛威尔",
+      "month": 4,
+      "day": 8,
+      "avatar": "/avatar/Seth-Lowell.png",
+      "cv": ""
+    },
+    {
+      "id": 264,
+      "name": "薇薇安•班希",
+      "month": 4,
+      "day": 10,
+      "avatar": "/avatar/Vivian-Banshee.png",
+      "cv": ""
+    },
+    {
+      "id": 269,
+      "name": "格莉丝·霍华德",
+      "month": 4,
+      "day": 14,
+      "avatar": "/avatar/Grace-Howard.png",
+      "cv": ""
+    },
+    {
+      "id": 281,
+      "name": "「扳机」",
+      "month": 4,
+      "day": 21,
+      "avatar": "/avatar/Trigger.png",
+      "cv": ""
+    },
+    {
+      "id": 318,
+      "name": "安东·伊万诺夫",
+      "month": 5,
+      "day": 2,
+      "avatar": "/avatar/Anton-Ivanov.png",
+      "cv": ""
+    },
+    {
+      "id": 306,
+      "name": "潘引壶",
+      "month": 5,
+      "day": 10,
+      "avatar": "/avatar/PanYinhu.png",
+      "cv": ""
+    },
+    {
+      "id": 324,
+      "name": "柏妮思·怀特",
+      "month": 5,
+      "day": 23,
+      "avatar": "/avatar/Burnice-White.png",
+      "cv": ""
+    },
+    {
+      "id": 373,
+      "name": "可琳·威克斯",
+      "month": 6,
+      "day": 2,
+      "avatar": "/avatar/Corin-Wickes.png",
+      "cv": ""
+    },
+    {
+      "id": 370,
+      "name": "星见雅",
+      "month": 6,
+      "day": 19,
+      "avatar": "/avatar/Hoshimi-Miyabi.png",
+      "cv": ""
+    },
+    {
+      "id": 371,
+      "name": "波可娜·费雷尼",
+      "month": 6,
+      "day": 19,
+      "avatar": "/avatar/Pulchra-Fellini.png",
+      "cv": ""
+    },
+    {
+      "id": 407,
+      "name": "浅羽悠真",
+      "month": 7,
+      "day": 19,
+      "avatar": "/avatar/Asaba-Harumasa.png",
+      "cv": ""
+    },
+    {
+      "id": 417,
+      "name": "般岳",
+      "month": 7,
+      "day": 24,
+      "avatar": "/avatar/Banyue.png",
+      "cv": ""
+    },
+    {
+      "id": 426,
+      "name": "猫宫又奈",
+      "month": 7,
+      "day": 30,
+      "avatar": "/avatar/Nekomiya-Mana.png",
+      "cv": ""
+    },
+    {
+      "id": 443,
+      "name": "珂蕾妲·贝洛伯格",
+      "month": 8,
+      "day": 10,
+      "avatar": "/avatar/Koleda-Belobog.png",
+      "cv": ""
+    },
+    {
+      "id": 446,
+      "name": "露西亚娜·奥克希斯·提奥多·德·蒙特夫",
+      "month": 8,
+      "day": 14,
+      "avatar": "/avatar/Lucy.png",
+      "cv": ""
+    },
+    {
+      "id": 453,
+      "name": "雨果•维拉德",
+      "month": 8,
+      "day": 20,
+      "avatar": "/avatar/Hugo.png",
+      "cv": ""
+    },
+    {
+      "id": 474,
+      "name": "爱丽丝·泰姆菲尔德",
+      "month": 8,
+      "day": 30,
+      "avatar": "/avatar/Alice-Thymefield.png",
+      "cv": ""
+    },
+    {
+      "id": 488,
+      "name": "朱鸢",
+      "month": 9,
+      "day": 1,
+      "avatar": "/avatar/ZhuYuan.png",
+      "cv": ""
+    },
+    {
+      "id": 500,
+      "name": "月城柳",
+      "month": 9,
+      "day": 21,
+      "avatar": "/avatar/Tsukishiro-Yanagi.png",
+      "cv": ""
+    },
+    {
+      "id": 504,
+      "name": "亚历山德丽娜·莎芭丝缇安",
+      "month": 9,
+      "day": 23,
+      "avatar": "/avatar/Alexandrina-Sebastian.png",
+      "cv": ""
+    },
+    {
+      "id": 78,
+      "name": "冯·莱卡恩",
+      "month": 10,
+      "day": 4,
+      "avatar": "/avatar/Von-Lycaon.png",
+      "cv": ""
+    },
+    {
+      "id": 80,
+      "name": "伊芙琳·舒瓦利耶",
+      "month": 10,
+      "day": 7,
+      "avatar": "/avatar/Evelyn-Chevalier.png",
+      "cv": ""
+    },
+    {
+      "id": 53,
+      "name": "照",
+      "month": 10,
+      "day": 14,
+      "avatar": "/avatar/Zhao.png",
+      "cv": ""
+    },
+    {
+      "id": 65,
+      "name": "派派·韦尔",
+      "month": 10,
+      "day": 21,
+      "avatar": "/avatar/Piper-Whee.png",
+      "cv": ""
+    },
+    {
+      "id": 98,
+      "name": "浮波柚叶",
+      "month": 11,
+      "day": 2,
+      "avatar": "/avatar/Ukinami-Yuzuha.jpg",
+      "cv": ""
+    },
+    {
+      "id": 113,
+      "name": "奥菲丝·马格努森（「鬼火」）",
+      "month": 11,
+      "day": 3,
+      "avatar": "/avatar/Orphie-agnusson.png",
+      "cv": ""
+    },
+    {
+      "id": 91,
+      "name": "妮可·德玛拉",
+      "month": 11,
+      "day": 11,
+      "avatar": "/avatar/Nicole-Demara.png",
+      "cv": ""
+    },
+    {
+      "id": 102,
+      "name": "「席德」",
+      "month": 11,
+      "day": 22,
+      "avatar": "/avatar/Seed.png",
+      "cv": ""
+    },
+    {
+      "id": 107,
+      "name": "比利·奇德",
+      "month": 11,
+      "day": 25,
+      "avatar": "/avatar/Billy-Kid.png",
+      "cv": ""
+    },
+    {
+      "id": 164,
+      "name": "仪玄",
+      "month": 12,
+      "day": 3,
+      "avatar": "/avatar/Yixuan.png",
+      "cv": ""
+    },
+    {
+      "id": 145,
+      "name": "本·比格",
+      "month": 12,
+      "day": 23,
+      "avatar": "/avatar/Ben-Bigger.png",
+      "cv": ""
+    },
+    {
+      "id": 158,
+      "name": "莱特",
+      "month": 12,
+      "day": 27,
+      "avatar": "/avatar/Lighter.png",
+      "cv": ""
+    }
+  ]
+}

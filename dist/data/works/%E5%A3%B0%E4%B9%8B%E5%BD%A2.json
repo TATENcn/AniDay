@@ -1,0 +1,21 @@
+{
+  "work": "声之形",
+  "characters": [
+    {
+      "id": 206,
+      "name": "石田将也",
+      "month": 2,
+      "day": 8,
+      "avatar": "/avatar/IshidaShouya.jpg",
+      "cv": ""
+    },
+    {
+      "id": 392,
+      "name": "西宫硝子",
+      "month": 6,
+      "day": 7,
+      "avatar": "/avatar/NishimiyaShouko.jpg",
+      "cv": ""
+    }
+  ]
+}

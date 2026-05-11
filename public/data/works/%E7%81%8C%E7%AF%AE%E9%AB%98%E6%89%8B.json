@@ -1,0 +1,53 @@
+{
+  "work": "灌篮高手",
+  "characters": [
+    {
+      "id": 7,
+      "name": "流川枫",
+      "month": 1,
+      "day": 1,
+      "avatar": "/avatar/RukawaKaede.webp",
+      "cv": ""
+    },
+    {
+      "id": 255,
+      "name": "樱木花道",
+      "month": 4,
+      "day": 1,
+      "avatar": "/avatar/SakuragiHanamichi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 305,
+      "name": "赤木刚宪",
+      "month": 5,
+      "day": 10,
+      "avatar": "/avatar/AkagiTakenori.webp",
+      "cv": ""
+    },
+    {
+      "id": 322,
+      "name": "三井寿",
+      "month": 5,
+      "day": 22,
+      "avatar": "/avatar/MitsuiHisashi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 427,
+      "name": "宫城良田",
+      "month": 7,
+      "day": 31,
+      "avatar": "/avatar/MiyagiRyota.jpg",
+      "cv": ""
+    },
+    {
+      "id": 515,
+      "name": "赤木晴子",
+      "month": 9,
+      "day": 7,
+      "avatar": "/avatar/AkagiHaruko.jpg",
+      "cv": ""
+    }
+  ]
+}

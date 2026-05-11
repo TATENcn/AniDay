@@ -1,0 +1,37 @@
+{
+  "work": "未闻花名",
+  "characters": [
+    {
+      "id": 37,
+      "name": "安城鸣子",
+      "month": 1,
+      "day": 4,
+      "avatar": "/avatar/AnjouNaruko.webp",
+      "cv": ""
+    },
+    {
+      "id": 270,
+      "name": "宿海仁太",
+      "month": 4,
+      "day": 16,
+      "avatar": "/avatar/YadomiJinta.jpg",
+      "cv": ""
+    },
+    {
+      "id": 494,
+      "name": "本间芽衣子",
+      "month": 9,
+      "day": 18,
+      "avatar": "/avatar/",
+      "cv": ""
+    },
+    {
+      "id": 82,
+      "name": "鹤见知利子",
+      "month": 10,
+      "day": 8,
+      "avatar": "/avatar/TsurumiChiriko.jpg",
+      "cv": ""
+    }
+  ]
+}

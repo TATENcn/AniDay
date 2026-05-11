@@ -1,0 +1,29 @@
+{
+  "work": "全金属狂潮",
+  "characters": [
+    {
+      "id": 436,
+      "name": "相良宗介",
+      "month": 7,
+      "day": 7,
+      "avatar": "/avatar/SagaraSōsuke.jpg",
+      "cv": ""
+    },
+    {
+      "id": 151,
+      "name": "千鸟要",
+      "month": 12,
+      "day": 24,
+      "avatar": "/avatar/KanameChidori.jpg",
+      "cv": ""
+    },
+    {
+      "id": 152,
+      "name": "泰蕾莎·泰斯塔罗莎",
+      "month": 12,
+      "day": 24,
+      "avatar": "/avatar/TeresaTestarossa.jpg",
+      "cv": ""
+    }
+  ]
+}

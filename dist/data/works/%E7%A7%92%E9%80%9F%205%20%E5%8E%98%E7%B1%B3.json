@@ -1,0 +1,21 @@
+{
+  "work": "秒速 5 厘米",
+  "characters": [
+    {
+      "id": 406,
+      "name": "篠原明里",
+      "month": 7,
+      "day": 19,
+      "avatar": "/avatar/ShinoharaAkari.jpg",
+      "cv": ""
+    },
+    {
+      "id": 144,
+      "name": "远野贵树",
+      "month": 12,
+      "day": 23,
+      "avatar": "/avatar/TōnoTakaki.jpg",
+      "cv": ""
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "work": "缘之空",
+  "characters": [
+    {
+      "id": 10,
+      "name": "伊福部八寻",
+      "month": 1,
+      "day": 10,
+      "avatar": "/avatar/IfukubeYahiro.png",
+      "cv": ""
+    },
+    {
+      "id": 203,
+      "name": "春日野悠",
+      "month": 2,
+      "day": 5,
+      "avatar": "/avatar/KasuganoHaruka.jpg",
+      "cv": ""
+    },
+    {
+      "id": 204,
+      "name": "春日野穹",
+      "month": 2,
+      "day": 5,
+      "avatar": "/avatar/KasuganoSora.webp",
+      "cv": ""
+    },
+    {
+      "id": 360,
+      "name": "仓永梢",
+      "month": 6,
+      "day": 1,
+      "avatar": "/avatar/KuranagaKozue.png",
+      "cv": ""
+    },
+    {
+      "id": 470,
+      "name": "天女目瑛",
+      "month": 8,
+      "day": 3,
+      "avatar": "/avatar/AmatsumeAkira.png",
+      "cv": ""
+    },
+    {
+      "id": 471,
+      "name": "渚一叶",
+      "month": 8,
+      "day": 3,
+      "avatar": "/avatar/MigiwaKaziha.png",
+      "cv": ""
+    },
+    {
+      "id": 506,
+      "name": "中里亮平",
+      "month": 9,
+      "day": 25,
+      "avatar": "/avatar/NakazatoRyōhei.png",
+      "cv": ""
+    },
+    {
+      "id": 81,
+      "name": "依媛奈绪",
+      "month": 10,
+      "day": 7,
+      "avatar": "/avatar/YolihimeNao.png",
+      "cv": ""
+    },
+    {
+      "id": 146,
+      "name": "乃木坂初佳",
+      "month": 12,
+      "day": 23,
+      "avatar": "/avatar/NogisakaMotoka.png",
+      "cv": ""
+    }
+  ]
+}

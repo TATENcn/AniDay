@@ -1,0 +1,45 @@
+{
+  "work": "夏目友人帐",
+  "characters": [
+    {
+      "id": 310,
+      "name": "夏目玲子",
+      "month": 5,
+      "day": 15,
+      "avatar": "/avatar/NatsumeReiko.png",
+      "cv": ""
+    },
+    {
+      "id": 311,
+      "name": "多轨透",
+      "month": 5,
+      "day": 15,
+      "avatar": "/avatar/TakiTōru.png",
+      "cv": ""
+    },
+    {
+      "id": 398,
+      "name": "夏目贵志",
+      "month": 7,
+      "day": 1,
+      "avatar": "/avatar/NatsumeTakashi.jpg",
+      "cv": ""
+    },
+    {
+      "id": 86,
+      "name": "的场静司",
+      "month": 11,
+      "day": 1,
+      "avatar": "/avatar/MatobaSeiji.png",
+      "cv": ""
+    },
+    {
+      "id": 92,
+      "name": "名取周一",
+      "month": 11,
+      "day": 12,
+      "avatar": "/avatar/NatoriShuichi.png",
+      "cv": ""
+    }
+  ]
+}

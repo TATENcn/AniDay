@@ -1,0 +1,53 @@
+{
+  "work": "中二病也要谈恋爱！",
+  "characters": [
+    {
+      "id": 182,
+      "name": "小鸟游十花",
+      "month": 2,
+      "day": 15,
+      "avatar": "/avatar/TakanashiHoshino.png",
+      "cv": ""
+    },
+    {
+      "id": 363,
+      "name": "小鸟游六花",
+      "month": 6,
+      "day": 12,
+      "avatar": "/avatar/TakanashiRikka.jpg",
+      "cv": ""
+    },
+    {
+      "id": 431,
+      "name": "七宫智音",
+      "month": 7,
+      "day": 6,
+      "avatar": "/avatar/ShichimiyaSatone.jpg",
+      "cv": ""
+    },
+    {
+      "id": 434,
+      "name": "富㭴勇太",
+      "month": 7,
+      "day": 7,
+      "avatar": "/avatar/TogashiYūta.jpg",
+      "cv": ""
+    },
+    {
+      "id": 473,
+      "name": "丹生谷森夏",
+      "month": 8,
+      "day": 30,
+      "avatar": "/avatar/NibutaniShinka.jpg",
+      "cv": ""
+    },
+    {
+      "id": 51,
+      "name": "五月七日茴香",
+      "month": 10,
+      "day": 14,
+      "avatar": "/avatar/TsuyuriKumin.jpg",
+      "cv": ""
+    }
+  ]
+}

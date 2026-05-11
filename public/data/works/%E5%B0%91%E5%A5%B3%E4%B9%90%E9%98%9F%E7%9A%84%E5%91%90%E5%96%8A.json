@@ -1,0 +1,45 @@
+{
+  "work": "少女乐队的呐喊",
+  "characters": [
+    {
+      "id": 230,
+      "name": "海老冢智",
+      "month": 3,
+      "day": 22,
+      "avatar": "/avatar/EbizukaTomo.png",
+      "cv": ""
+    },
+    {
+      "id": 286,
+      "name": "安和昴",
+      "month": 4,
+      "day": 27,
+      "avatar": "/avatar/AwaSubaru.jpg",
+      "cv": ""
+    },
+    {
+      "id": 384,
+      "name": "卢帕（RUPA）",
+      "month": 6,
+      "day": 28,
+      "avatar": "/avatar/RUPA.jpg",
+      "cv": ""
+    },
+    {
+      "id": 68,
+      "name": "井芹仁菜",
+      "month": 10,
+      "day": 24,
+      "avatar": "/avatar/IseriNina.jpg",
+      "cv": ""
+    },
+    {
+      "id": 174,
+      "name": "河原木桃香",
+      "month": 12,
+      "day": 9,
+      "avatar": "/avatar/KawaragiMomoka.jpg",
+      "cv": ""
+    }
+  ]
+}

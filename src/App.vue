@@ -14,6 +14,13 @@
     <div class="mask-top"></div>
     <div class="mask-bottom"></div>
 
+    <TopBar
+      v-model="selectedDate"
+      :display-text="selectedDateDisplay"
+      @change="handleDateChange"
+      @select="handleSearchSelect"
+    />
+
     <transition :name="pageTransitionName" mode="out-in">
       <div class="content-wrapper" :key="selectedDate">
         <transition :name="charTransitionName" mode="out-in">
@@ -45,12 +52,6 @@
       </div>
     </transition>
 
-    <CalendarPicker
-      v-model="selectedDate"
-      :display-text="selectedDateDisplay"
-      @change="handleDateChange"
-    />
-
     <audio ref="audioPlayer" :src="currentMusic" autoplay loop @loadeddata="handleMusicLoaded"></audio>
   </div>
 </template>
@@ -58,7 +59,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, watch } from 'vue'
 import BackgroundLayer from './components/BackgroundLayer.vue'
-import CalendarPicker from './components/CalendarPicker.vue'
+import TopBar from './components/TopBar.vue'
 import CharacterInfo from './components/CharacterInfo.vue'
 import QuoteDisplay from './components/QuoteDisplay.vue'
 import AvatarRow from './components/AvatarRow.vue'
@@ -161,6 +162,14 @@ const handleDateChange = (newDate: string, oldDate: string) => {
   loadData(direction)
 }
 
+const handleSearchSelect = (month: number, day: number) => {
+  const year = new Date().getFullYear()
+  const newDateStr = `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`
+  const oldDate = selectedDate.value
+  selectedDate.value = newDateStr
+  handleDateChange(newDateStr, oldDate)
+}
+
 const nextCharacter = () => {
   if (loading.value || characters.value.length <= 1) return
   const nextIndex = (currentIndex.value + 1) % characters.value.length
@@ -177,7 +186,12 @@ const changeDate = (days: number) => {
   if (loading.value) return
   const date = new Date(selectedDate.value)
   date.setDate(date.getDate() + days)
-  const newDateStr = date.toISOString().split('T')[0]
+  
+  const year = date.getFullYear()
+  const month = String(date.getMonth() + 1).padStart(2, '0')
+  const day = String(date.getDate()).padStart(2, '0')
+  const newDateStr = `${year}-${month}-${day}`
+  
   const oldDate = selectedDate.value
   selectedDate.value = newDateStr
   handleDateChange(newDateStr, oldDate)
@@ -186,18 +200,17 @@ const changeDate = (days: number) => {
 const nextDate = () => changeDate(1)
 const prevDate = () => changeDate(-1)
 
-// Gesture and Edge Click Logic
 const touchStart = ref({ x: 0, y: 0 })
 const mouseStart = ref({ x: 0, y: 0 })
 const isMouseDown = ref(false)
 const lastWheelTime = ref(0)
-const WHEEL_COOLDOWN = 800 // ms
-const EDGE_THRESHOLD = 0.15 // 15% of screen
+const WHEEL_COOLDOWN = 800
+const EDGE_THRESHOLD = 0.15
 const MIN_SWIPE_DISTANCE = 50
 
 const handleWheel = (e: WheelEvent) => {
   const target = e.target as HTMLElement
-  if (target.closest('.avatar-row') || target.closest('.calendar-dropdown')) {
+  if (target.closest('.avatar-row') || target.closest('.calendar-dropdown') || target.closest('.search-results')) {
     return
   }
 
@@ -206,17 +219,15 @@ const handleWheel = (e: WheelEvent) => {
 
   const absX = Math.abs(e.deltaX)
   const absY = Math.abs(e.deltaY)
-  const threshold = 30 // Minimum delta to trigger
+  const threshold = 30
 
   if (Math.max(absX, absY) < threshold) return
 
   if (absX > absY) {
-    // Horizontal scroll -> Character
     if (e.deltaX > 0) nextCharacter()
     else prevCharacter()
     lastWheelTime.value = now
   } else {
-    // Vertical scroll -> Date
     if (e.deltaY > 0) nextDate()
     else prevDate()
     lastWheelTime.value = now
@@ -225,8 +236,8 @@ const handleWheel = (e: WheelEvent) => {
 
 const handleTouchStart = (e: TouchEvent) => {
   const target = e.target as HTMLElement
-  if (target.closest('.avatar-row') || target.closest('.calendar-picker')) {
-    touchStart.value = { x: -1, y: -1 } // Mark as invalid
+  if (target.closest('.avatar-row') || target.closest('.top-bar')) {
+    touchStart.value = { x: -1, y: -1 }
     return
   }
   touchStart.value = {
@@ -248,7 +259,7 @@ const handleTouchEnd = (e: TouchEvent) => {
 
 const handleMouseDown = (e: MouseEvent) => {
   const target = e.target as HTMLElement
-  if (target.closest('.avatar-row') || target.closest('.calendar-picker')) {
+  if (target.closest('.avatar-row') || target.closest('.top-bar')) {
     return
   }
   isMouseDown.value = true
@@ -263,12 +274,8 @@ const handleMouseUp = (e: MouseEvent) => {
   const dx = mouseEnd.x - mouseStart.value.x
   const dy = mouseEnd.y - mouseStart.value.y
 
-  // If it's a significant movement, treat it as a swipe and prevent the click event logic
   if (Math.max(Math.abs(dx), Math.abs(dy)) > MIN_SWIPE_DISTANCE) {
     processSwipe(mouseStart.value, mouseEnd)
-  } else {
-    // If it's a small movement, let the handleClick handle it
-    // But we need to be careful not to trigger both
   }
 }
 
@@ -280,11 +287,9 @@ const processSwipe = (start: { x: number, y: number }, end: { x: number, y: numb
 
   if (Math.max(absX, absY) > MIN_SWIPE_DISTANCE) {
     if (absX > absY) {
-      // Horizontal swipe
       if (dx > 0) prevCharacter()
       else nextCharacter()
     } else {
-      // Vertical swipe
       if (dy > 0) prevDate()
       else nextDate()
     }
@@ -292,17 +297,15 @@ const processSwipe = (start: { x: number, y: number }, end: { x: number, y: numb
 }
 
 const handleClick = (e: MouseEvent) => {
-  // Prevent edge clicks if clicking on interactive elements
   const target = e.target as HTMLElement
-  if (target.closest('.avatar-row') || target.closest('.calendar-picker') || target.closest('audio')) {
+  if (target.closest('.avatar-row') || target.closest('.top-bar') || target.closest('audio')) {
     return
   }
 
-  // If the mouse moved significantly between mousedown and mouseup, don't trigger edge click
   if (mouseStart.value.x !== 0 || mouseStart.value.y !== 0) {
     const dx = Math.abs(e.clientX - mouseStart.value.x)
     const dy = Math.abs(e.clientY - mouseStart.value.y)
-    if (Math.max(dx, dy) > 10) return // Threshold for click vs drag
+    if (Math.max(dx, dy) > 10) return
   }
 
   const { innerWidth, innerHeight } = window
@@ -370,20 +373,44 @@ onMounted(() => {
   --primary-color: #ffffff;
   --accent-color: #ffffff;
   --text-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.8);
-  --content-margin-x: 15%;
-  --content-width: 70%;
+
+  /* Spacing System - Base: 8px (0.5rem) */
+  --space-xs: 0.25rem;   /* 4px */
+  --space-sm: 0.5rem;    /* 8px */
+  --space-md: 1rem;      /* 16px */
+  --space-lg: 1.5rem;    /* 24px */
+  --space-xl: 2rem;      /* 32px */
+  --space-2xl: 3rem;     /* 48px */
+  --space-3xl: 4rem;     /* 64px */
+
+  /* Layout Constraints */
+  --content-margin-x: 12%;
+  --content-width: 76%;
+  --quote-max-width: 65%;
+
+  /* Font Sizes */
   --quote-font-size: 2.8rem;
   --quote-mark-size: 3.5rem;
-  --quote-max-width: 65%;
   --char-name-size: 2.2rem;
   --meta-font-size: 1.1rem;
-  --info-bottom-offset: 13.75rem;
-  --music-bottom-offset: 10rem;
-  --avatar-bottom-offset: 3.75rem;
+
+  /* Component Positions (Standardized Offsets) */
+  --avatar-bottom-offset: 3rem;
+  --music-bottom-offset: 9rem;
+  --info-bottom-offset: 12rem;
+
+  /* Global Spacing */
+  --global-spacing: 1.5rem;
+
+  /* Component Sizes */
   --avatar-size: 3.75rem;
-  --avatar-gap: 0.9375rem;
-  --picker-top: 1.875rem;
+  --avatar-gap: 1rem;
+  --picker-top: 2rem;
   --picker-right: 5%;
+  --info-width: 18rem;
+  --control-height: 2.5rem;
+  --control-radius: 0.75rem;
+  --panel-radius: 1rem;
 }
 
 body, html {
@@ -466,10 +493,11 @@ body, html {
     --quote-mark-size: 2.8rem;
     --char-name-size: 1.8rem;
     --meta-font-size: 1rem;
-    --info-bottom-offset: 12.5rem;
-    --music-bottom-offset: 9.0625rem;
-    --avatar-size: 3.125rem;
-    --avatar-gap: 0.75rem;
+    --avatar-size: 3.2rem;
+    --avatar-gap: 0.8rem;
+    --info-bottom-offset: 11rem;
+    --music-bottom-offset: 8.5rem;
+    --avatar-bottom-offset: 2.5rem;
   }
 }
 
@@ -482,17 +510,18 @@ body, html {
     --quote-max-width: 100%;
     --char-name-size: 1.4rem;
     --meta-font-size: 0.9rem;
-    --info-bottom-offset: 11.25rem;
-    --music-bottom-offset: 8.125rem;
-    --avatar-bottom-offset: 3.125rem;
-    --avatar-size: 2.8125rem;
-    --avatar-gap: 0.625rem;
-    --picker-top: 0.9375rem;
+    --avatar-size: 2.8rem;
+    --avatar-gap: 0.6rem;
+    --info-bottom-offset: 10rem;
+    --music-bottom-offset: 7.5rem;
+    --avatar-bottom-offset: 2rem;
+    --picker-top: 1rem;
     --picker-right: 3%;
+    --info-width: 12rem;
+    --global-spacing: 1rem;
   }
 }
 
-/* Original zoom transition (unused now, but kept for reference) */
 .bg-zoom-enter-active,
 .bg-zoom-leave-active {
   transition: all 1.2s cubic-bezier(0.4, 0, 0.2, 1);
@@ -507,7 +536,6 @@ body, html {
   opacity: 0;
 }
 
-/* Global Page flip transitions */
 .page-flip-up-enter-active,
 .page-flip-up-leave-active,
 .page-flip-down-enter-active,
@@ -539,7 +567,6 @@ body, html {
   transform: translateY(3.125rem);
 }
 
-/* Character Slide transitions */
 .char-slide-right-enter-from {
   opacity: 0;
   transform: translateX(3.125rem);
